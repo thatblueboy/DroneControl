@@ -49,6 +49,8 @@ class ObstacleAviary(BaseSingleAgentAviary):
 
         self.fixedAltitude = fixedAltitude
 
+        self.movingObs = None
+
         self.minObstacles = minObstacles
         self.maxObstacles = maxObstacles
         self.episodeLength = episodeLength
@@ -233,9 +235,15 @@ class ObstacleAviary(BaseSingleAgentAviary):
 
         return self._computeObs()
 
+    def moveObstacle(self):
+        obsID = self.movingObs
+        obsPos, obsOrn = p.getBasePositionAndOrientation(obsID)
+        x,y,z = obsPos
+        y_new = 0.5*sin(0.01*self.totalTimesteps)
+        p.resetBasePositionAndOrientation(obsID,[x,y_new,z],obsOrn)
 
     def step(self, action):
-
+        self.moveObstacle()
         if self.fixedAltitude:
             action = np.insert(action, 2, 0)
 
@@ -432,6 +440,7 @@ class ObstacleAviary(BaseSingleAgentAviary):
             currObstacle = p.loadURDF('sphere_small.urdf', obstaclePos, globalScaling=2)
             p.changeDynamics(currObstacle, -1, mass=0)
             self.obstacles.append(currObstacle)
+        self.movingObs = self.obstacles[0]
 
     def _randomizeDroneSpawnLocation(self):
         y_scale = self.geoFence.ymax - self.geoFence.ymin
