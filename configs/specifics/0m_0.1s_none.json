@@ -6,7 +6,7 @@
     "zmin": 0,
     "zmax": 1,
     "provideFixedObstacles": true,
-    "obstacles": [[1,0,0.5]],
+    "obstacles": [[1, 0, 0.5],[1.5, 0, 0.5],[0.5,0,0.5]],
     "minObstacles": 1,
     "maxObstacles": 4,
     "randomizeObstaclesEveryEpisode": false,
