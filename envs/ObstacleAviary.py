@@ -6,6 +6,8 @@ from gym_pybullet_drones.utils.enums import DroneModel, Physics
 from gym_pybullet_drones.envs.single_agent_rl.BaseSingleAgentAviary import BaseSingleAgentAviary, ActionType, ObservationType
 from gym import spaces
 from typing import List, Union
+from math import sin
+import numpy as np
 
 from .utils.PositionConstraint import PositionConstraint
 
@@ -55,6 +57,7 @@ class ObstacleAviary(BaseSingleAgentAviary):
         self.episodeStepCount = 0
 
         self.geoFence = geoFence
+        self.movingObs = []
 
         self.randomizeDronePosition = randomizeDronePosition
         self.randomizeObstaclesEveryEpisode = randomizeObstaclesEveryEpisode and not self.provideFixedObstacles
@@ -233,8 +236,18 @@ class ObstacleAviary(BaseSingleAgentAviary):
 
         return self._computeObs()
 
+    def moveObs(self, id):
+        obsID = id
+        obsPos, obsOrn = p.getBasePositionAndOrientation(obsID)
+        x,y,z = obsPos
+        y_new = 0.5*sin(0.05*self.totalTimesteps)
+        p.resetBasePositionAndOrientation(obsID,[x,y_new,z],obsOrn)
 
     def step(self, action):
+        
+        if len(self.movingObs) > 0:
+            for id in self.movingObs:
+                self.moveObs(id)
 
         if self.fixedAltitude:
             action = np.insert(action, 2, 0)
@@ -432,6 +445,9 @@ class ObstacleAviary(BaseSingleAgentAviary):
             currObstacle = p.loadURDF('sphere_small.urdf', obstaclePos, globalScaling=2)
             p.changeDynamics(currObstacle, -1, mass=0)
             self.obstacles.append(currObstacle)
+            choice = np.random.randint(2)
+            if choice:
+                self.movingObs.append(currObstacle)
 
     def _randomizeDroneSpawnLocation(self):
         y_scale = self.geoFence.ymax - self.geoFence.ymin
