@@ -66,8 +66,8 @@ def evaluate(mu, sigma, denoiser, modelPath, trials, gui=False, fixed=False):
     incompleteDistances = []
     for i in range(totalTrials):
 
-        np.random.seed(seeds[i])
-        random.seed(seeds[i])
+        # np.random.seed(seeds[i])
+        # random.seed(seeds[i])
 
         done = False
         episodeReward = 0
