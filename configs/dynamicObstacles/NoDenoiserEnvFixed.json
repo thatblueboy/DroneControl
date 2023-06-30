@@ -6,25 +6,20 @@
     "zmin": 0,
     "zmax": 1,
     "provideFixedObstacles": false,
-    "obstacles": null,
-    "minObstacles": 0,
-    "maxObstacles": 4,
-    "randomizeObstaclesEveryEpisode": true,
+    "obstacles": [[1, 0, 0.5],[1.5, 0, 0.5]],
+    "minObstacles": 2,
+    "maxObstacles": 2,
+    "randomizeObstaclesEveryEpisode": false,
     "dynamicObstacles": true,
     "fixedAltitude": true,
     "episodeLength": 1000,
     "showDebugLines": true,
-    "randomizeDronePosition": true,
+    "randomizeDronePosition": false,
     "simFreq": 240,
     "controlFreq": 48,
     "noiseParameters": {
         "mu": 0,
         "sigma": 0,
-        "denoiseEngine": {
-            "method": "kf",
-            "parameters": {
-                "processNoise": 0
-            }
-        }
+        "denoiseEngine": null
     }
 }
