@@ -212,6 +212,7 @@ class ObstacleAviary(BaseSingleAgentAviary):
         self.episodeStepCount = 0
         self.trajectory = []
         self.noisyTrajectory = []
+        self.movingObs = []
         self.obstacles = []
         self.offsetLine = None
         self.targetLine = None
