@@ -41,7 +41,8 @@ class ObstacleAviary(BaseSingleAgentAviary):
                  randomizeDronePosition:bool=False,
                  simFreq:int=240,
                  controlFreq:int=48,
-                 gui:bool=False):
+                 gui:bool=False,
+                 dynamicObstacles:bool=False,):
 
 
         assert minObstacles <= maxObstacles, "Cannot have fewer minObstacles than maxObstacles"
@@ -57,7 +58,8 @@ class ObstacleAviary(BaseSingleAgentAviary):
         self.episodeStepCount = 0
 
         self.geoFence = geoFence
-        self.movingObs = []
+        self.dynamicObstacles = dynamicObstacles
+        self.dynamicObstaclesList = []
 
         self.randomizeDronePosition = randomizeDronePosition
         self.randomizeObstaclesEveryEpisode = randomizeObstaclesEveryEpisode and not self.provideFixedObstacles
@@ -212,7 +214,7 @@ class ObstacleAviary(BaseSingleAgentAviary):
         self.episodeStepCount = 0
         self.trajectory = []
         self.noisyTrajectory = []
-        self.movingObs = []
+        self.dynamicObstaclesList = []
         self.obstacles = []
         self.offsetLine = None
         self.targetLine = None
@@ -237,18 +239,17 @@ class ObstacleAviary(BaseSingleAgentAviary):
 
         return self._computeObs()
 
-    def moveObs(self, id):
-        obsID = id
-        obsPos, obsOrn = p.getBasePositionAndOrientation(obsID)
+    def moveObs(self, Obstacle):
+        obsPos, obsOrn = p.getBasePositionAndOrientation(Obstacle)
         x,y,z = obsPos
         y_new = 0.5*sin(0.05*self.totalTimesteps)
-        p.resetBasePositionAndOrientation(obsID,[x,y_new,z],obsOrn)
+        p.resetBasePositionAndOrientation(Obstacle,[x,y_new,z],obsOrn)
 
     def step(self, action):
         
-        if len(self.movingObs) > 0:
-            for id in self.movingObs:
-                self.moveObs(id)
+        if len(self.dynamicObstaclesList) > 0:
+            for Obstacle in self.dynamicObstaclesList:
+                self.moveObs(Obstacle)
 
         if self.fixedAltitude:
             action = np.insert(action, 2, 0)
@@ -446,9 +447,10 @@ class ObstacleAviary(BaseSingleAgentAviary):
             currObstacle = p.loadURDF('sphere_small.urdf', obstaclePos, globalScaling=2)
             p.changeDynamics(currObstacle, -1, mass=0)
             self.obstacles.append(currObstacle)
-            choice = np.random.randint(2)
-            if choice:
-                self.movingObs.append(currObstacle)
+            if self.dynamicObstacles:
+                if np.random.randint(2):
+                    self.dynamicObstaclesList.append(currObstacle)
+          
 
     def _randomizeDroneSpawnLocation(self):
         y_scale = self.geoFence.ymax - self.geoFence.ymin
