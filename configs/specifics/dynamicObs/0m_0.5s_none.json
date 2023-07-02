@@ -11,7 +11,7 @@
     "maxObstacles": 4,
     "randomizeObstaclesEveryEpisode": true,
     "fixedAltitude": true,
-    "dynamicObstacles": false,
+    "dynamicObstacles": true,
     "episodeLength": 1000,
     "showDebugLines": true,
     "randomizeDronePosition": true,
@@ -19,7 +19,7 @@
     "controlFreq": 48,
     "noiseParameters": {
         "mu": 0,
-        "sigma": 1.0,
+        "sigma": 0.5,
         "denoiseEngine": null
     }
 }

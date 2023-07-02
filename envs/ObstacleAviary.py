@@ -6,7 +6,7 @@ from gym_pybullet_drones.utils.enums import DroneModel, Physics
 from gym_pybullet_drones.envs.single_agent_rl.BaseSingleAgentAviary import BaseSingleAgentAviary, ActionType, ObservationType
 from gym import spaces
 from typing import List, Union
-from math import sin
+from math import sin,asin
 import numpy as np
 
 from .utils.PositionConstraint import PositionConstraint
@@ -60,6 +60,7 @@ class ObstacleAviary(BaseSingleAgentAviary):
         self.geoFence = geoFence
         self.dynamicObstacles = dynamicObstacles
         self.dynamicObstaclesList = []
+        self.initialPos = {}
 
         self.randomizeDronePosition = randomizeDronePosition
         self.randomizeObstaclesEveryEpisode = randomizeObstaclesEveryEpisode and not self.provideFixedObstacles
@@ -215,6 +216,7 @@ class ObstacleAviary(BaseSingleAgentAviary):
         self.trajectory = []
         self.noisyTrajectory = []
         self.dynamicObstaclesList = []
+        self.initialPos = {}
         self.obstacles = []
         self.offsetLine = None
         self.targetLine = None
@@ -241,8 +243,9 @@ class ObstacleAviary(BaseSingleAgentAviary):
 
     def moveObs(self, Obstacle):
         obsPos, obsOrn = p.getBasePositionAndOrientation(Obstacle)
+        y_initial = self.initialPos[Obstacle][1]
         x,y,z = obsPos
-        y_new = 0.5*sin(0.05*self.totalTimesteps)
+        y_new = 0.5*sin(0.05*self.totalTimesteps+asin(y_initial/0.5))
         p.resetBasePositionAndOrientation(Obstacle,[x,y_new,z],obsOrn)
 
     def step(self, action):
@@ -450,6 +453,8 @@ class ObstacleAviary(BaseSingleAgentAviary):
             if self.dynamicObstacles:
                 if np.random.randint(2):
                     self.dynamicObstaclesList.append(currObstacle)
+                    pos, orient = p.getBasePositionAndOrientation(currObstacle)
+                    self.initialPos[currObstacle] = pos
           
 
     def _randomizeDroneSpawnLocation(self):
