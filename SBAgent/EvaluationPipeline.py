@@ -10,6 +10,8 @@ parser = argparse.ArgumentParser()
 parser.add_argument("modelPath", help="Path to the Model", type=str)
 parser.add_argument("method", choices={'bivariate', 'multivariate'}, help='Whether to perform bivariate or multivariate analysis', type=str)
 parser.add_argument("-t", "--trials", type=int, default=1000, help="Number of episodes to evaluate the model for in each environment.")
+parser.add_argument("--dynamic", action='store_true', help="Use Dynamic Obstacles")
+parser.add_argument("--obstacles", "-o", type=int, default=None, help="Number of Obstacles to use in the environment.")
 args = parser.parse_args()
 
 
@@ -32,11 +34,11 @@ for mu in mus:
     for sigma in sigmas:
         for denoiser in denoisers:
             print(f"### $\mu = {mu}$ | $\sigma = {sigma}$ | Denoiser = `{denoiser}`\n")
-            print(f"Evaluating {mu, sigma, denoiser}", file=sys.stderr)
-            startTime = time.time()
-            evaluationTable = evaluate(mu, sigma, denoiser.lower(), args.modelPath, args.trials, False)
-            endTime = time.time()
-            print(file=sys.stderr)
-            print(f"Time Taken: {datetime.timedelta(seconds=endTime-startTime)}", file=sys.stderr)
+            # print(f"Evaluating {mu, sigma, denoiser}", file=sys.stderr)
+            # startTime = time.time()
+            evaluationTable = evaluate(mu, sigma, denoiser.lower(),args.dynamic, args.obstacles, args.modelPath, args.trials, False)
+            # endTime = time.time()
+            # print(file=sys.stderr)
+            # print(f"Time Taken: {datetime.timedelta(seconds=endTime-startTime)}", file=sys.stderr)
             print(tabulate(evaluationTable, headers=["Metric", "Value"], tablefmt='github'))
             print("---\n")

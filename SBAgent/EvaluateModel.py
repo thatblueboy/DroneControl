@@ -30,7 +30,7 @@ class NoStdStreams(object):
         self.devnull.close()
 
 
-def evaluate(mu, sigma, denoiser, modelPath, trials, gui=False, fixed=False, dynamic=False):
+def evaluate(mu, sigma, denoiser, modelPath, trials, obstacles, gui=False, fixed=False, dynamic=False):
 
     seeds = np.load('evalSeeds.npy').tolist()
     
@@ -47,6 +47,11 @@ def evaluate(mu, sigma, denoiser, modelPath, trials, gui=False, fixed=False, dyn
 
     envConfig['noiseParameters']['mu'] = mu
     envConfig['noiseParameters']['sigma'] = sigma
+
+    if obstacles is not None:
+        envConfig["maxObstacles"] = obstacles + 1
+        envConfig["minObstacles"] = obstacles
+
 
     with open('tempConfigFile.json', 'w') as f:
         json.dump(envConfig, f)
@@ -124,9 +129,9 @@ if __name__ == "__main__":
     parser.add_argument('--no-gui', action='store_false', dest='gui', help='Disable GUI')
     parser.add_argument('--fixed', action='store_true', help='Use Fixed Obstacles')
     parser.add_argument('--random', action='store_false', dest='fixed', help='Use Randomized Obstacles')
-
+    parser.add_argument("--obstacles", "-o", type=int, default = None, help="Number of Obstacles to use")
     args = parser.parse_args()
-
+    print(args.obstacles)
     evaluationTable = evaluate(**vars(args))
     print()
     print(tabulate(evaluationTable, headers=["Metric", "Value"], tablefmt='github'))
