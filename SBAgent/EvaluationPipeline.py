@@ -14,7 +14,6 @@ parser.add_argument("--dynamic", action='store_true', help="Use Dynamic Obstacle
 parser.add_argument("--obstacles", "-o", type=int, default=None, help="Number of Obstacles to use in the environment.")
 args = parser.parse_args()
 
-
 # Bivariate Parameters
 
 if args.method == "bivariate":
@@ -28,7 +27,6 @@ else:
     sigmas = [0.0, 0.1, 0.5, 1.0]
     denoisers = ['None', 'LPF', 'KF']
     print("# Multivariate Analysis")
-
 print(f"**Model**: `{args.modelPath}`")
 for mu in mus:
     for sigma in sigmas:
@@ -36,7 +34,7 @@ for mu in mus:
             print(f"### $\mu = {mu}$ | $\sigma = {sigma}$ | Denoiser = `{denoiser}`\n")
             # print(f"Evaluating {mu, sigma, denoiser}", file=sys.stderr)
             # startTime = time.time()
-            evaluationTable = evaluate(mu, sigma, denoiser.lower(),args.dynamic, args.obstacles, args.modelPath, args.trials, False)
+            evaluationTable = evaluate(mu, sigma, denoiser.lower(), args.modelPath, args.trials, args.obstacles, False, False, args.dynamic)
             # endTime = time.time()
             # print(file=sys.stderr)
             # print(f"Time Taken: {datetime.timedelta(seconds=endTime-startTime)}", file=sys.stderr)
