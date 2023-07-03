@@ -7,19 +7,19 @@
     "zmax": 1,
     "provideFixedObstacles": false,
     "obstacles": null,
-    "minObstacles": 1,
+    "minObstacles": 0,
     "maxObstacles": 4,
     "randomizeObstaclesEveryEpisode": true,
     "fixedAltitude": true,
-    "dynamicObstacles": false,
+    "dynamicObstacles": true,
     "episodeLength": 1000,
     "showDebugLines": true,
     "randomizeDronePosition": true,
     "simFreq": 240,
     "controlFreq": 48,
     "noiseParameters": {
-        "mu": 0,
-        "sigma": 1.0,
+        "mu": 0.1,
+        "sigma": 0.5,
         "denoiseEngine": null
     }
 }
