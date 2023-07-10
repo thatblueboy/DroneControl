@@ -7,6 +7,7 @@
     "zmax": 1,
     "provideFixedObstacles": false,
     "obstacles": null,
+    "movementType": 1,
     "minObstacles": 0,
     "maxObstacles": 4,
     "randomizeObstaclesEveryEpisode": true,
