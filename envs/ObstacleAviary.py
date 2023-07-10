@@ -6,10 +6,23 @@ from gym_pybullet_drones.utils.enums import DroneModel, Physics
 from gym_pybullet_drones.envs.single_agent_rl.BaseSingleAgentAviary import BaseSingleAgentAviary, ActionType, ObservationType
 from gym import spaces
 from typing import List, Union
+from math import sin,asin,cos
+import numpy as np
+
+from .utils.PositionConstraint import PositionConstraint
+import numpy as np
+import pybullet as p
+import pybullet_data
+
+from gym_pybullet_drones.utils.enums import DroneModel, Physics
+from gym_pybullet_drones.envs.single_agent_rl.BaseSingleAgentAviary import BaseSingleAgentAviary, ActionType, ObservationType
+from gym import spaces
+from typing import List, Union
 from math import sin,asin
 import numpy as np
 
 from .utils.PositionConstraint import PositionConstraint
+
 
 class ObstacleAviary(BaseSingleAgentAviary):
 
@@ -42,7 +55,8 @@ class ObstacleAviary(BaseSingleAgentAviary):
                  simFreq:int=240,
                  controlFreq:int=48,
                  gui:bool=False,
-                 dynamicObstacles:bool=False,):
+                 dynamicObstacles:bool=False,
+                 movementType:int=1):
 
 
         assert minObstacles <= maxObstacles, "Cannot have fewer minObstacles than maxObstacles"
@@ -54,13 +68,16 @@ class ObstacleAviary(BaseSingleAgentAviary):
 
         self.minObstacles = minObstacles
         self.maxObstacles = maxObstacles
+        self.movementType = movementType
         self.episodeLength = episodeLength
         self.episodeStepCount = 0
 
         self.geoFence = geoFence
         self.dynamicObstacles = dynamicObstacles
         self.dynamicObstaclesList = []
-        self.initialPos = {}
+        self.velocity = 0.005
+        self.ObsInfo = {}
+        self.VO_Reward = 0
 
         self.randomizeDronePosition = randomizeDronePosition
         self.randomizeObstaclesEveryEpisode = randomizeObstaclesEveryEpisode and not self.provideFixedObstacles
@@ -209,14 +226,14 @@ class ObstacleAviary(BaseSingleAgentAviary):
         offsetToClosestObstacle = closestObstaclePos - pos
 
         return np.concatenate([offsetToTarget, offsetToClosestObstacle])
-        
+    
 
     def reset(self):
         self.episodeStepCount = 0
         self.trajectory = []
         self.noisyTrajectory = []
         self.dynamicObstaclesList = []
-        self.initialPos = {}
+        self.ObsInfo = {}
         self.obstacles = []
         self.offsetLine = None
         self.targetLine = None
@@ -241,19 +258,106 @@ class ObstacleAviary(BaseSingleAgentAviary):
 
         return self._computeObs()
 
-    def moveObs(self, Obstacle):
+    def checkVO(self,pos1,vel1,r1,pos2,vel2,r2,T=5):
+        
+        r = r2 + r1
+        pos = pos2 - pos1
+        vel = vel1 - vel2
+        dist = pos - r
+        if vel[0] == 0:
+            m = 1000000
+        else:
+            m = vel[1]/vel[0]
+        g,f = pos[0], pos[1]
+        a = 1 + m**2
+        b = -2*g -2*f*m
+        c = g**2 + f**2 - r**2
+        delta = b**2 - 4*a*c
+        if np.linalg.norm(vel) > np.linalg.norm(dist)/T:
+            if delta < 0:
+                return False
+            return True
+        return False
+
+    def moveObsSHM(self, Obstacle):
         obsPos, obsOrn = p.getBasePositionAndOrientation(Obstacle)
-        y_initial = self.initialPos[Obstacle][1]
+        y_initial = self.ObsInfo[Obstacle][0][1]
+        x_initial = self.ObsInfo[Obstacle][0][0]
+        amp = self.ObsInfo[Obstacle][2][0]
+        orientation = self.ObsInfo[Obstacle][2][1]
         x,y,z = obsPos
-        y_new = 0.5*sin(0.05*self.totalTimesteps+asin(y_initial/0.5))
-        p.resetBasePositionAndOrientation(Obstacle,[x,y_new,z],obsOrn)
+        if orientation == 0:
+            phi = asin(y_initial/0.5)
+            y_new = 0.5*sin(0.015*self.totalTimesteps + phi)
+            p.resetBasePositionAndOrientation(Obstacle,[x,y_new,z],obsOrn)
+            velocity = 0.015*0.5*cos(0.015*self.totalTimesteps)
+            self.ObsInfo[Obstacle][1] = velocity
+            self.ObsInfo[Obstacle][3] = [0,velocity]
+        if orientation == 1:
+            x_new = x_initial + 0.5*sin(0.015*self.totalTimesteps)
+            p.resetBasePositionAndOrientation(Obstacle,[x_new,y,z],obsOrn)
+            velocity = 0.015*0.5*cos(0.015*self.totalTimesteps)
+            self.ObsInfo[Obstacle][1] = velocity
+            self.ObsInfo[Obstacle][3] = [velocity,0]
+
+        
+
+    def moveObsLinear(self, Obstacle):
+        obsPos, obsOrn = p.getBasePositionAndOrientation(Obstacle)
+        y_initial = self.ObsInfo[Obstacle][0][1]
+        x_initial = self.ObsInfo[Obstacle][0][0]
+        amp = self.ObsInfo[Obstacle][2][0]
+        orientation = self.ObsInfo[Obstacle][2][1]
+        x,y,z = obsPos
+
+        if x > 0.1:
+            x_new = x - self.velocity
+            self.ObsInfo[Obstacle][3] = [-self.velocity,0]
+        else:
+            x_new = x
+            self.ObsInfo[Obstacle][3] = [0,0]
+        p.resetBasePositionAndOrientation(Obstacle,[x_new,y,z],obsOrn)
+
+
+
+        """
+        1) if steps = 0 set x coordinate as x=2
+        2) when x = 0.1 stop
+        DONT REVERSE VELOCITY
+        MAKE SURE VELOCITY STARTS OUT NEGATIVE
+        WHEN IT REACHES X = 0.1, VEL = 0
+        """
+
+        # if orientation == 0:
+        #     velocity = self.ObsInfo[Obstacle][1]
+        #     if (y>y_initial and abs(y-(y_initial+amp))<0.009) or (y<y_initial and abs(y-(y_initial-amp))<0.009):
+        #         velocity = -1*velocity
+        #         self.ObsInfo[Obstacle][1] = velocity
+        #     y_new = y + velocity
+        #     self.ObsInfo[Obstacle][3] = [0,velocity]
+        #     p.resetBasePositionAndOrientation(Obstacle,[x,y_new,z],obsOrn)
+        
+        # if orientation == 1:
+        #     velocity = self.ObsInfo[Obstacle][1]
+        #     if (x>x_initial and abs(x-(x_initial+amp))<0.009) or (x<x_initial and abs(x-(x_initial-amp))<0.009):
+        #         velocity = -1*velocity
+        #         self.ObsInfo[Obstacle][1] = velocity
+        #     x_new = x + velocity
+        #     self.ObsInfo[Obstacle][3] = [velocity,0]
+        #     p.resetBasePositionAndOrientation(Obstacle,[x_new,y,z],obsOrn)
+
+
 
     def step(self, action):
-        
+        self.VO_Reward = 0
+
         if len(self.dynamicObstaclesList) > 0:
             for Obstacle in self.dynamicObstaclesList:
-                self.moveObs(Obstacle)
-
+                if self.ObsInfo[Obstacle][4] == 'shm':
+                    self.moveObsSHM(Obstacle)
+                if self.ObsInfo[Obstacle][4] == 'linear':
+                    self.moveObsLinear(Obstacle)
+                
         if self.fixedAltitude:
             action = np.insert(action, 2, 0)
 
@@ -285,8 +389,24 @@ class ObstacleAviary(BaseSingleAgentAviary):
 
     def _computeReward(self):
 
+        self.VO_Reward = 0
         state = self._getDroneStateVector(0)
         pos = state[:3]
+        x,y = pos[0], pos[1]
+
+
+        for obs in self.dynamicObstaclesList:
+            velocity_vec_obs = self.ObsInfo[obs][3]
+            obsPos, obsOrn = p.getBasePositionAndOrientation(obs)
+            ox,oy,oz = obsPos
+            drone_vel = state[9:12]
+            vx,vy = drone_vel[0], drone_vel[1]
+
+            if self.checkVO(np.array([x,y]),np.array([vx,vy]),0.1,np.array([ox,oy]),np.array(velocity_vec_obs),0.06, 3):
+                self.VO_Reward += 2
+            else:
+                self.VO_Reward -= 1
+
 
         if np.linalg.norm(self.targetPos - pos) < ObstacleAviary.SUCCESS_EPSILON:
             return ObstacleAviary.SUCCESS_REWARD
@@ -303,7 +423,8 @@ class ObstacleAviary(BaseSingleAgentAviary):
 
         return  - ObstacleAviary.DISTANCE_PENALTY*np.linalg.norm(self.targetPos - pos) \
                 - ObstacleAviary.MAJOR_SAFETY_PENALTY*majorBoundBreach \
-                - ObstacleAviary.MINOR_SAFETY_PENALTY*minorBoundBreach
+                - ObstacleAviary.MINOR_SAFETY_PENALTY*minorBoundBreach \
+                - self.VO_Reward
 
     def _computeOffsetToClosestObstacle(self):
 
@@ -425,8 +546,10 @@ class ObstacleAviary(BaseSingleAgentAviary):
     def _generateObstaclePositions(self):
         self.obstaclePositions = []
         
-       
-        nObstacles = np.random.randint(self.minObstacles, self.maxObstacles)
+        if self.minObstacles >= 3:
+            nObstacles = np.random.randint(2,5)
+        else:
+            nObstacles = np.random.randint(self.minObstacles, self.maxObstacles)
         for _ in range(nObstacles):
             # Position along all axes is uniform
             obstaclePos = self.geoFence.generateRandomPosition(padding=0.4)
@@ -440,22 +563,29 @@ class ObstacleAviary(BaseSingleAgentAviary):
 
             if self.fixedAltitude:
                 obstaclePos[2] = self.altitude
+            if _ == 1:
+                obstaclePos[0] = 2
             
             self.obstaclePositions.append(obstaclePos)
 
 
     def _spawnObstacles(self):
         
+        moving_count = 0
         for obstaclePos in self.obstaclePositions:
             currObstacle = p.loadURDF('sphere_small.urdf', obstaclePos, globalScaling=2)
             p.changeDynamics(currObstacle, -1, mass=0)
             self.obstacles.append(currObstacle)
-            if self.dynamicObstacles:
-                if np.random.randint(2):
-                    self.dynamicObstaclesList.append(currObstacle)
-                    pos, orient = p.getBasePositionAndOrientation(currObstacle)
-                    self.initialPos[currObstacle] = pos
-          
+            if self.dynamicObstacles and moving_count<2:
+                self.dynamicObstaclesList.append(currObstacle)
+                pos, orient = p.getBasePositionAndOrientation(currObstacle)
+                self.ObsInfo[currObstacle] = [pos,self.velocity, [np.random.uniform(0.2,0.5),0 if currObstacle==2 else 1], None] #[pos, velocity_mag, [amp, movement_orientation], vel_vector]
+                if self.movementType == 1:
+                    if currObstacle == 2:
+                        self.ObsInfo[currObstacle].append('shm')
+                    if currObstacle == 3:
+                        self.ObsInfo[currObstacle].append('linear')
+                moving_count+=1
 
     def _randomizeDroneSpawnLocation(self):
         y_scale = self.geoFence.ymax - self.geoFence.ymin
@@ -464,3 +594,10 @@ class ObstacleAviary(BaseSingleAgentAviary):
                         (self.geoFence.zmin + self.geoFence.zmax)/2])
 
         self.INIT_XYZS = np.array([self.initPos])
+
+
+"""
+1) first obs = shm tag, second obs = linear tag
+2) fix amp/variable amp depending on shm/linear
+3) remove random obs
+"""

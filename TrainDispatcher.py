@@ -8,6 +8,7 @@ import tempfile
 parser = argparse.ArgumentParser()
 parser.add_argument("trainConfigPath", help="Path to train config file")
 parser.add_argument("-s", "--steps", default=2_000_000, help="Number of timesteps to train for", type=int)
+parser.add_argument("-o", "--obstacles", default=None, help="Number of obstacles", type=int)
 parser.add_argument('--local', action='store_true', help='Run on Local Machine')
 parser.add_argument("-d", "--dynamic", default=False, help="Use Dynamic Obstacles", type=bool)
 args = parser.parse_args()
@@ -22,7 +23,7 @@ if args.local:
     modelName = trainConfig["outputModelName"]
 
     os.chdir('SBAgent')
-    os.system(f"python TrainModel.py {envConfig} {modelName} --steps {args.steps} --dynamic {args.dynamic}")
+    os.system(f"python TrainModel.py {envConfig} {modelName} --steps {args.steps} --dynamic {args.dynamic} -o {args.obstacles}")
 else:
     with open('trainScriptTemplate.sh', 'r') as f:
         script = ''.join(f.readlines())

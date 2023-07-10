@@ -18,6 +18,8 @@ from time import sleep
 parser = argparse.ArgumentParser()
 parser.add_argument("modelPath", help="Path to the Model", type=str)
 parser.add_argument("-t", "--trials", type=int, default=1000, help="Number of episodes to evaluate the model for in each environment.")
+parser.add_argument("--dynamic", action='store_true', help="Use Dynamic Obstacles")
+parser.add_argument("--obstacles", "-o", type=int, default=None, help="Number of Obstacles to use in the environment.")
 args = parser.parse_args()
 
 manager = Manager()
@@ -151,8 +153,8 @@ def printResultsMarkdown(mus, sigmas, denoisers, results):
 
 if __name__ == "__main__":
 
-    mus = np.arange(0, 0.31, 0.01)
-    sigmas = [0]
+    mus = [0]
+    sigmas = np.arange(0,3.1,0.1)
     denoisers = ['None', 'LPF', 'KF']
 
     combinations = itertools.product(mus, sigmas, denoisers)

@@ -30,7 +30,7 @@ class NoStdStreams(object):
         self.devnull.close()
 
 
-def evaluate(mu, sigma, denoiser, modelPath, trials, obstacles, gui=False, fixed=False, dynamic=False):
+def evaluate(mu, sigma, denoiser, modelPath, obstacles, trials, gui=False, fixed=True, dynamic=False):
 
     seeds = np.load('evalSeeds.npy').tolist()
     
@@ -131,7 +131,7 @@ if __name__ == "__main__":
     parser.add_argument('--random', action='store_false', dest='fixed', help='Use Randomized Obstacles')
     parser.add_argument("--obstacles", "-o", type=int, default = None, help="Number of Obstacles to use")
     args = parser.parse_args()
-    print(args.obstacles)
+    #print(args.obstacles)
     evaluationTable = evaluate(**vars(args))
     print()
     print(tabulate(evaluationTable, headers=["Metric", "Value"], tablefmt='github'))
