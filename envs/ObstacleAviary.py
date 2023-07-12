@@ -547,7 +547,7 @@ class ObstacleAviary(BaseSingleAgentAviary):
         self.obstaclePositions = []
         
         if self.minObstacles >= 3:
-            nObstacles = np.random.randint(2,5)
+            nObstacles = np.random.randint(2,6)
         else:
             nObstacles = np.random.randint(self.minObstacles, self.maxObstacles)
         for _ in range(nObstacles):

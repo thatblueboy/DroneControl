@@ -5,8 +5,6 @@
 #SBATCH --time=4-00:00:00
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
-#SBATCH -o {outputFile}
 #SBATCH --job-name={jobName}
 
-cd SBAgent
-python TrainModel.py {configFile} {outputModelName} --steps {steps} -o {dynamic} -o {obstacles}
+python ParallelEvaluationPipeline.py {modelPath} -t {trials} -d {dynamic} -o {obstacles} -mu {mu} -si {sigma}

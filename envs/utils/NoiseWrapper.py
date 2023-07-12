@@ -5,7 +5,7 @@ from tabulate import tabulate
 
 from .DenoiseEngines import LPFDenoiseEngine, KFDenoiseEngine
 from ..ObstacleAviary import ObstacleAviary
-from ..MocapAviary import MocapAviary
+#from ..MocapAviary import MocapAviary
 
 class GaussianNoiseGenerator:
 
@@ -22,7 +22,7 @@ class GaussianNoiseGenerator:
 
 class NoiseWrapper(gym.Wrapper):
 
-    def __init__(self, env:Union[ObstacleAviary,MocapAviary], mu:float, sigma:float, denoiseEngine:Union[None, LPFDenoiseEngine, KFDenoiseEngine]=None) -> None:
+    def __init__(self, env:ObstacleAviary, mu:float, sigma:float, denoiseEngine:Union[None, LPFDenoiseEngine, KFDenoiseEngine]=None) -> None:
 
         super().__init__(env)
         self.denoiseEngine = denoiseEngine

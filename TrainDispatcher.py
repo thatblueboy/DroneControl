@@ -40,6 +40,8 @@ else:
     script = script.replace("{configFile}", envConfig)
     script = script.replace("{outputModelName}", modelName)
     script = script.replace("{steps}", str(args.steps))
+    script = script.replace("{obstacles}", str(args.obstacles))
+    script = script.replace("{dynamic}", str(args.dynamic))
 
     tmp = tempfile.NamedTemporaryFile()
 
