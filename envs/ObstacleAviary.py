@@ -290,7 +290,7 @@ class ObstacleAviary(BaseSingleAgentAviary):
             phi = asin(y_initial/0.5)
             y_new = 0.5*sin(0.015*self.totalTimesteps + phi)
             p.resetBasePositionAndOrientation(Obstacle,[x,y_new,z],obsOrn)
-            velocity = 0.015*0.5*cos(0.015*self.totalTimesteps)
+            velocity = 0.015*0.5*cos(0.015*self.totalTimesteps+phi)
             self.ObsInfo[Obstacle][1] = velocity
             self.ObsInfo[Obstacle][3] = [0,velocity]
         if orientation == 1:
@@ -403,9 +403,7 @@ class ObstacleAviary(BaseSingleAgentAviary):
             vx,vy = drone_vel[0], drone_vel[1]
 
             if self.checkVO(np.array([x,y]),np.array([vx,vy]),0.1,np.array([ox,oy]),np.array(velocity_vec_obs),0.06, 3):
-                self.VO_Reward += 2
-            else:
-                self.VO_Reward -= 1
+                self.VO_Reward += 0.1
 
 
         if np.linalg.norm(self.targetPos - pos) < ObstacleAviary.SUCCESS_EPSILON:
@@ -595,9 +593,3 @@ class ObstacleAviary(BaseSingleAgentAviary):
 
         self.INIT_XYZS = np.array([self.initPos])
 
-
-"""
-1) first obs = shm tag, second obs = linear tag
-2) fix amp/variable amp depending on shm/linear
-3) remove random obs
-"""

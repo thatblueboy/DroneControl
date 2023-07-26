@@ -176,13 +176,17 @@ def printResultsMarkdown(mus, sigmas, denoisers, results):
 
 if __name__ == "__main__":
 
-    if args.mu:
-        mus = np.arange(0,0.21,0.01)
+    if args.mu and not args.sigma:
+        mus = np.arange(0,0.31,0.01)
         sigmas = [0]
-    if args.sigma:
+    if args.sigma and not args.mu:
         sigmas = np.arange(0,3.1,0.1)
         mus=[0]
     denoisers = ['None', 'LPF', 'KF']
+    if args.sigma and args.mu:
+        mus = np.arange(0,0.31,0.01)
+        sigmas = np.arange(0,3.1,0.1)
+        denoisers = ['None']
 
     combinations = itertools.product(mus, sigmas, denoisers)
 
@@ -199,3 +203,4 @@ if __name__ == "__main__":
     printThread.join()
 
     printResultsMarkdown(mus, sigmas, denoisers, results)
+
