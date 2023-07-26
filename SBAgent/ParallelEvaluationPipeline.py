@@ -18,8 +18,10 @@ from time import sleep
 parser = argparse.ArgumentParser()
 parser.add_argument("modelPath", help="Path to the Model", type=str)
 parser.add_argument("-t", "--trials", type=int, default=1000, help="Number of episodes to evaluate the model for in each environment.")
-parser.add_argument("--dynamic", action='store_true', help="Use Dynamic Obstacles")
+parser.add_argument("-d", "--dynamic", type=bool, default=True, help="Use Dynamic Obstacles")
 parser.add_argument("--obstacles", "-o", type=int, default=None, help="Number of Obstacles to use in the environment.")
+parser.add_argument("-si", "--sigma",type=bool, default =False, help="iterates for sigma values")
+parser.add_argument("-mu", "--mu", type=bool, default=False, help="iterates for mu values")
 args = parser.parse_args()
 
 manager = Manager()
@@ -136,9 +138,24 @@ def evaluateOnCombination(process, comb):
 
 def printResultsMarkdown(mus, sigmas, denoisers, results):
 
+    file_path = f"{args.modelPath}_eval.md"
+    if args.sigma:
+        file_path += "_unbiased"
+    if args.mu:
+        file_path += "_biased"
+    file1 = open(f"{file_path}.md", "w")
+    file1.close()
+    file1 = open(f"{file_path}.md", "a")
+
     print("# Evaluation Results")
+    file1.write("# Evaluation Results \n")
+
     print(f"**Model**: `{args.modelPath}`")
+    file1.write(f"**Model**: `{args.modelPath}` \n")
+
     print(f"mus = {mus}, sigmas = {sigmas}, denoisers = {denoisers}")
+    file1.write(f"mus = {mus}, sigmas = {sigmas}, denoisers = {denoisers} \n")
+    
     i = 0
     for mu in mus:
         for sigma in sigmas:
@@ -146,16 +163,30 @@ def printResultsMarkdown(mus, sigmas, denoisers, results):
                 res = results[i]
                 i += 1
                 print(f"### $\mu = {mu}$ | $\sigma = {sigma}$ | Denoiser = `{denoiser}`\n")
+                file1.write(f"### $\mu = {mu}$ | $\sigma = {sigma}$ | Denoiser = `{denoiser}`\n")
+                file1.write("\n")
                 print(tabulate(res, headers=["Metric", "Value"], tablefmt='github'))
+                file1.write(tabulate(res, headers=["Metric", "Value"], tablefmt='github'))
+                file1.write("\n")
                 print("---\n")
+                file1.write("---\n")
+                file1.write("\n")
 
-
+    file1.close()
 
 if __name__ == "__main__":
 
-    mus = [0]
-    sigmas = np.arange(0,3.1,0.1)
+    if args.mu and not args.sigma:
+        mus = np.arange(0,0.31,0.01)
+        sigmas = [0]
+    if args.sigma and not args.mu:
+        sigmas = np.arange(0,3.1,0.1)
+        mus=[0]
     denoisers = ['None', 'LPF', 'KF']
+    if args.sigma and args.mu:
+        mus = np.arange(0,0.31,0.01)
+        sigmas = np.arange(0,3.1,0.1)
+        denoisers = ['None']
 
     combinations = itertools.product(mus, sigmas, denoisers)
 
@@ -172,3 +203,4 @@ if __name__ == "__main__":
     printThread.join()
 
     printResultsMarkdown(mus, sigmas, denoisers, results)
+
