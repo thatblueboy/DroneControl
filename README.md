@@ -45,6 +45,7 @@ To make an environment configuration, create a JSON in the `configs` directory o
     "obstacles": List[List[3]] or null,
     "minObstacles": int,
     "maxObstacles": int,
+    "dynamicObstacls": bool,
     "randomizeObstaclesEveryEpisode": bool,
     "fixedAltitude": bool,
     "episodeLength": int,
@@ -132,12 +133,14 @@ Once the train configuration file is prepared, use the `TrainDispatcher.py` scri
 Used to train a model based on the given train config file.
 
 ```bash
-python TrainDispatcher.py [-h] [-s STEPS] [--local] trainConfigPath
+python TrainDispatcher.py [-h] [-s STEPS] [--local] [-d DYNAMIC] [-o OBSTACLES] trainConfigPath
 ```
 
 * `trainConfigPath` is the path to the train configuration file.
 * `-s` to specify the number of timesteps to train for. Defaults to 2,000,000.
 * Add the `--local` flag to run the training on your local machine. If this flag is omitted, the script generates a batch job configuration and dispatches it on one of the nodes on IIIT-H's HPC.
+* `-o` to specify the number of obstacles
+* `-d` to specify if the obstacles are dynamic or not
 
 ### [`SBAgent/EvaluateModel.py`](./SBAgent/EvaluateModel.py)
 
@@ -147,7 +150,7 @@ Used to evaluate an existing model on an environment template. The template allo
 
 ```bash
 cd SBAgent
-python EvaluateModel.py [-h] [-t TRIALS] [--gui] [--no-gui] modelPath mu sigma {none,kf,lpf}
+python EvaluateModel.py [-h] [-t TRIALS] [--gui] [--no-gui] [-d DYNAMIC] [-o OBSTACLES] modelPath mu sigma {none,kf,lpf}
 ```
 
 * `modelPath` is the relative path of the model to be evaluated.
@@ -156,34 +159,26 @@ python EvaluateModel.py [-h] [-t TRIALS] [--gui] [--no-gui] modelPath mu sigma {
 * `{none,kf,lpf}` are the choices for the denoiser to use.
 * `-t` to specify the number of episodes to evaluate the model for. Defaults to 10.
 * `--gui` to launch the PyBullet window to visualize the agent behavior.
+* `-d` to specify if obstacles are dynamic or not
+* `-o` to specify the number of obstacles.
 
-### [`SBAgent/EvaluationPipeline.py`](./SBAgent/EvaluateExperiment.py)
+### [`SBAgent/ParallelEvaluationPipeline.py`](./SBAgent/EvaluateExperiment.py)
 
 Used to perform a series of model evaluations in a single call. Defined in the code is a set of values of $\mu$, $\sigma$ and which denoiser to use, and the file calls `EvaluateModel.py` on every combination of the three variables, and prints the results of the evaluation. To run it:
 
 ```bash
 cd SBAgent
-python EvaluationPipeline.py [-h] [-t TRIALS] modelPath
+python ParallelEvaluationPipelineDispatcher.py [-h] [-t TRIALS] [--local] [-o OBSTACLES] [-d DYNAMIC] [-mu MU] [-si SIGMA] modelPath
 ```
 
 * `modelPath` is path to the model to be evaluated.
 * `-t` is the number of episodes each evaluation is done for.
+* add the `--local` flag to run the script locally on your system
+* `-mu` to specify if evaluation should iterate over different values of mean.
+* `-si` to specify if evaluation should iterate over different values of the standard deviation.
 
 *Though this script makes a call to `EvaluateModel`, it supresses all the print statements from that file to get a clean output. Only outputs are of the final evaluation results in table form.*
 
-### [`SBAgent/TrainModel.py`](./SBAgent/TrainModel.py)
-
-Used to train a model on a given environment. Allows flexibity outside of a defined experiment. Used internally by `TrainDispatcher.py`.
-
-
-```bash
-cd SBAgent
-python TrainModel.py [-h] [-s STEPS] configFileName outputModelName
-```
-
-* `configFileName` is the name of the environment configuration file inside the `config` directory.
-* `outputModelName` is the name to save the output model as. This must begin with either `base/` or `finetuned/` (for the current script it is should ideally always be `base/`) followed by the name of the model. The trained model is then saved in `SBAgent/models/<outputModelName>`.
-* `-s` to specify the number of timesteps to train for. Default is 2,000,000.
 
 ## Models
 
