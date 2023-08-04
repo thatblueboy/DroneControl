@@ -6,365 +6,365 @@ mus = [0.   0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1  0.11 0.12 0.13
  1.8 1.9 2.  2.1 2.2 2.3 2.4 2.5 2.6 2.7 2.8 2.9 3. ], denoisers = ['None'] 
 ### $\mu = 0.0$ | $\sigma = 0.0$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -795.88 |
-| Mean Episode Length        | 283.54  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 49.00%   |
+| Collision Rate             | 51.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1191.97 |
+| Mean Episode Length        | 289.75   |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 0.1$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -804.66 |
-| Mean Episode Length        | 286.24  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 58.00%   |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1042.74 |
+| Mean Episode Length        | 299.05   |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 65.00%  |
-| Collision Rate             | 35.00%  |
+| Success Rate               | 61.00%  |
+| Collision Rate             | 39.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -871.80 |
-| Mean Episode Length        | 298.0   |
+| Mean Reward                | -977.50 |
+| Mean Episode Length        | 302.28  |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 68.00%  |
-| Collision Rate             | 32.00%  |
+| Success Rate               | 66.00%  |
+| Collision Rate             | 34.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -895.27 |
-| Mean Episode Length        | 317.86  |
+| Mean Reward                | -971.63 |
+| Mean Episode Length        | 331.94  |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 0.4$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 68.00%  |
-| Collision Rate             | 32.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -945.41 |
-| Mean Episode Length        | 329.94  |
----
-
-### $\mu = 0.0$ | $\sigma = 0.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
 | Success Rate               | 67.00%   |
 | Collision Rate             | 33.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1041.88 |
-| Mean Episode Length        | 347.21   |
+| Mean Reward                | -1040.59 |
+| Mean Episode Length        | 361.54   |
+---
+
+### $\mu = 0.0$ | $\sigma = 0.5$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 60.00%   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1210.36 |
+| Mean Episode Length        | 367.31   |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 63.00%   |
-| Collision Rate             | 37.00%   |
+| Success Rate               | 54.00%   |
+| Collision Rate             | 46.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1192.00 |
-| Mean Episode Length        | 361.78   |
+| Mean Reward                | -1477.88 |
+| Mean Episode Length        | 403.6    |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 63.00%   |
-| Collision Rate             | 37.00%   |
+| Success Rate               | 54.00%   |
+| Collision Rate             | 46.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1259.11 |
-| Mean Episode Length        | 380.81   |
+| Mean Reward                | -1575.28 |
+| Mean Episode Length        | 438.7    |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 64.00%   |
-| Collision Rate             | 36.00%   |
+| Success Rate               | 42.00%   |
+| Collision Rate             | 58.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1308.40 |
-| Mean Episode Length        | 400.23   |
+| Mean Reward                | -1974.93 |
+| Mean Episode Length        | 479.85   |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 63.00%   |
-| Collision Rate             | 37.00%   |
+| Success Rate               | 35.00%   |
+| Collision Rate             | 65.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1403.21 |
-| Mean Episode Length        | 418.75   |
+| Mean Reward                | -2197.21 |
+| Mean Episode Length        | 502.43   |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 63.00%   |
-| Collision Rate             | 37.00%   |
+| Success Rate               | 34.00%   |
+| Collision Rate             | 66.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1487.50 |
-| Mean Episode Length        | 442.41   |
+| Mean Reward                | -2387.22 |
+| Mean Episode Length        | 553.46   |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 63.00%   |
-| Collision Rate             | 37.00%   |
+| Success Rate               | 29.00%   |
+| Collision Rate             | 71.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1568.47 |
-| Mean Episode Length        | 461.71   |
+| Mean Reward                | -2521.98 |
+| Mean Episode Length        | 563.55   |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 64.00%   |
-| Collision Rate             | 36.00%   |
+| Success Rate               | 25.00%   |
+| Collision Rate             | 75.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1652.06 |
-| Mean Episode Length        | 490.07   |
+| Mean Reward                | -2696.43 |
+| Mean Episode Length        | 583.45   |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 54.00%   |
-| Collision Rate             | 46.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1883.29 |
-| Mean Episode Length        | 496.87   |
+| Success Rate               | 25.00%   |
+| Collision Rate             | 74.00%   |
+| Mean Incompletion Distance | 0.16m    |
+| Mean Reward                | -2781.90 |
+| Mean Episode Length        | 614.6    |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 58.00%   |
-| Collision Rate             | 42.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1953.14 |
-| Mean Episode Length        | 535.37   |
+| Success Rate               | 21.00%   |
+| Collision Rate             | 72.00%   |
+| Mean Incompletion Distance | 0.16m    |
+| Mean Reward                | -2927.95 |
+| Mean Episode Length        | 646.85   |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 58.00%   |
-| Collision Rate             | 42.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2050.14 |
-| Mean Episode Length        | 555.76   |
+| Success Rate               | 16.00%   |
+| Collision Rate             | 72.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -3022.14 |
+| Mean Episode Length        | 659.0    |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 49.00%   |
-| Collision Rate             | 51.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2345.14 |
-| Mean Episode Length        | 589.27   |
+| Success Rate               | 21.00%   |
+| Collision Rate             | 61.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2950.06 |
+| Mean Episode Length        | 693.07   |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 48.00%   |
-| Collision Rate             | 49.00%   |
-| Mean Incompletion Distance | 0.15m    |
-| Mean Reward                | -2396.14 |
-| Mean Episode Length        | 598.0    |
+| Success Rate               | 11.00%   |
+| Collision Rate             | 58.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -3135.67 |
+| Mean Episode Length        | 715.91   |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 46.00%   |
-| Collision Rate             | 52.00%   |
-| Mean Incompletion Distance | 0.15m    |
-| Mean Reward                | -2538.08 |
-| Mean Episode Length        | 624.08   |
+| Success Rate               | 8.00%    |
+| Collision Rate             | 50.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -3105.27 |
+| Mean Episode Length        | 703.61   |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 41.00%   |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | 0.15m    |
-| Mean Reward                | -2769.16 |
-| Mean Episode Length        | 670.0    |
+| Success Rate               | 9.00%    |
+| Collision Rate             | 51.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -3287.97 |
+| Mean Episode Length        | 720.49   |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 41.00%   |
-| Collision Rate             | 48.00%   |
-| Mean Incompletion Distance | 0.17m    |
-| Mean Reward                | -2819.24 |
-| Mean Episode Length        | 709.33   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.23m    |
+| Mean Reward                | -3329.69 |
+| Mean Episode Length        | 737.87   |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 30.00%   |
-| Collision Rate             | 49.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -3002.44 |
-| Mean Episode Length        | 716.55   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.25m    |
+| Mean Reward                | -3296.48 |
+| Mean Episode Length        | 717.5    |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 25.00%   |
-| Collision Rate             | 48.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3074.26 |
-| Mean Episode Length        | 732.39   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.26m    |
+| Mean Reward                | -3376.93 |
+| Mean Episode Length        | 713.79   |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 19.00%   |
+| Success Rate               | 2.00%    |
 | Collision Rate             | 45.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3284.06 |
-| Mean Episode Length        | 760.14   |
+| Mean Incompletion Distance | 0.29m    |
+| Mean Reward                | -3502.40 |
+| Mean Episode Length        | 728.6    |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 16.00%   |
-| Collision Rate             | 40.00%   |
-| Mean Incompletion Distance | 0.24m    |
-| Mean Reward                | -3441.12 |
-| Mean Episode Length        | 791.6    |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.29m    |
+| Mean Reward                | -3493.36 |
+| Mean Episode Length        | 717.35   |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 15.00%   |
+| Success Rate               | 0.00%    |
 | Collision Rate             | 44.00%   |
-| Mean Incompletion Distance | 0.26m    |
-| Mean Reward                | -3409.41 |
-| Mean Episode Length        | 759.72   |
+| Mean Incompletion Distance | 0.34m    |
+| Mean Reward                | -3592.97 |
+| Mean Episode Length        | 726.75   |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 45.00%   |
-| Mean Incompletion Distance | 0.28m    |
-| Mean Reward                | -3582.32 |
-| Mean Episode Length        | 771.92   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.35m    |
+| Mean Reward                | -3614.27 |
+| Mean Episode Length        | 753.1    |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 38.00%   |
-| Mean Incompletion Distance | 0.30m    |
-| Mean Reward                | -3599.22 |
-| Mean Episode Length        | 782.36   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.37m    |
+| Mean Reward                | -3653.34 |
+| Mean Episode Length        | 733.79   |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 38.00%   |
-| Mean Incompletion Distance | 0.32m    |
-| Mean Reward                | -3711.47 |
-| Mean Episode Length        | 788.46   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 48.00%   |
+| Mean Incompletion Distance | 0.38m    |
+| Mean Reward                | -3641.02 |
+| Mean Episode Length        | 711.1    |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 41.00%   |
-| Mean Incompletion Distance | 0.34m    |
-| Mean Reward                | -3755.82 |
-| Mean Episode Length        | 785.1    |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 46.00%   |
+| Mean Incompletion Distance | 0.40m    |
+| Mean Reward                | -3679.03 |
+| Mean Episode Length        | 719.29   |
 ---
 
 ### $\mu = 0.0$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 39.00%   |
-| Mean Incompletion Distance | 0.37m    |
-| Mean Reward                | -3849.75 |
-| Mean Episode Length        | 795.36   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.42m    |
+| Mean Reward                | -3800.12 |
+| Mean Episode Length        | 737.54   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 0.0$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -782.89 |
-| Mean Episode Length        | 279.3   |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 56.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1068.34 |
+| Mean Episode Length        | 292.45   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 63.00%  |
-| Collision Rate             | 37.00%  |
+| Success Rate               | 66.00%  |
+| Collision Rate             | 34.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -844.28 |
-| Mean Episode Length        | 280.47  |
+| Mean Reward                | -902.49 |
+| Mean Episode Length        | 301.91  |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 0.2$ | Denoiser = `None`
@@ -374,382 +374,382 @@ mus = [0.   0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1  0.11 0.12 0.13
 | Success Rate               | 70.00%  |
 | Collision Rate             | 30.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -764.23 |
-| Mean Episode Length        | 297.57  |
+| Mean Reward                | -819.35 |
+| Mean Episode Length        | 304.93  |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 65.00%  |
-| Collision Rate             | 35.00%  |
+| Success Rate               | 75.00%  |
+| Collision Rate             | 25.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -925.25 |
-| Mean Episode Length        | 310.69  |
+| Mean Reward                | -805.47 |
+| Mean Episode Length        | 330.82  |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 0.4$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 69.00%  |
-| Collision Rate             | 31.00%  |
+| Success Rate               | 70.00%  |
+| Collision Rate             | 30.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -919.31 |
-| Mean Episode Length        | 328.41  |
+| Mean Reward                | -974.33 |
+| Mean Episode Length        | 355.43  |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 0.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 67.00%   |
-| Collision Rate             | 33.00%   |
+| Success Rate               | 58.00%   |
+| Collision Rate             | 42.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1010.81 |
-| Mean Episode Length        | 338.27   |
+| Mean Reward                | -1272.19 |
+| Mean Episode Length        | 371.22   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 64.00%   |
-| Collision Rate             | 36.00%   |
+| Success Rate               | 59.00%   |
+| Collision Rate             | 41.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1130.32 |
-| Mean Episode Length        | 353.39   |
+| Mean Reward                | -1374.23 |
+| Mean Episode Length        | 408.5    |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 62.00%   |
-| Collision Rate             | 38.00%   |
+| Success Rate               | 55.00%   |
+| Collision Rate             | 45.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1243.93 |
-| Mean Episode Length        | 373.49   |
+| Mean Reward                | -1528.98 |
+| Mean Episode Length        | 432.36   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 65.00%   |
-| Collision Rate             | 35.00%   |
+| Success Rate               | 53.00%   |
+| Collision Rate             | 47.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1321.57 |
-| Mean Episode Length        | 407.54   |
+| Mean Reward                | -1774.74 |
+| Mean Episode Length        | 490.11   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 65.00%   |
-| Collision Rate             | 35.00%   |
+| Success Rate               | 45.00%   |
+| Collision Rate             | 55.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1362.59 |
-| Mean Episode Length        | 420.77   |
+| Mean Reward                | -2020.72 |
+| Mean Episode Length        | 506.65   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 68.00%   |
-| Collision Rate             | 32.00%   |
+| Success Rate               | 33.00%   |
+| Collision Rate             | 67.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1423.53 |
-| Mean Episode Length        | 456.96   |
+| Mean Reward                | -2411.75 |
+| Mean Episode Length        | 553.75   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 66.00%   |
-| Collision Rate             | 34.00%   |
+| Success Rate               | 32.00%   |
+| Collision Rate             | 68.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1514.71 |
-| Mean Episode Length        | 464.32   |
+| Mean Reward                | -2451.55 |
+| Mean Episode Length        | 555.35   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 56.00%   |
-| Collision Rate             | 44.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1763.85 |
-| Mean Episode Length        | 473.78   |
+| Success Rate               | 24.00%   |
+| Collision Rate             | 75.00%   |
+| Mean Incompletion Distance | 0.15m    |
+| Mean Reward                | -2700.29 |
+| Mean Episode Length        | 592.55   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 60.00%   |
-| Collision Rate             | 40.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1801.74 |
-| Mean Episode Length        | 504.83   |
+| Success Rate               | 24.00%   |
+| Collision Rate             | 75.00%   |
+| Mean Incompletion Distance | 0.15m    |
+| Mean Reward                | -2828.05 |
+| Mean Episode Length        | 630.47   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 54.00%   |
-| Collision Rate             | 46.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2016.02 |
-| Mean Episode Length        | 529.07   |
+| Success Rate               | 23.00%   |
+| Collision Rate             | 71.00%   |
+| Mean Incompletion Distance | 0.15m    |
+| Mean Reward                | -2784.75 |
+| Mean Episode Length        | 621.38   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 52.00%   |
-| Collision Rate             | 48.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2159.14 |
-| Mean Episode Length        | 552.47   |
+| Success Rate               | 20.00%   |
+| Collision Rate             | 61.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2940.60 |
+| Mean Episode Length        | 666.71   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 52.00%   |
-| Collision Rate             | 48.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2281.56 |
-| Mean Episode Length        | 582.96   |
+| Success Rate               | 19.00%   |
+| Collision Rate             | 59.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2989.72 |
+| Mean Episode Length        | 702.47   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 48.00%   |
-| Collision Rate             | 51.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -2446.60 |
-| Mean Episode Length        | 611.64   |
+| Success Rate               | 11.00%   |
+| Collision Rate             | 56.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -3113.25 |
+| Mean Episode Length        | 704.96   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 43.00%   |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | 0.12m    |
-| Mean Reward                | -2585.24 |
-| Mean Episode Length        | 628.92   |
+| Success Rate               | 13.00%   |
+| Collision Rate             | 47.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -3059.45 |
+| Mean Episode Length        | 711.17   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 49.00%   |
-| Collision Rate             | 48.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -2620.31 |
-| Mean Episode Length        | 674.33   |
+| Success Rate               | 10.00%   |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -3106.74 |
+| Mean Episode Length        | 715.05   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 40.00%   |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | 0.14m    |
-| Mean Reward                | -2864.56 |
-| Mean Episode Length        | 703.87   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -3266.19 |
+| Mean Episode Length        | 744.33   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 30.00%   |
-| Collision Rate             | 52.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -3044.00 |
-| Mean Episode Length        | 715.33   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.24m    |
+| Mean Reward                | -3332.47 |
+| Mean Episode Length        | 724.57   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 28.00%   |
-| Collision Rate             | 46.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3109.74 |
-| Mean Episode Length        | 748.2    |
+| Success Rate               | 4.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.26m    |
+| Mean Reward                | -3341.51 |
+| Mean Episode Length        | 740.09   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 15.00%   |
-| Collision Rate             | 49.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3274.60 |
-| Mean Episode Length        | 724.14   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.30m    |
+| Mean Reward                | -3454.00 |
+| Mean Episode Length        | 739.66   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 15.00%   |
-| Collision Rate             | 47.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3361.92 |
-| Mean Episode Length        | 752.76   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.32m    |
+| Mean Reward                | -3455.21 |
+| Mean Episode Length        | 725.75   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 42.00%   |
-| Mean Incompletion Distance | 0.27m    |
-| Mean Reward                | -3434.37 |
-| Mean Episode Length        | 773.76   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.34m    |
+| Mean Reward                | -3566.18 |
+| Mean Episode Length        | 723.37   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 7.00%    |
-| Collision Rate             | 46.00%   |
-| Mean Incompletion Distance | 0.26m    |
-| Mean Reward                | -3566.33 |
-| Mean Episode Length        | 764.06   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.35m    |
+| Mean Reward                | -3594.34 |
+| Mean Episode Length        | 718.51   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 9.00%    |
-| Collision Rate             | 41.00%   |
-| Mean Incompletion Distance | 0.29m    |
-| Mean Reward                | -3542.20 |
-| Mean Episode Length        | 776.44   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 49.00%   |
+| Mean Incompletion Distance | 0.35m    |
+| Mean Reward                | -3536.26 |
+| Mean Episode Length        | 690.86   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 35.00%   |
-| Mean Incompletion Distance | 0.30m    |
-| Mean Reward                | -3700.51 |
-| Mean Episode Length        | 804.33   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 46.00%   |
+| Mean Incompletion Distance | 0.38m    |
+| Mean Reward                | -3764.67 |
+| Mean Episode Length        | 740.04   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 44.00%   |
-| Mean Incompletion Distance | 0.33m    |
-| Mean Reward                | -3779.93 |
-| Mean Episode Length        | 782.51   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 49.00%   |
+| Mean Incompletion Distance | 0.42m    |
+| Mean Reward                | -3766.63 |
+| Mean Episode Length        | 716.13   |
 ---
 
 ### $\mu = 0.01$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 33.00%   |
-| Mean Incompletion Distance | 0.35m    |
-| Mean Reward                | -3832.26 |
-| Mean Episode Length        | 814.13   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 46.00%   |
+| Mean Incompletion Distance | 0.42m    |
+| Mean Reward                | -3796.99 |
+| Mean Episode Length        | 732.63   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
+| Success Rate               | 61.00%  |
+| Collision Rate             | 39.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -769.89 |
-| Mean Episode Length        | 277.15  |
+| Mean Reward                | -963.38 |
+| Mean Episode Length        | 290.52  |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 68.00%  |
-| Collision Rate             | 32.00%  |
+| Success Rate               | 73.00%  |
+| Collision Rate             | 27.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -733.89 |
-| Mean Episode Length        | 277.76  |
+| Mean Reward                | -736.04 |
+| Mean Episode Length        | 298.25  |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 69.00%  |
-| Collision Rate             | 31.00%  |
+| Success Rate               | 74.00%  |
+| Collision Rate             | 26.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -757.35 |
-| Mean Episode Length        | 288.39  |
+| Mean Reward                | -738.87 |
+| Mean Episode Length        | 307.54  |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 69.00%  |
-| Collision Rate             | 31.00%  |
+| Success Rate               | 74.00%  |
+| Collision Rate             | 26.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -838.81 |
-| Mean Episode Length        | 308.29  |
+| Mean Reward                | -810.00 |
+| Mean Episode Length        | 328.11  |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 0.4$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 67.00%  |
-| Collision Rate             | 33.00%  |
+| Success Rate               | 71.00%  |
+| Collision Rate             | 29.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -927.49 |
-| Mean Episode Length        | 321.24  |
+| Mean Reward                | -943.68 |
+| Mean Episode Length        | 353.3   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 0.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 66.00%   |
-| Collision Rate             | 34.00%   |
+| Success Rate               | 65.00%   |
+| Collision Rate             | 35.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1033.45 |
-| Mean Episode Length        | 340.99   |
+| Mean Reward                | -1132.21 |
+| Mean Episode Length        | 377.97   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
@@ -759,338 +759,338 @@ mus = [0.   0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1  0.11 0.12 0.13
 | Success Rate               | 62.00%   |
 | Collision Rate             | 38.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1152.83 |
-| Mean Episode Length        | 348.91   |
+| Mean Reward                | -1351.05 |
+| Mean Episode Length        | 426.04   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 66.00%   |
-| Collision Rate             | 34.00%   |
+| Success Rate               | 59.00%   |
+| Collision Rate             | 41.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1145.15 |
-| Mean Episode Length        | 369.55   |
+| Mean Reward                | -1523.28 |
+| Mean Episode Length        | 451.63   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 64.00%   |
-| Collision Rate             | 36.00%   |
+| Success Rate               | 51.00%   |
+| Collision Rate             | 49.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1304.86 |
-| Mean Episode Length        | 400.59   |
+| Mean Reward                | -1738.21 |
+| Mean Episode Length        | 471.13   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 61.00%   |
-| Collision Rate             | 39.00%   |
+| Success Rate               | 47.00%   |
+| Collision Rate             | 53.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1410.73 |
-| Mean Episode Length        | 412.61   |
+| Mean Reward                | -1912.26 |
+| Mean Episode Length        | 494.1    |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 64.00%   |
-| Collision Rate             | 36.00%   |
+| Success Rate               | 39.00%   |
+| Collision Rate             | 61.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1418.95 |
-| Mean Episode Length        | 427.03   |
+| Mean Reward                | -2188.42 |
+| Mean Episode Length        | 527.99   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 59.00%   |
-| Collision Rate             | 41.00%   |
+| Success Rate               | 35.00%   |
+| Collision Rate             | 65.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1608.78 |
-| Mean Episode Length        | 453.92   |
+| Mean Reward                | -2409.72 |
+| Mean Episode Length        | 567.53   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 57.00%   |
-| Collision Rate             | 43.00%   |
+| Success Rate               | 26.00%   |
+| Collision Rate             | 74.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1722.97 |
-| Mean Episode Length        | 475.49   |
+| Mean Reward                | -2666.83 |
+| Mean Episode Length        | 597.35   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 55.00%   |
-| Collision Rate             | 45.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1847.41 |
-| Mean Episode Length        | 494.26   |
+| Success Rate               | 34.00%   |
+| Collision Rate             | 65.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2596.95 |
+| Mean Episode Length        | 615.58   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 51.00%   |
-| Collision Rate             | 49.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2064.82 |
-| Mean Episode Length        | 531.92   |
+| Success Rate               | 25.00%   |
+| Collision Rate             | 69.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2836.64 |
+| Mean Episode Length        | 663.29   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 53.00%   |
-| Collision Rate             | 47.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2141.63 |
-| Mean Episode Length        | 553.39   |
+| Success Rate               | 25.00%   |
+| Collision Rate             | 64.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2926.00 |
+| Mean Episode Length        | 668.22   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 46.00%   |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | 0.11m    |
-| Mean Reward                | -2327.03 |
-| Mean Episode Length        | 569.09   |
+| Success Rate               | 19.00%   |
+| Collision Rate             | 60.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -3013.15 |
+| Mean Episode Length        | 693.15   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 52.00%   |
-| Collision Rate             | 48.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2345.57 |
-| Mean Episode Length        | 606.51   |
+| Success Rate               | 16.00%   |
+| Collision Rate             | 52.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2988.21 |
+| Mean Episode Length        | 693.87   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 48.00%   |
-| Collision Rate             | 52.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2542.11 |
-| Mean Episode Length        | 640.17   |
+| Success Rate               | 15.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -3146.45 |
+| Mean Episode Length        | 748.94   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 42.00%   |
-| Collision Rate             | 51.00%   |
-| Mean Incompletion Distance | 0.15m    |
-| Mean Reward                | -2714.60 |
-| Mean Episode Length        | 677.04   |
+| Success Rate               | 10.00%   |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -3168.78 |
+| Mean Episode Length        | 744.63   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 34.00%   |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | 0.17m    |
-| Mean Reward                | -2905.61 |
-| Mean Episode Length        | 693.2    |
+| Success Rate               | 4.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.23m    |
+| Mean Reward                | -3227.07 |
+| Mean Episode Length        | 729.0    |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 33.00%   |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -2905.02 |
-| Mean Episode Length        | 690.03   |
+| Success Rate               | 5.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.25m    |
+| Mean Reward                | -3367.74 |
+| Mean Episode Length        | 759.07   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 28.00%   |
-| Collision Rate             | 45.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -3070.62 |
-| Mean Episode Length        | 739.92   |
+| Success Rate               | 4.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.26m    |
+| Mean Reward                | -3334.01 |
+| Mean Episode Length        | 737.16   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 23.00%   |
-| Collision Rate             | 45.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3198.15 |
-| Mean Episode Length        | 746.29   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.29m    |
+| Mean Reward                | -3508.31 |
+| Mean Episode Length        | 736.61   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 14.00%   |
-| Collision Rate             | 43.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3314.45 |
-| Mean Episode Length        | 764.29   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.32m    |
+| Mean Reward                | -3563.93 |
+| Mean Episode Length        | 733.85   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 45.00%   |
-| Mean Incompletion Distance | 0.25m    |
-| Mean Reward                | -3319.44 |
-| Mean Episode Length        | 749.31   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.33m    |
+| Mean Reward                | -3515.58 |
+| Mean Episode Length        | 732.38   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 13.00%   |
-| Collision Rate             | 41.00%   |
-| Mean Incompletion Distance | 0.28m    |
-| Mean Reward                | -3448.62 |
-| Mean Episode Length        | 769.92   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.36m    |
+| Mean Reward                | -3587.51 |
+| Mean Episode Length        | 732.63   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 44.00%   |
-| Mean Incompletion Distance | 0.24m    |
-| Mean Reward                | -3565.38 |
-| Mean Episode Length        | 772.29   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.36m    |
+| Mean Reward                | -3645.43 |
+| Mean Episode Length        | 723.14   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 45.00%   |
-| Mean Incompletion Distance | 0.30m    |
-| Mean Reward                | -3696.23 |
-| Mean Episode Length        | 776.46   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 48.00%   |
+| Mean Incompletion Distance | 0.39m    |
+| Mean Reward                | -3704.89 |
+| Mean Episode Length        | 722.14   |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 45.00%   |
-| Mean Incompletion Distance | 0.32m    |
-| Mean Reward                | -3772.01 |
-| Mean Episode Length        | 777.32   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.40m    |
+| Mean Reward                | -3713.93 |
+| Mean Episode Length        | 753.5    |
 ---
 
 ### $\mu = 0.02$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 1.00%    |
-| Collision Rate             | 42.00%   |
-| Mean Incompletion Distance | 0.34m    |
-| Mean Reward                | -3882.84 |
-| Mean Episode Length        | 803.58   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.43m    |
+| Mean Reward                | -3889.71 |
+| Mean Episode Length        | 751.66   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 67.00%  |
-| Collision Rate             | 33.00%  |
+| Success Rate               | 73.00%  |
+| Collision Rate             | 27.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -738.31 |
-| Mean Episode Length        | 273.31  |
+| Mean Reward                | -754.32 |
+| Mean Episode Length        | 299.75  |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 67.00%  |
-| Collision Rate             | 33.00%  |
+| Success Rate               | 73.00%  |
+| Collision Rate             | 27.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -742.43 |
-| Mean Episode Length        | 274.0   |
+| Mean Reward                | -736.26 |
+| Mean Episode Length        | 298.33  |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 67.00%  |
-| Collision Rate             | 33.00%  |
+| Success Rate               | 73.00%  |
+| Collision Rate             | 27.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -783.44 |
-| Mean Episode Length        | 284.76  |
+| Mean Reward                | -745.18 |
+| Mean Episode Length        | 302.29  |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 69.00%  |
-| Collision Rate             | 31.00%  |
+| Success Rate               | 72.00%  |
+| Collision Rate             | 28.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -802.23 |
-| Mean Episode Length        | 299.2   |
+| Mean Reward                | -848.88 |
+| Mean Episode Length        | 331.88  |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 0.4$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 70.00%  |
-| Collision Rate             | 30.00%  |
+| Success Rate               | 69.00%  |
+| Collision Rate             | 31.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -857.67 |
-| Mean Episode Length        | 318.31  |
+| Mean Reward                | -950.56 |
+| Mean Episode Length        | 346.51  |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 0.5$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 68.00%  |
-| Collision Rate             | 32.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -981.75 |
-| Mean Episode Length        | 335.63  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 66.00%   |
+| Collision Rate             | 34.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1127.94 |
+| Mean Episode Length        | 382.97   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
@@ -1100,690 +1100,690 @@ mus = [0.   0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1  0.11 0.12 0.13
 | Success Rate               | 64.00%   |
 | Collision Rate             | 36.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1090.16 |
-| Mean Episode Length        | 345.74   |
+| Mean Reward                | -1289.47 |
+| Mean Episode Length        | 412.91   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 66.00%   |
-| Collision Rate             | 34.00%   |
+| Success Rate               | 62.00%   |
+| Collision Rate             | 38.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1194.20 |
-| Mean Episode Length        | 383.41   |
+| Mean Reward                | -1432.92 |
+| Mean Episode Length        | 439.28   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 68.00%   |
-| Collision Rate             | 32.00%   |
+| Success Rate               | 55.00%   |
+| Collision Rate             | 45.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1211.15 |
-| Mean Episode Length        | 399.81   |
+| Mean Reward                | -1674.77 |
+| Mean Episode Length        | 476.82   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 63.00%   |
-| Collision Rate             | 37.00%   |
+| Success Rate               | 50.00%   |
+| Collision Rate             | 50.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1340.06 |
-| Mean Episode Length        | 406.88   |
+| Mean Reward                | -1955.70 |
+| Mean Episode Length        | 516.57   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 65.00%   |
-| Collision Rate             | 35.00%   |
+| Success Rate               | 44.00%   |
+| Collision Rate             | 56.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1420.44 |
-| Mean Episode Length        | 437.29   |
+| Mean Reward                | -2089.49 |
+| Mean Episode Length        | 532.98   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 59.00%   |
-| Collision Rate             | 41.00%   |
+| Success Rate               | 43.00%   |
+| Collision Rate             | 57.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1630.46 |
-| Mean Episode Length        | 461.6    |
+| Mean Reward                | -2290.45 |
+| Mean Episode Length        | 583.21   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 58.00%   |
-| Collision Rate             | 42.00%   |
+| Success Rate               | 36.00%   |
+| Collision Rate             | 64.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1721.92 |
-| Mean Episode Length        | 477.75   |
+| Mean Reward                | -2500.29 |
+| Mean Episode Length        | 605.26   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 57.00%   |
-| Collision Rate             | 43.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1829.83 |
-| Mean Episode Length        | 499.6    |
+| Success Rate               | 31.00%   |
+| Collision Rate             | 64.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2708.72 |
+| Mean Episode Length        | 636.06   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 52.00%   |
-| Collision Rate             | 48.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2014.31 |
-| Mean Episode Length        | 516.13   |
+| Success Rate               | 34.00%   |
+| Collision Rate             | 59.00%   |
+| Mean Incompletion Distance | 0.15m    |
+| Mean Reward                | -2623.31 |
+| Mean Episode Length        | 641.3    |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 51.00%   |
-| Collision Rate             | 49.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2135.85 |
-| Mean Episode Length        | 540.82   |
+| Success Rate               | 19.00%   |
+| Collision Rate             | 64.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2929.71 |
+| Mean Episode Length        | 676.43   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 48.00%   |
-| Collision Rate             | 52.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2330.28 |
-| Mean Episode Length        | 578.31   |
+| Success Rate               | 20.00%   |
+| Collision Rate             | 49.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2924.48 |
+| Mean Episode Length        | 714.56   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 47.00%   |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2360.24 |
-| Mean Episode Length        | 581.81   |
+| Success Rate               | 20.00%   |
+| Collision Rate             | 50.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -3019.43 |
+| Mean Episode Length        | 721.69   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 43.00%   |
-| Collision Rate             | 56.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -2558.92 |
-| Mean Episode Length        | 615.89   |
+| Success Rate               | 9.00%    |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -3127.53 |
+| Mean Episode Length        | 725.91   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 42.00%   |
-| Collision Rate             | 56.00%   |
-| Mean Incompletion Distance | 0.13m    |
-| Mean Reward                | -2709.74 |
-| Mean Episode Length        | 665.21   |
+| Success Rate               | 9.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -3182.15 |
+| Mean Episode Length        | 740.07   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 39.00%   |
-| Collision Rate             | 50.00%   |
-| Mean Incompletion Distance | 0.14m    |
-| Mean Reward                | -2778.44 |
-| Mean Episode Length        | 689.01   |
+| Success Rate               | 7.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.24m    |
+| Mean Reward                | -3255.16 |
+| Mean Episode Length        | 737.16   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 37.00%   |
-| Collision Rate             | 50.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -2885.81 |
-| Mean Episode Length        | 708.88   |
+| Success Rate               | 4.00%    |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.24m    |
+| Mean Reward                | -3320.26 |
+| Mean Episode Length        | 728.2    |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 28.00%   |
-| Collision Rate             | 48.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -3040.33 |
-| Mean Episode Length        | 714.11   |
+| Success Rate               | 4.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.27m    |
+| Mean Reward                | -3364.79 |
+| Mean Episode Length        | 728.91   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 24.00%   |
-| Collision Rate             | 51.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -3228.52 |
-| Mean Episode Length        | 747.63   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.29m    |
+| Mean Reward                | -3484.13 |
+| Mean Episode Length        | 724.38   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 17.00%   |
-| Collision Rate             | 45.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3314.57 |
-| Mean Episode Length        | 750.55   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.33m    |
+| Mean Reward                | -3546.08 |
+| Mean Episode Length        | 757.77   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 12.00%   |
-| Collision Rate             | 46.00%   |
-| Mean Incompletion Distance | 0.25m    |
-| Mean Reward                | -3396.70 |
-| Mean Episode Length        | 762.42   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.37m    |
+| Mean Reward                | -3659.07 |
+| Mean Episode Length        | 751.06   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 11.00%   |
-| Collision Rate             | 49.00%   |
-| Mean Incompletion Distance | 0.27m    |
-| Mean Reward                | -3511.56 |
-| Mean Episode Length        | 756.26   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.35m    |
+| Mean Reward                | -3640.66 |
+| Mean Episode Length        | 731.2    |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 9.00%    |
-| Collision Rate             | 45.00%   |
-| Mean Incompletion Distance | 0.28m    |
-| Mean Reward                | -3501.34 |
-| Mean Episode Length        | 753.27   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.40m    |
+| Mean Reward                | -3691.10 |
+| Mean Episode Length        | 730.43   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 44.00%   |
-| Mean Incompletion Distance | 0.31m    |
-| Mean Reward                | -3651.26 |
-| Mean Episode Length        | 768.79   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 48.00%   |
+| Mean Incompletion Distance | 0.39m    |
+| Mean Reward                | -3705.58 |
+| Mean Episode Length        | 718.04   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 39.00%   |
-| Mean Incompletion Distance | 0.31m    |
-| Mean Reward                | -3715.85 |
-| Mean Episode Length        | 789.05   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.43m    |
+| Mean Reward                | -3776.82 |
+| Mean Episode Length        | 750.14   |
 ---
 
 ### $\mu = 0.03$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 40.00%   |
-| Mean Incompletion Distance | 0.36m    |
-| Mean Reward                | -3725.29 |
-| Mean Episode Length        | 778.18   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.44m    |
+| Mean Reward                | -3881.05 |
+| Mean Episode Length        | 755.95   |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 67.00%  |
-| Collision Rate             | 33.00%  |
+| Success Rate               | 77.00%  |
+| Collision Rate             | 23.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -739.19 |
-| Mean Episode Length        | 273.98  |
+| Mean Reward                | -664.42 |
+| Mean Episode Length        | 299.72  |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 70.00%  |
-| Collision Rate             | 30.00%  |
+| Success Rate               | 78.00%  |
+| Collision Rate             | 22.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -682.54 |
-| Mean Episode Length        | 275.17  |
+| Mean Reward                | -643.36 |
+| Mean Episode Length        | 300.53  |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 68.00%  |
-| Collision Rate             | 32.00%  |
+| Success Rate               | 78.00%  |
+| Collision Rate             | 22.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -738.91 |
-| Mean Episode Length        | 278.81  |
+| Mean Reward                | -664.18 |
+| Mean Episode Length        | 308.46  |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 70.00%  |
-| Collision Rate             | 30.00%  |
+| Success Rate               | 77.00%  |
+| Collision Rate             | 23.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -759.65 |
-| Mean Episode Length        | 293.81  |
+| Mean Reward                | -735.70 |
+| Mean Episode Length        | 327.01  |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 0.4$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 65.00%  |
-| Collision Rate             | 35.00%  |
+| Success Rate               | 75.00%  |
+| Collision Rate             | 25.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -929.37 |
-| Mean Episode Length        | 311.18  |
+| Mean Reward                | -858.01 |
+| Mean Episode Length        | 355.05  |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 0.5$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -988.15 |
-| Mean Episode Length        | 328.87  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 69.00%   |
+| Collision Rate             | 31.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1081.47 |
+| Mean Episode Length        | 385.5    |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 64.00%   |
-| Collision Rate             | 36.00%   |
+| Success Rate               | 63.00%   |
+| Collision Rate             | 37.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1100.91 |
-| Mean Episode Length        | 346.35   |
+| Mean Reward                | -1294.21 |
+| Mean Episode Length        | 411.9    |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 65.00%   |
-| Collision Rate             | 35.00%   |
+| Success Rate               | 62.00%   |
+| Collision Rate             | 38.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1195.71 |
-| Mean Episode Length        | 374.14   |
+| Mean Reward                | -1429.75 |
+| Mean Episode Length        | 443.49   |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 66.00%   |
-| Collision Rate             | 34.00%   |
+| Success Rate               | 58.00%   |
+| Collision Rate             | 42.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1232.10 |
-| Mean Episode Length        | 395.14   |
+| Mean Reward                | -1649.86 |
+| Mean Episode Length        | 484.33   |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 67.00%   |
-| Collision Rate             | 33.00%   |
+| Success Rate               | 51.00%   |
+| Collision Rate             | 49.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1282.81 |
-| Mean Episode Length        | 412.11   |
+| Mean Reward                | -1843.98 |
+| Mean Episode Length        | 497.8    |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 65.00%   |
-| Collision Rate             | 35.00%   |
+| Success Rate               | 51.00%   |
+| Collision Rate             | 49.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1407.56 |
-| Mean Episode Length        | 434.95   |
+| Mean Reward                | -1970.49 |
+| Mean Episode Length        | 534.53   |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 60.00%   |
-| Collision Rate             | 40.00%   |
+| Success Rate               | 39.00%   |
+| Collision Rate             | 61.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1554.80 |
-| Mean Episode Length        | 445.53   |
+| Mean Reward                | -2266.14 |
+| Mean Episode Length        | 546.1    |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 58.00%   |
-| Collision Rate             | 42.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1680.64 |
-| Mean Episode Length        | 465.11   |
+| Success Rate               | 32.00%   |
+| Collision Rate             | 67.00%   |
+| Mean Incompletion Distance | 0.16m    |
+| Mean Reward                | -2541.95 |
+| Mean Episode Length        | 594.07   |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 53.00%   |
-| Collision Rate             | 47.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1862.41 |
-| Mean Episode Length        | 489.47   |
+| Success Rate               | 29.00%   |
+| Collision Rate             | 68.00%   |
+| Mean Incompletion Distance | 0.16m    |
+| Mean Reward                | -2743.17 |
+| Mean Episode Length        | 638.03   |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 51.00%   |
-| Collision Rate             | 49.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2025.27 |
-| Mean Episode Length        | 520.29   |
+| Success Rate               | 32.00%   |
+| Collision Rate             | 62.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2684.23 |
+| Mean Episode Length        | 643.95   |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 53.00%   |
-| Collision Rate             | 47.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2095.71 |
-| Mean Episode Length        | 548.7    |
+| Success Rate               | 28.00%   |
+| Collision Rate             | 54.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2797.08 |
+| Mean Episode Length        | 687.72   |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 50.00%   |
-| Collision Rate             | 50.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2190.62 |
-| Mean Episode Length        | 554.16   |
+| Success Rate               | 26.00%   |
+| Collision Rate             | 51.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2863.13 |
+| Mean Episode Length        | 701.71   |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 43.00%   |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2436.56 |
-| Mean Episode Length        | 585.77   |
+| Success Rate               | 18.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -3044.69 |
+| Mean Episode Length        | 742.18   |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 42.00%   |
-| Collision Rate             | 57.00%   |
+| Success Rate               | 12.00%   |
+| Collision Rate             | 45.00%   |
 | Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -2546.29 |
-| Mean Episode Length        | 609.34   |
+| Mean Reward                | -3133.96 |
+| Mean Episode Length        | 738.88   |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 44.00%   |
-| Collision Rate             | 54.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -2667.63 |
-| Mean Episode Length        | 658.26   |
+| Success Rate               | 10.00%   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -3193.31 |
+| Mean Episode Length        | 746.73   |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 39.00%   |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | 0.17m    |
-| Mean Reward                | -2773.93 |
-| Mean Episode Length        | 684.66   |
+| Success Rate               | 6.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.23m    |
+| Mean Reward                | -3213.65 |
+| Mean Episode Length        | 740.49   |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 29.00%   |
-| Collision Rate             | 52.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -2978.88 |
-| Mean Episode Length        | 702.62   |
+| Success Rate               | 5.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.25m    |
+| Mean Reward                | -3315.53 |
+| Mean Episode Length        | 740.0    |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 27.00%   |
-| Collision Rate             | 55.00%   |
-| Mean Incompletion Distance | 0.16m    |
-| Mean Reward                | -3072.86 |
-| Mean Episode Length        | 711.17   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.28m    |
+| Mean Reward                | -3487.53 |
+| Mean Episode Length        | 746.21   |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 20.00%   |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3144.01 |
-| Mean Episode Length        | 693.96   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.28m    |
+| Mean Reward                | -3394.52 |
+| Mean Episode Length        | 730.1    |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 23.00%   |
-| Collision Rate             | 47.00%   |
-| Mean Incompletion Distance | 0.24m    |
-| Mean Reward                | -3179.74 |
-| Mean Episode Length        | 743.1    |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.32m    |
+| Mean Reward                | -3495.25 |
+| Mean Episode Length        | 732.67   |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 43.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3445.08 |
-| Mean Episode Length        | 783.95   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.34m    |
+| Mean Reward                | -3551.97 |
+| Mean Episode Length        | 739.27   |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 45.00%   |
-| Mean Incompletion Distance | 0.25m    |
-| Mean Reward                | -3522.57 |
-| Mean Episode Length        | 778.41   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.36m    |
+| Mean Reward                | -3635.09 |
+| Mean Episode Length        | 740.27   |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 46.00%   |
-| Mean Incompletion Distance | 0.26m    |
-| Mean Reward                | -3582.63 |
-| Mean Episode Length        | 772.62   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.39m    |
+| Mean Reward                | -3660.79 |
+| Mean Episode Length        | 739.84   |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 41.00%   |
-| Mean Incompletion Distance | 0.29m    |
-| Mean Reward                | -3616.43 |
-| Mean Episode Length        | 783.57   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 46.00%   |
+| Mean Incompletion Distance | 0.43m    |
+| Mean Reward                | -3703.82 |
+| Mean Episode Length        | 719.33   |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 42.00%   |
-| Mean Incompletion Distance | 0.32m    |
-| Mean Reward                | -3744.55 |
-| Mean Episode Length        | 786.24   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.42m    |
+| Mean Reward                | -3779.58 |
+| Mean Episode Length        | 757.67   |
 ---
 
 ### $\mu = 0.04$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
+| Success Rate               | 0.00%    |
 | Collision Rate             | 44.00%   |
-| Mean Incompletion Distance | 0.33m    |
-| Mean Reward                | -3759.89 |
-| Mean Episode Length        | 781.14   |
+| Mean Incompletion Distance | 0.44m    |
+| Mean Reward                | -3843.01 |
+| Mean Episode Length        | 742.64   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 67.00%  |
-| Collision Rate             | 33.00%  |
+| Success Rate               | 76.00%  |
+| Collision Rate             | 24.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -728.06 |
-| Mean Episode Length        | 271.23  |
+| Mean Reward                | -678.80 |
+| Mean Episode Length        | 297.99  |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 65.00%  |
-| Collision Rate             | 35.00%  |
+| Success Rate               | 80.00%  |
+| Collision Rate             | 20.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -767.09 |
-| Mean Episode Length        | 271.07  |
+| Mean Reward                | -604.52 |
+| Mean Episode Length        | 302.97  |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 67.00%  |
-| Collision Rate             | 33.00%  |
+| Success Rate               | 77.00%  |
+| Collision Rate             | 23.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -752.51 |
-| Mean Episode Length        | 277.35  |
+| Mean Reward                | -669.68 |
+| Mean Episode Length        | 305.15  |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
+| Success Rate               | 73.00%  |
+| Collision Rate             | 27.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -824.97 |
-| Mean Episode Length        | 290.24  |
+| Mean Reward                | -796.55 |
+| Mean Episode Length        | 321.85  |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 0.4$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
+| Success Rate               | 74.00%  |
+| Collision Rate             | 26.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -885.43 |
-| Mean Episode Length        | 304.63  |
+| Mean Reward                | -894.48 |
+| Mean Episode Length        | 358.18  |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 0.5$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 67.00%  |
-| Collision Rate             | 33.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -963.66 |
-| Mean Episode Length        | 327.94  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 68.00%   |
+| Collision Rate             | 32.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1103.15 |
+| Mean Episode Length        | 389.02   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 68.00%  |
-| Collision Rate             | 32.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -995.18 |
-| Mean Episode Length        | 342.42  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 67.00%   |
+| Collision Rate             | 33.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1259.10 |
+| Mean Episode Length        | 424.8    |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
@@ -1793,338 +1793,338 @@ mus = [0.   0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1  0.11 0.12 0.13
 | Success Rate               | 66.00%   |
 | Collision Rate             | 34.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1113.81 |
-| Mean Episode Length        | 362.41   |
+| Mean Reward                | -1391.59 |
+| Mean Episode Length        | 454.08   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 64.00%   |
-| Collision Rate             | 36.00%   |
+| Success Rate               | 61.00%   |
+| Collision Rate             | 39.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1226.57 |
-| Mean Episode Length        | 383.18   |
+| Mean Reward                | -1604.97 |
+| Mean Episode Length        | 483.39   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 68.00%   |
-| Collision Rate             | 32.00%   |
+| Success Rate               | 50.00%   |
+| Collision Rate             | 50.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1258.09 |
-| Mean Episode Length        | 409.65   |
+| Mean Reward                | -1922.40 |
+| Mean Episode Length        | 511.99   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 59.00%   |
-| Collision Rate             | 41.00%   |
+| Success Rate               | 49.00%   |
+| Collision Rate             | 51.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1474.92 |
-| Mean Episode Length        | 416.55   |
+| Mean Reward                | -2036.15 |
+| Mean Episode Length        | 539.7    |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 57.00%   |
-| Collision Rate             | 43.00%   |
+| Success Rate               | 41.00%   |
+| Collision Rate             | 59.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1609.63 |
-| Mean Episode Length        | 443.15   |
+| Mean Reward                | -2244.22 |
+| Mean Episode Length        | 543.16   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 59.00%   |
-| Collision Rate             | 41.00%   |
+| Success Rate               | 43.00%   |
+| Collision Rate             | 57.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1673.91 |
-| Mean Episode Length        | 471.23   |
+| Mean Reward                | -2394.68 |
+| Mean Episode Length        | 604.78   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 48.00%   |
-| Collision Rate             | 52.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1906.28 |
-| Mean Episode Length        | 471.32   |
+| Success Rate               | 37.00%   |
+| Collision Rate             | 58.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2590.92 |
+| Mean Episode Length        | 651.19   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 48.00%   |
-| Collision Rate             | 52.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2049.11 |
-| Mean Episode Length        | 508.65   |
+| Success Rate               | 31.00%   |
+| Collision Rate             | 56.00%   |
+| Mean Incompletion Distance | 0.15m    |
+| Mean Reward                | -2725.56 |
+| Mean Episode Length        | 677.09   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 44.00%   |
-| Collision Rate             | 56.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2230.99 |
-| Mean Episode Length        | 528.51   |
+| Success Rate               | 30.00%   |
+| Collision Rate             | 54.00%   |
+| Mean Incompletion Distance | 0.16m    |
+| Mean Reward                | -2800.40 |
+| Mean Episode Length        | 697.21   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 48.00%   |
-| Collision Rate             | 52.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2293.62 |
-| Mean Episode Length        | 577.2    |
+| Success Rate               | 22.00%   |
+| Collision Rate             | 49.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -3024.53 |
+| Mean Episode Length        | 730.72   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 43.00%   |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2424.58 |
-| Mean Episode Length        | 577.1    |
+| Success Rate               | 19.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2987.89 |
+| Mean Episode Length        | 734.2    |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 44.00%   |
-| Collision Rate             | 55.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -2539.51 |
-| Mean Episode Length        | 621.2    |
+| Success Rate               | 11.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -3081.56 |
+| Mean Episode Length        | 748.52   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 39.00%   |
-| Collision Rate             | 59.00%   |
-| Mean Incompletion Distance | 0.14m    |
-| Mean Reward                | -2701.68 |
-| Mean Episode Length        | 648.15   |
+| Success Rate               | 10.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -3156.66 |
+| Mean Episode Length        | 726.83   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 40.00%   |
-| Collision Rate             | 55.00%   |
-| Mean Incompletion Distance | 0.16m    |
-| Mean Reward                | -2785.27 |
-| Mean Episode Length        | 680.23   |
+| Success Rate               | 6.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.23m    |
+| Mean Reward                | -3249.10 |
+| Mean Episode Length        | 742.56   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 28.00%   |
-| Collision Rate             | 56.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -2948.52 |
-| Mean Episode Length        | 690.92   |
+| Success Rate               | 5.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.26m    |
+| Mean Reward                | -3329.89 |
+| Mean Episode Length        | 759.28   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 30.00%   |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | 0.17m    |
-| Mean Reward                | -3051.08 |
-| Mean Episode Length        | 718.34   |
+| Success Rate               | 5.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.28m    |
+| Mean Reward                | -3376.93 |
+| Mean Episode Length        | 747.18   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 20.00%   |
-| Collision Rate             | 58.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3223.34 |
-| Mean Episode Length        | 726.13   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.31m    |
+| Mean Reward                | -3479.15 |
+| Mean Episode Length        | 728.06   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 49.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3260.59 |
-| Mean Episode Length        | 746.52   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.33m    |
+| Mean Reward                | -3534.91 |
+| Mean Episode Length        | 748.09   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 50.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3456.16 |
-| Mean Episode Length        | 762.52   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 46.00%   |
+| Mean Incompletion Distance | 0.34m    |
+| Mean Reward                | -3584.37 |
+| Mean Episode Length        | 722.49   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 8.00%    |
-| Collision Rate             | 50.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3485.16 |
-| Mean Episode Length        | 752.87   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.38m    |
+| Mean Reward                | -3699.54 |
+| Mean Episode Length        | 755.35   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 42.00%   |
-| Mean Incompletion Distance | 0.25m    |
-| Mean Reward                | -3599.96 |
-| Mean Episode Length        | 786.37   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 34.00%   |
+| Mean Incompletion Distance | 0.41m    |
+| Mean Reward                | -3834.52 |
+| Mean Episode Length        | 793.35   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 42.00%   |
-| Mean Incompletion Distance | 0.27m    |
-| Mean Reward                | -3609.39 |
-| Mean Episode Length        | 780.21   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.39m    |
+| Mean Reward                | -3733.81 |
+| Mean Episode Length        | 737.14   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 38.00%   |
-| Mean Incompletion Distance | 0.28m    |
-| Mean Reward                | -3611.49 |
-| Mean Episode Length        | 781.3    |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.42m    |
+| Mean Reward                | -3830.94 |
+| Mean Episode Length        | 756.85   |
 ---
 
 ### $\mu = 0.05$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 39.00%   |
-| Mean Incompletion Distance | 0.29m    |
-| Mean Reward                | -3769.07 |
-| Mean Episode Length        | 804.57   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 48.00%   |
+| Mean Incompletion Distance | 0.47m    |
+| Mean Reward                | -3874.16 |
+| Mean Episode Length        | 738.57   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
+| Success Rate               | 79.00%  |
+| Collision Rate             | 21.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -746.54 |
-| Mean Episode Length        | 270.96  |
+| Mean Reward                | -613.03 |
+| Mean Episode Length        | 300.27  |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
+| Success Rate               | 78.00%  |
+| Collision Rate             | 22.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -745.74 |
-| Mean Episode Length        | 270.61  |
+| Mean Reward                | -625.23 |
+| Mean Episode Length        | 297.63  |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 67.00%  |
-| Collision Rate             | 33.00%  |
+| Success Rate               | 76.00%  |
+| Collision Rate             | 24.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -746.40 |
-| Mean Episode Length        | 276.72  |
+| Mean Reward                | -686.54 |
+| Mean Episode Length        | 307.42  |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 68.00%  |
-| Collision Rate             | 32.00%  |
+| Success Rate               | 71.00%  |
+| Collision Rate             | 29.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -787.30 |
-| Mean Episode Length        | 289.23  |
+| Mean Reward                | -855.37 |
+| Mean Episode Length        | 326.34  |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 0.4$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 67.00%  |
-| Collision Rate             | 33.00%  |
+| Success Rate               | 72.00%  |
+| Collision Rate             | 28.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -874.42 |
-| Mean Episode Length        | 307.45  |
+| Mean Reward                | -942.40 |
+| Mean Episode Length        | 361.0   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 0.5$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 68.00%  |
-| Collision Rate             | 32.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -912.69 |
-| Mean Episode Length        | 322.12  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 71.00%   |
+| Collision Rate             | 29.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1082.32 |
+| Mean Episode Length        | 394.15   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 69.00%  |
-| Collision Rate             | 31.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -993.39 |
-| Mean Episode Length        | 346.85  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 66.00%   |
+| Collision Rate             | 34.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1237.99 |
+| Mean Episode Length        | 411.29   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
@@ -2134,1438 +2134,1438 @@ mus = [0.   0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1  0.11 0.12 0.13
 | Success Rate               | 65.00%   |
 | Collision Rate             | 35.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1121.13 |
-| Mean Episode Length        | 358.75   |
+| Mean Reward                | -1414.81 |
+| Mean Episode Length        | 457.96   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 61.00%   |
-| Collision Rate             | 39.00%   |
+| Success Rate               | 60.00%   |
+| Collision Rate             | 40.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1258.05 |
-| Mean Episode Length        | 375.68   |
+| Mean Reward                | -1641.35 |
+| Mean Episode Length        | 492.67   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 66.00%   |
-| Collision Rate             | 34.00%   |
+| Success Rate               | 59.00%   |
+| Collision Rate             | 41.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1264.19 |
-| Mean Episode Length        | 405.52   |
+| Mean Reward                | -1756.30 |
+| Mean Episode Length        | 515.9    |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 59.00%   |
-| Collision Rate             | 41.00%   |
+| Success Rate               | 54.00%   |
+| Collision Rate             | 46.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1452.89 |
-| Mean Episode Length        | 412.71   |
+| Mean Reward                | -1947.82 |
+| Mean Episode Length        | 548.82   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 59.00%   |
-| Collision Rate             | 41.00%   |
+| Success Rate               | 50.00%   |
+| Collision Rate             | 50.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1580.68 |
-| Mean Episode Length        | 449.97   |
+| Mean Reward                | -2180.57 |
+| Mean Episode Length        | 593.13   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 59.00%   |
-| Collision Rate             | 41.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1642.43 |
-| Mean Episode Length        | 461.58   |
+| Success Rate               | 41.00%   |
+| Collision Rate             | 57.00%   |
+| Mean Incompletion Distance | 0.16m    |
+| Mean Reward                | -2494.21 |
+| Mean Episode Length        | 633.89   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 53.00%   |
-| Collision Rate             | 47.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1840.98 |
-| Mean Episode Length        | 483.75   |
+| Success Rate               | 42.00%   |
+| Collision Rate             | 54.00%   |
+| Mean Incompletion Distance | 0.15m    |
+| Mean Reward                | -2462.92 |
+| Mean Episode Length        | 646.17   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 52.00%   |
-| Collision Rate             | 48.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1918.14 |
-| Mean Episode Length        | 501.96   |
+| Success Rate               | 38.00%   |
+| Collision Rate             | 54.00%   |
+| Mean Incompletion Distance | 0.16m    |
+| Mean Reward                | -2659.49 |
+| Mean Episode Length        | 667.39   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 45.00%   |
-| Collision Rate             | 55.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2167.59 |
-| Mean Episode Length        | 516.58   |
+| Success Rate               | 33.00%   |
+| Collision Rate             | 48.00%   |
+| Mean Incompletion Distance | 0.15m    |
+| Mean Reward                | -2717.99 |
+| Mean Episode Length        | 698.41   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 47.00%   |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2249.15 |
-| Mean Episode Length        | 553.91   |
+| Success Rate               | 26.00%   |
+| Collision Rate             | 47.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2889.85 |
+| Mean Episode Length        | 722.03   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 37.00%   |
-| Collision Rate             | 63.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2495.08 |
-| Mean Episode Length        | 565.59   |
+| Success Rate               | 21.00%   |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2970.72 |
+| Mean Episode Length        | 720.94   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 36.00%   |
-| Collision Rate             | 63.00%   |
-| Mean Incompletion Distance | 0.13m    |
-| Mean Reward                | -2698.06 |
-| Mean Episode Length        | 627.75   |
+| Success Rate               | 15.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -3098.01 |
+| Mean Episode Length        | 740.9    |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 42.00%   |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | 0.15m    |
-| Mean Reward                | -2567.30 |
-| Mean Episode Length        | 612.86   |
+| Success Rate               | 9.00%    |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -3205.04 |
+| Mean Episode Length        | 734.24   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 31.00%   |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | 0.16m    |
-| Mean Reward                | -2923.54 |
-| Mean Episode Length        | 658.01   |
+| Success Rate               | 7.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.24m    |
+| Mean Reward                | -3283.98 |
+| Mean Episode Length        | 754.52   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 34.00%   |
-| Collision Rate             | 54.00%   |
-| Mean Incompletion Distance | 0.15m    |
-| Mean Reward                | -2875.53 |
-| Mean Episode Length        | 681.0    |
+| Success Rate               | 4.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.25m    |
+| Mean Reward                | -3343.60 |
+| Mean Episode Length        | 739.6    |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 24.00%   |
-| Collision Rate             | 58.00%   |
-| Mean Incompletion Distance | 0.17m    |
-| Mean Reward                | -3063.61 |
-| Mean Episode Length        | 689.62   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.29m    |
+| Mean Reward                | -3470.05 |
+| Mean Episode Length        | 749.83   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 22.00%   |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3157.28 |
-| Mean Episode Length        | 730.01   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.31m    |
+| Mean Reward                | -3552.06 |
+| Mean Episode Length        | 760.89   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 47.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3234.32 |
-| Mean Episode Length        | 744.67   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.33m    |
+| Mean Reward                | -3559.81 |
+| Mean Episode Length        | 737.69   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 16.00%   |
-| Collision Rate             | 45.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3331.55 |
-| Mean Episode Length        | 770.64   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.37m    |
+| Mean Reward                | -3664.79 |
+| Mean Episode Length        | 762.4    |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 11.00%   |
-| Collision Rate             | 48.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3401.30 |
-| Mean Episode Length        | 762.87   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.38m    |
+| Mean Reward                | -3646.86 |
+| Mean Episode Length        | 755.17   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 44.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3598.96 |
-| Mean Episode Length        | 782.83   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.40m    |
+| Mean Reward                | -3705.80 |
+| Mean Episode Length        | 746.86   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 45.00%   |
-| Mean Incompletion Distance | 0.27m    |
-| Mean Reward                | -3658.73 |
-| Mean Episode Length        | 782.53   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.43m    |
+| Mean Reward                | -3796.89 |
+| Mean Episode Length        | 751.85   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 43.00%   |
-| Mean Incompletion Distance | 0.27m    |
-| Mean Reward                | -3587.21 |
-| Mean Episode Length        | 769.95   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.46m    |
+| Mean Reward                | -3827.82 |
+| Mean Episode Length        | 753.45   |
 ---
 
 ### $\mu = 0.06$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
+| Success Rate               | 1.00%    |
 | Collision Rate             | 44.00%   |
-| Mean Incompletion Distance | 0.29m    |
-| Mean Reward                | -3631.68 |
-| Mean Episode Length        | 757.42   |
+| Mean Incompletion Distance | 0.48m    |
+| Mean Reward                | -3835.81 |
+| Mean Episode Length        | 736.57   |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 68.00%  |
-| Collision Rate             | 32.00%  |
+| Success Rate               | 77.00%  |
+| Collision Rate             | 23.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -695.04 |
-| Mean Episode Length        | 268.34  |
+| Mean Reward                | -621.52 |
+| Mean Episode Length        | 293.56  |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 68.00%  |
-| Collision Rate             | 32.00%  |
+| Success Rate               | 79.00%  |
+| Collision Rate             | 21.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -702.83 |
-| Mean Episode Length        | 269.86  |
+| Mean Reward                | -595.02 |
+| Mean Episode Length        | 298.17  |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 67.00%  |
-| Collision Rate             | 33.00%  |
+| Success Rate               | 76.00%  |
+| Collision Rate             | 24.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -738.24 |
-| Mean Episode Length        | 273.75  |
+| Mean Reward                | -698.19 |
+| Mean Episode Length        | 311.33  |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 69.00%  |
-| Collision Rate             | 31.00%  |
+| Success Rate               | 70.00%  |
+| Collision Rate             | 30.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -754.69 |
-| Mean Episode Length        | 287.54  |
+| Mean Reward                | -844.34 |
+| Mean Episode Length        | 318.93  |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 0.4$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 68.00%  |
-| Collision Rate             | 32.00%  |
+| Success Rate               | 71.00%  |
+| Collision Rate             | 29.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -827.02 |
-| Mean Episode Length        | 300.92  |
+| Mean Reward                | -940.05 |
+| Mean Episode Length        | 355.62  |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 0.5$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -929.86 |
-| Mean Episode Length        | 317.43  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 70.00%   |
+| Collision Rate             | 30.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1100.51 |
+| Mean Episode Length        | 395.6    |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 63.00%   |
-| Collision Rate             | 37.00%   |
+| Success Rate               | 66.00%   |
+| Collision Rate             | 34.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1060.96 |
-| Mean Episode Length        | 334.64   |
+| Mean Reward                | -1246.98 |
+| Mean Episode Length        | 415.8    |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 67.00%   |
-| Collision Rate             | 33.00%   |
+| Success Rate               | 65.00%   |
+| Collision Rate             | 35.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1079.99 |
-| Mean Episode Length        | 363.06   |
+| Mean Reward                | -1398.24 |
+| Mean Episode Length        | 451.1    |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 61.00%   |
-| Collision Rate             | 39.00%   |
+| Success Rate               | 63.00%   |
+| Collision Rate             | 37.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1272.63 |
-| Mean Episode Length        | 380.35   |
+| Mean Reward                | -1617.86 |
+| Mean Episode Length        | 499.02   |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 63.00%   |
-| Collision Rate             | 37.00%   |
+| Success Rate               | 59.00%   |
+| Collision Rate             | 41.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1320.61 |
-| Mean Episode Length        | 397.97   |
+| Mean Reward                | -1741.31 |
+| Mean Episode Length        | 517.28   |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 66.00%   |
-| Collision Rate             | 34.00%   |
+| Success Rate               | 52.00%   |
+| Collision Rate             | 48.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1355.68 |
-| Mean Episode Length        | 428.49   |
+| Mean Reward                | -2006.39 |
+| Mean Episode Length        | 546.74   |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 58.00%   |
-| Collision Rate             | 42.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1569.13 |
-| Mean Episode Length        | 439.51   |
+| Success Rate               | 50.00%   |
+| Collision Rate             | 47.00%   |
+| Mean Incompletion Distance | 0.15m    |
+| Mean Reward                | -2134.78 |
+| Mean Episode Length        | 587.7    |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 54.00%   |
-| Collision Rate             | 46.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1715.60 |
-| Mean Episode Length        | 447.97   |
+| Success Rate               | 44.00%   |
+| Collision Rate             | 52.00%   |
+| Mean Incompletion Distance | 0.16m    |
+| Mean Reward                | -2325.73 |
+| Mean Episode Length        | 615.32   |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 49.00%   |
+| Success Rate               | 45.00%   |
 | Collision Rate             | 51.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1910.87 |
-| Mean Episode Length        | 479.48   |
+| Mean Incompletion Distance | 0.14m    |
+| Mean Reward                | -2428.83 |
+| Mean Episode Length        | 639.75   |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 50.00%   |
-| Collision Rate             | 50.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2026.53 |
-| Mean Episode Length        | 512.86   |
+| Success Rate               | 35.00%   |
+| Collision Rate             | 52.00%   |
+| Mean Incompletion Distance | 0.15m    |
+| Mean Reward                | -2661.34 |
+| Mean Episode Length        | 679.41   |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 43.00%   |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2147.60 |
-| Mean Episode Length        | 505.16   |
+| Success Rate               | 36.00%   |
+| Collision Rate             | 51.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2692.31 |
+| Mean Episode Length        | 676.92   |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 43.00%   |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2273.62 |
-| Mean Episode Length        | 536.75   |
+| Success Rate               | 29.00%   |
+| Collision Rate             | 47.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2876.51 |
+| Mean Episode Length        | 727.18   |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 40.00%   |
-| Collision Rate             | 60.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2445.90 |
-| Mean Episode Length        | 569.51   |
+| Success Rate               | 22.00%   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2936.05 |
+| Mean Episode Length        | 735.44   |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 42.00%   |
-| Collision Rate             | 58.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2528.48 |
-| Mean Episode Length        | 601.16   |
+| Success Rate               | 15.00%   |
+| Collision Rate             | 46.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -3066.88 |
+| Mean Episode Length        | 720.46   |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 34.00%   |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -2770.71 |
-| Mean Episode Length        | 619.51   |
+| Success Rate               | 14.00%   |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.23m    |
+| Mean Reward                | -3143.65 |
+| Mean Episode Length        | 744.28   |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 33.00%   |
-| Collision Rate             | 60.00%   |
-| Mean Incompletion Distance | 0.16m    |
-| Mean Reward                | -2840.34 |
-| Mean Episode Length        | 668.08   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -3349.22 |
+| Mean Episode Length        | 754.4    |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 33.00%   |
-| Collision Rate             | 58.00%   |
-| Mean Incompletion Distance | 0.16m    |
-| Mean Reward                | -2891.85 |
-| Mean Episode Length        | 679.29   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.26m    |
+| Mean Reward                | -3395.86 |
+| Mean Episode Length        | 759.13   |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 25.00%   |
-| Collision Rate             | 62.00%   |
-| Mean Incompletion Distance | 0.17m    |
-| Mean Reward                | -3042.62 |
-| Mean Episode Length        | 685.21   |
+| Success Rate               | 3.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.27m    |
+| Mean Reward                | -3474.59 |
+| Mean Episode Length        | 754.52   |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 64.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3391.29 |
-| Mean Episode Length        | 727.23   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.31m    |
+| Mean Reward                | -3549.65 |
+| Mean Episode Length        | 744.6    |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 21.00%   |
-| Collision Rate             | 55.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3230.05 |
-| Mean Episode Length        | 721.41   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.33m    |
+| Mean Reward                | -3621.17 |
+| Mean Episode Length        | 766.43   |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 15.00%   |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3401.48 |
-| Mean Episode Length        | 742.29   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.37m    |
+| Mean Reward                | -3628.11 |
+| Mean Episode Length        | 739.7    |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 44.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3429.27 |
-| Mean Episode Length        | 777.07   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.39m    |
+| Mean Reward                | -3643.56 |
+| Mean Episode Length        | 749.51   |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 8.00%    |
-| Collision Rate             | 51.00%   |
-| Mean Incompletion Distance | 0.24m    |
-| Mean Reward                | -3405.26 |
-| Mean Episode Length        | 727.08   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.40m    |
+| Mean Reward                | -3726.43 |
+| Mean Episode Length        | 737.33   |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 8.00%    |
-| Collision Rate             | 42.00%   |
-| Mean Incompletion Distance | 0.28m    |
-| Mean Reward                | -3556.10 |
-| Mean Episode Length        | 784.22   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.40m    |
+| Mean Reward                | -3730.15 |
+| Mean Episode Length        | 739.17   |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 46.00%   |
-| Mean Incompletion Distance | 0.28m    |
-| Mean Reward                | -3626.44 |
-| Mean Episode Length        | 760.01   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.44m    |
+| Mean Reward                | -3793.80 |
+| Mean Episode Length        | 742.26   |
 ---
 
 ### $\mu = 0.07$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 45.00%   |
-| Mean Incompletion Distance | 0.31m    |
-| Mean Reward                | -3654.59 |
-| Mean Episode Length        | 765.98   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.48m    |
+| Mean Reward                | -3907.08 |
+| Mean Episode Length        | 778.52   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 65.00%  |
-| Collision Rate             | 35.00%  |
+| Success Rate               | 77.00%  |
+| Collision Rate             | 23.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -741.50 |
-| Mean Episode Length        | 264.74  |
+| Mean Reward                | -604.35 |
+| Mean Episode Length        | 290.98  |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 67.00%  |
-| Collision Rate             | 33.00%  |
+| Success Rate               | 75.00%  |
+| Collision Rate             | 25.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -730.87 |
-| Mean Episode Length        | 272.01  |
+| Mean Reward                | -658.16 |
+| Mean Episode Length        | 295.09  |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 67.00%  |
-| Collision Rate             | 33.00%  |
+| Success Rate               | 74.00%  |
+| Collision Rate             | 26.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -736.20 |
-| Mean Episode Length        | 273.0   |
+| Mean Reward                | -727.75 |
+| Mean Episode Length        | 308.04  |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 68.00%  |
-| Collision Rate             | 32.00%  |
+| Success Rate               | 75.00%  |
+| Collision Rate             | 25.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -760.09 |
-| Mean Episode Length        | 283.92  |
+| Mean Reward                | -790.45 |
+| Mean Episode Length        | 334.61  |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 0.4$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
+| Success Rate               | 71.00%  |
+| Collision Rate             | 29.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -849.05 |
-| Mean Episode Length        | 295.43  |
+| Mean Reward                | -953.53 |
+| Mean Episode Length        | 360.49  |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 0.5$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -913.92 |
-| Mean Episode Length        | 311.23  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 68.00%   |
+| Collision Rate             | 32.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1120.34 |
+| Mean Episode Length        | 391.45   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -989.59 |
-| Mean Episode Length        | 333.12  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 71.00%   |
+| Collision Rate             | 29.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1217.28 |
+| Mean Episode Length        | 434.39   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 65.00%   |
-| Collision Rate             | 35.00%   |
+| Success Rate               | 60.00%   |
+| Collision Rate             | 40.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1109.61 |
-| Mean Episode Length        | 357.27   |
+| Mean Reward                | -1481.87 |
+| Mean Episode Length        | 446.17   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 62.00%   |
-| Collision Rate             | 38.00%   |
+| Success Rate               | 66.00%   |
+| Collision Rate             | 34.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1208.85 |
-| Mean Episode Length        | 366.76   |
+| Mean Reward                | -1572.74 |
+| Mean Episode Length        | 505.45   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 63.00%   |
-| Collision Rate             | 37.00%   |
+| Success Rate               | 62.00%   |
+| Collision Rate             | 38.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1304.55 |
-| Mean Episode Length        | 398.14   |
+| Mean Reward                | -1695.67 |
+| Mean Episode Length        | 519.37   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 61.00%   |
-| Collision Rate             | 39.00%   |
+| Success Rate               | 52.00%   |
+| Collision Rate             | 48.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1368.49 |
-| Mean Episode Length        | 406.03   |
+| Mean Reward                | -2014.53 |
+| Mean Episode Length        | 551.95   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 57.00%   |
-| Collision Rate             | 43.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1576.73 |
-| Mean Episode Length        | 442.1    |
+| Success Rate               | 52.00%   |
+| Collision Rate             | 46.00%   |
+| Mean Incompletion Distance | 0.16m    |
+| Mean Reward                | -2080.71 |
+| Mean Episode Length        | 584.63   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 51.00%   |
-| Collision Rate             | 49.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1773.79 |
-| Mean Episode Length        | 452.74   |
+| Success Rate               | 48.00%   |
+| Collision Rate             | 50.00%   |
+| Mean Incompletion Distance | 0.12m    |
+| Mean Reward                | -2318.69 |
+| Mean Episode Length        | 628.61   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 52.00%   |
-| Collision Rate             | 48.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1842.17 |
-| Mean Episode Length        | 476.7    |
+| Success Rate               | 45.00%   |
+| Collision Rate             | 50.00%   |
+| Mean Incompletion Distance | 0.16m    |
+| Mean Reward                | -2400.27 |
+| Mean Episode Length        | 642.04   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 45.00%   |
-| Collision Rate             | 55.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2058.28 |
-| Mean Episode Length        | 496.28   |
+| Success Rate               | 39.00%   |
+| Collision Rate             | 50.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2566.96 |
+| Mean Episode Length        | 663.39   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 47.00%   |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2113.43 |
-| Mean Episode Length        | 516.06   |
+| Success Rate               | 34.00%   |
+| Collision Rate             | 48.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2798.71 |
+| Mean Episode Length        | 711.11   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 41.00%   |
-| Collision Rate             | 59.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2352.28 |
-| Mean Episode Length        | 550.79   |
+| Success Rate               | 28.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2835.86 |
+| Mean Episode Length        | 725.04   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 43.00%   |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2381.47 |
-| Mean Episode Length        | 568.96   |
+| Success Rate               | 21.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2941.83 |
+| Mean Episode Length        | 728.09   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 39.00%   |
-| Collision Rate             | 61.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2530.10 |
-| Mean Episode Length        | 597.72   |
+| Success Rate               | 18.00%   |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -3027.37 |
+| Mean Episode Length        | 743.95   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 38.00%   |
-| Collision Rate             | 60.00%   |
-| Mean Incompletion Distance | 0.14m    |
-| Mean Reward                | -2662.47 |
-| Mean Episode Length        | 628.02   |
+| Success Rate               | 9.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -3260.47 |
+| Mean Episode Length        | 741.93   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 38.00%   |
-| Collision Rate             | 60.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -2708.87 |
-| Mean Episode Length        | 635.19   |
+| Success Rate               | 8.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.25m    |
+| Mean Reward                | -3337.75 |
+| Mean Episode Length        | 773.3    |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 23.00%   |
-| Collision Rate             | 66.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -3037.52 |
-| Mean Episode Length        | 673.26   |
+| Success Rate               | 3.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.26m    |
+| Mean Reward                | -3397.93 |
+| Mean Episode Length        | 751.71   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 30.00%   |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | 0.17m    |
-| Mean Reward                | -2976.12 |
-| Mean Episode Length        | 694.9    |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.29m    |
+| Mean Reward                | -3415.86 |
+| Mean Episode Length        | 746.77   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 20.00%   |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -3205.89 |
-| Mean Episode Length        | 738.88   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.33m    |
+| Mean Reward                | -3555.32 |
+| Mean Episode Length        | 762.52   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 19.00%   |
-| Collision Rate             | 52.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -3251.75 |
-| Mean Episode Length        | 744.55   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.34m    |
+| Mean Reward                | -3637.45 |
+| Mean Episode Length        | 774.88   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 9.00%    |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3382.79 |
-| Mean Episode Length        | 741.09   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.38m    |
+| Mean Reward                | -3730.17 |
+| Mean Episode Length        | 770.94   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 9.00%    |
-| Collision Rate             | 50.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3487.86 |
-| Mean Episode Length        | 766.29   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.40m    |
+| Mean Reward                | -3686.26 |
+| Mean Episode Length        | 758.53   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 8.00%    |
-| Collision Rate             | 50.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3455.88 |
-| Mean Episode Length        | 748.68   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.43m    |
+| Mean Reward                | -3860.68 |
+| Mean Episode Length        | 781.55   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 8.00%    |
-| Collision Rate             | 47.00%   |
-| Mean Incompletion Distance | 0.27m    |
-| Mean Reward                | -3562.97 |
-| Mean Episode Length        | 774.52   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.44m    |
+| Mean Reward                | -3840.26 |
+| Mean Episode Length        | 766.62   |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 45.00%   |
-| Mean Incompletion Distance | 0.27m    |
-| Mean Reward                | -3699.96 |
-| Mean Episode Length        | 790.34   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.46m    |
+| Mean Reward                | -3831.77 |
+| Mean Episode Length        | 773.6    |
 ---
 
 ### $\mu = 0.08$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 47.00%   |
-| Mean Incompletion Distance | 0.28m    |
-| Mean Reward                | -3712.00 |
-| Mean Episode Length        | 770.13   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.47m    |
+| Mean Reward                | -3874.35 |
+| Mean Episode Length        | 747.04   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 67.00%  |
-| Collision Rate             | 33.00%  |
+| Success Rate               | 75.00%  |
+| Collision Rate             | 25.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -711.56 |
-| Mean Episode Length        | 266.74  |
+| Mean Reward                | -648.27 |
+| Mean Episode Length        | 290.89  |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
+| Success Rate               | 74.00%  |
+| Collision Rate             | 26.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -739.11 |
-| Mean Episode Length        | 268.63  |
+| Mean Reward                | -668.00 |
+| Mean Episode Length        | 292.11  |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 65.00%  |
-| Collision Rate             | 35.00%  |
+| Success Rate               | 74.00%  |
+| Collision Rate             | 26.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -765.80 |
-| Mean Episode Length        | 271.23  |
+| Mean Reward                | -723.03 |
+| Mean Episode Length        | 308.56  |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 67.00%  |
-| Collision Rate             | 33.00%  |
+| Success Rate               | 71.00%  |
+| Collision Rate             | 29.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -768.46 |
-| Mean Episode Length        | 280.92  |
+| Mean Reward                | -841.32 |
+| Mean Episode Length        | 327.54  |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 0.4$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 69.00%  |
-| Collision Rate             | 31.00%  |
+| Success Rate               | 72.00%  |
+| Collision Rate             | 28.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -800.85 |
-| Mean Episode Length        | 298.92  |
+| Mean Reward                | -922.04 |
+| Mean Episode Length        | 363.23  |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 0.5$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 67.00%  |
-| Collision Rate             | 33.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -904.56 |
-| Mean Episode Length        | 314.76  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 66.00%   |
+| Collision Rate             | 34.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1165.93 |
+| Mean Episode Length        | 393.25   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 65.00%   |
-| Collision Rate             | 35.00%   |
+| Success Rate               | 67.00%   |
+| Collision Rate             | 33.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1006.64 |
-| Mean Episode Length        | 332.17   |
+| Mean Reward                | -1282.49 |
+| Mean Episode Length        | 432.14   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 65.00%   |
-| Collision Rate             | 35.00%   |
+| Success Rate               | 62.00%   |
+| Collision Rate             | 38.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1059.97 |
-| Mean Episode Length        | 346.17   |
+| Mean Reward                | -1486.61 |
+| Mean Episode Length        | 457.81   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 65.00%   |
-| Collision Rate             | 35.00%   |
+| Success Rate               | 61.00%   |
+| Collision Rate             | 39.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1177.91 |
-| Mean Episode Length        | 378.02   |
+| Mean Reward                | -1602.15 |
+| Mean Episode Length        | 488.07   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 65.00%   |
-| Collision Rate             | 35.00%   |
+| Success Rate               | 59.00%   |
+| Collision Rate             | 41.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1232.89 |
-| Mean Episode Length        | 395.13   |
+| Mean Reward                | -1776.78 |
+| Mean Episode Length        | 519.14   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 58.00%   |
-| Collision Rate             | 42.00%   |
+| Success Rate               | 54.00%   |
+| Collision Rate             | 46.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1449.73 |
-| Mean Episode Length        | 412.25   |
+| Mean Reward                | -1969.12 |
+| Mean Episode Length        | 539.72   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 52.00%   |
-| Collision Rate             | 48.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1616.87 |
-| Mean Episode Length        | 420.88   |
+| Success Rate               | 49.00%   |
+| Collision Rate             | 50.00%   |
+| Mean Incompletion Distance | 0.16m    |
+| Mean Reward                | -2205.92 |
+| Mean Episode Length        | 590.78   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 48.00%   |
-| Collision Rate             | 52.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1822.52 |
-| Mean Episode Length        | 452.83   |
+| Success Rate               | 51.00%   |
+| Collision Rate             | 46.00%   |
+| Mean Incompletion Distance | 0.14m    |
+| Mean Reward                | -2257.20 |
+| Mean Episode Length        | 625.63   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 55.00%   |
-| Collision Rate             | 45.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1755.74 |
-| Mean Episode Length        | 469.45   |
+| Success Rate               | 45.00%   |
+| Collision Rate             | 47.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2450.04 |
+| Mean Episode Length        | 657.18   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 44.00%   |
-| Collision Rate             | 56.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2044.83 |
-| Mean Episode Length        | 484.34   |
+| Success Rate               | 40.00%   |
+| Collision Rate             | 49.00%   |
+| Mean Incompletion Distance | 0.15m    |
+| Mean Reward                | -2580.62 |
+| Mean Episode Length        | 671.65   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 44.00%   |
-| Collision Rate             | 56.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2141.53 |
-| Mean Episode Length        | 514.31   |
+| Success Rate               | 40.00%   |
+| Collision Rate             | 46.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2592.28 |
+| Mean Episode Length        | 685.42   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 43.00%   |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2252.63 |
-| Mean Episode Length        | 538.87   |
+| Success Rate               | 33.00%   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2774.64 |
+| Mean Episode Length        | 730.07   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 39.00%   |
-| Collision Rate             | 61.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2419.41 |
-| Mean Episode Length        | 558.63   |
+| Success Rate               | 19.00%   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -3022.26 |
+| Mean Episode Length        | 747.38   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 38.00%   |
-| Collision Rate             | 62.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2556.32 |
-| Mean Episode Length        | 588.91   |
+| Success Rate               | 10.00%   |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -3100.04 |
+| Mean Episode Length        | 741.97   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 35.00%   |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2662.94 |
-| Mean Episode Length        | 602.32   |
+| Success Rate               | 10.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -3185.87 |
+| Mean Episode Length        | 739.65   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 34.00%   |
-| Collision Rate             | 64.00%   |
-| Mean Incompletion Distance | 0.14m    |
-| Mean Reward                | -2790.49 |
-| Mean Episode Length        | 640.88   |
+| Success Rate               | 9.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.25m    |
+| Mean Reward                | -3297.74 |
+| Mean Episode Length        | 767.48   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 34.00%   |
-| Collision Rate             | 60.00%   |
-| Mean Incompletion Distance | 0.17m    |
-| Mean Reward                | -2829.28 |
-| Mean Episode Length        | 664.72   |
+| Success Rate               | 5.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.26m    |
+| Mean Reward                | -3331.70 |
+| Mean Episode Length        | 744.14   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 26.00%   |
-| Collision Rate             | 64.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -3055.54 |
-| Mean Episode Length        | 694.63   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.29m    |
+| Mean Reward                | -3468.56 |
+| Mean Episode Length        | 747.8    |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 23.00%   |
-| Collision Rate             | 56.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -3137.64 |
-| Mean Episode Length        | 728.67   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.32m    |
+| Mean Reward                | -3545.47 |
+| Mean Episode Length        | 767.42   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 16.00%   |
-| Collision Rate             | 56.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3261.12 |
-| Mean Episode Length        | 728.09   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.35m    |
+| Mean Reward                | -3593.32 |
+| Mean Episode Length        | 759.21   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 11.00%   |
-| Collision Rate             | 49.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3367.08 |
-| Mean Episode Length        | 763.48   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.38m    |
+| Mean Reward                | -3727.27 |
+| Mean Episode Length        | 771.55   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | 0.24m    |
-| Mean Reward                | -3462.97 |
-| Mean Episode Length        | 749.75   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.40m    |
+| Mean Reward                | -3665.47 |
+| Mean Episode Length        | 756.53   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 46.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3551.35 |
-| Mean Episode Length        | 775.68   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.43m    |
+| Mean Reward                | -3731.52 |
+| Mean Episode Length        | 756.84   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 51.00%   |
-| Mean Incompletion Distance | 0.25m    |
-| Mean Reward                | -3633.37 |
-| Mean Episode Length        | 760.45   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.44m    |
+| Mean Reward                | -3796.05 |
+| Mean Episode Length        | 764.74   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 47.00%   |
-| Mean Incompletion Distance | 0.27m    |
-| Mean Reward                | -3610.19 |
-| Mean Episode Length        | 767.72   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.46m    |
+| Mean Reward                | -3853.82 |
+| Mean Episode Length        | 751.48   |
 ---
 
 ### $\mu = 0.09$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
+| Success Rate               | 0.00%    |
 | Collision Rate             | 41.00%   |
-| Mean Incompletion Distance | 0.29m    |
-| Mean Reward                | -3648.28 |
-| Mean Episode Length        | 784.73   |
+| Mean Incompletion Distance | 0.49m    |
+| Mean Reward                | -3900.71 |
+| Mean Episode Length        | 762.48   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 69.00%  |
-| Collision Rate             | 31.00%  |
+| Success Rate               | 75.00%  |
+| Collision Rate             | 25.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -682.10 |
-| Mean Episode Length        | 268.77  |
+| Mean Reward                | -646.07 |
+| Mean Episode Length        | 291.13  |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 65.00%  |
-| Collision Rate             | 35.00%  |
+| Success Rate               | 71.00%  |
+| Collision Rate             | 29.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -743.42 |
-| Mean Episode Length        | 264.56  |
+| Mean Reward                | -712.27 |
+| Mean Episode Length        | 287.8   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 65.00%  |
-| Collision Rate             | 35.00%  |
+| Success Rate               | 72.00%  |
+| Collision Rate             | 28.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -763.35 |
-| Mean Episode Length        | 270.43  |
+| Mean Reward                | -759.62 |
+| Mean Episode Length        | 308.2   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 65.00%  |
-| Collision Rate             | 35.00%  |
+| Success Rate               | 69.00%  |
+| Collision Rate             | 31.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -792.89 |
-| Mean Episode Length        | 277.64  |
+| Mean Reward                | -873.11 |
+| Mean Episode Length        | 327.15  |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 0.4$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 65.00%  |
-| Collision Rate             | 35.00%  |
+| Success Rate               | 71.00%  |
+| Collision Rate             | 29.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -861.66 |
-| Mean Episode Length        | 294.38  |
+| Mean Reward                | -978.56 |
+| Mean Episode Length        | 369.53  |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 0.5$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 67.00%  |
-| Collision Rate             | 33.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -883.29 |
-| Mean Episode Length        | 308.49  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 63.00%   |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1221.59 |
+| Mean Episode Length        | 392.67   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 63.00%   |
-| Collision Rate             | 37.00%   |
+| Success Rate               | 67.00%   |
+| Collision Rate             | 33.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1015.31 |
-| Mean Episode Length        | 325.65   |
+| Mean Reward                | -1265.48 |
+| Mean Episode Length        | 428.42   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 63.00%   |
-| Collision Rate             | 37.00%   |
+| Success Rate               | 65.00%   |
+| Collision Rate             | 35.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1088.17 |
-| Mean Episode Length        | 344.25   |
+| Mean Reward                | -1469.72 |
+| Mean Episode Length        | 473.29   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 63.00%   |
-| Collision Rate             | 37.00%   |
+| Success Rate               | 60.00%   |
+| Collision Rate             | 40.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1156.48 |
-| Mean Episode Length        | 361.18   |
+| Mean Reward                | -1712.85 |
+| Mean Episode Length        | 507.6    |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 64.00%   |
-| Collision Rate             | 36.00%   |
+| Success Rate               | 57.00%   |
+| Collision Rate             | 43.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1238.14 |
-| Mean Episode Length        | 387.72   |
+| Mean Reward                | -1826.78 |
+| Mean Episode Length        | 520.91   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 53.00%   |
-| Collision Rate             | 47.00%   |
+| Success Rate               | 57.00%   |
+| Collision Rate             | 43.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1547.03 |
-| Mean Episode Length        | 410.56   |
+| Mean Reward                | -1913.53 |
+| Mean Episode Length        | 551.91   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 55.00%   |
+| Success Rate               | 54.00%   |
 | Collision Rate             | 45.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1579.03 |
-| Mean Episode Length        | 424.43   |
+| Mean Incompletion Distance | 0.14m    |
+| Mean Reward                | -2092.32 |
+| Mean Episode Length        | 589.49   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 51.00%   |
-| Collision Rate             | 49.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1726.02 |
-| Mean Episode Length        | 441.83   |
+| Success Rate               | 49.00%   |
+| Collision Rate             | 47.00%   |
+| Mean Incompletion Distance | 0.14m    |
+| Mean Reward                | -2306.97 |
+| Mean Episode Length        | 634.49   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 47.00%   |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1921.51 |
-| Mean Episode Length        | 472.93   |
+| Success Rate               | 46.00%   |
+| Collision Rate             | 47.00%   |
+| Mean Incompletion Distance | 0.14m    |
+| Mean Reward                | -2408.00 |
+| Mean Episode Length        | 651.26   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
@@ -3573,10 +3573,10 @@ mus = [0.   0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1  0.11 0.12 0.13
 | Metric                     | Value    |
 |----------------------------|----------|
 | Success Rate               | 41.00%   |
-| Collision Rate             | 59.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2052.00 |
-| Mean Episode Length        | 476.54   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.14m    |
+| Mean Reward                | -2600.15 |
+| Mean Episode Length        | 704.02   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 1.5$ | Denoiser = `None`
@@ -3584,252 +3584,252 @@ mus = [0.   0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1  0.11 0.12 0.13
 | Metric                     | Value    |
 |----------------------------|----------|
 | Success Rate               | 38.00%   |
-| Collision Rate             | 62.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2251.69 |
-| Mean Episode Length        | 510.85   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2624.92 |
+| Mean Episode Length        | 701.13   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 37.00%   |
-| Collision Rate             | 63.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2304.80 |
-| Mean Episode Length        | 515.63   |
+| Success Rate               | 29.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2861.16 |
+| Mean Episode Length        | 730.2    |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 39.00%   |
-| Collision Rate             | 61.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2419.08 |
-| Mean Episode Length        | 568.11   |
+| Success Rate               | 23.00%   |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2993.92 |
+| Mean Episode Length        | 739.18   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 38.00%   |
-| Collision Rate             | 61.00%   |
-| Mean Incompletion Distance | 0.10m    |
-| Mean Reward                | -2485.86 |
-| Mean Episode Length        | 575.22   |
+| Success Rate               | 17.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -3104.67 |
+| Mean Episode Length        | 750.98   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 34.00%   |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | 0.14m    |
-| Mean Reward                | -2663.94 |
-| Mean Episode Length        | 601.7    |
+| Success Rate               | 10.00%   |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -3198.53 |
+| Mean Episode Length        | 749.04   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 29.00%   |
-| Collision Rate             | 66.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -2835.07 |
-| Mean Episode Length        | 630.83   |
+| Success Rate               | 3.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.25m    |
+| Mean Reward                | -3423.82 |
+| Mean Episode Length        | 763.16   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 28.00%   |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | 0.17m    |
-| Mean Reward                | -2963.00 |
-| Mean Episode Length        | 672.65   |
+| Success Rate               | 3.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.29m    |
+| Mean Reward                | -3497.56 |
+| Mean Episode Length        | 771.97   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 21.00%   |
-| Collision Rate             | 66.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -3177.08 |
-| Mean Episode Length        | 701.27   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.30m    |
+| Mean Reward                | -3530.78 |
+| Mean Episode Length        | 773.68   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 64.00%   |
-| Mean Incompletion Distance | 0.17m    |
-| Mean Reward                | -3241.98 |
-| Mean Episode Length        | 719.53   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.32m    |
+| Mean Reward                | -3573.37 |
+| Mean Episode Length        | 757.47   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 15.00%   |
-| Collision Rate             | 58.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3237.25 |
-| Mean Episode Length        | 719.67   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.35m    |
+| Mean Reward                | -3597.91 |
+| Mean Episode Length        | 758.37   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 14.00%   |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3381.56 |
-| Mean Episode Length        | 761.45   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.39m    |
+| Mean Reward                | -3722.93 |
+| Mean Episode Length        | 781.62   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 12.00%   |
-| Collision Rate             | 52.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3379.13 |
-| Mean Episode Length        | 752.02   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.41m    |
+| Mean Reward                | -3758.39 |
+| Mean Episode Length        | 763.62   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 8.00%    |
-| Collision Rate             | 48.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3502.06 |
-| Mean Episode Length        | 777.39   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 34.00%   |
+| Mean Incompletion Distance | 0.44m    |
+| Mean Reward                | -3827.09 |
+| Mean Episode Length        | 780.89   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 48.00%   |
-| Mean Incompletion Distance | 0.24m    |
-| Mean Reward                | -3541.13 |
-| Mean Episode Length        | 773.59   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.46m    |
+| Mean Reward                | -3815.42 |
+| Mean Episode Length        | 753.43   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 49.00%   |
-| Mean Incompletion Distance | 0.26m    |
-| Mean Reward                | -3609.57 |
-| Mean Episode Length        | 762.48   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.48m    |
+| Mean Reward                | -3843.75 |
+| Mean Episode Length        | 767.83   |
 ---
 
 ### $\mu = 0.1$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 44.00%   |
-| Mean Incompletion Distance | 0.28m    |
-| Mean Reward                | -3570.80 |
-| Mean Episode Length        | 767.23   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.50m    |
+| Mean Reward                | -3869.43 |
+| Mean Episode Length        | 741.12   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 65.00%  |
-| Collision Rate             | 35.00%  |
+| Success Rate               | 73.00%  |
+| Collision Rate             | 27.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -736.41 |
-| Mean Episode Length        | 262.76  |
+| Mean Reward                | -663.83 |
+| Mean Episode Length        | 286.42  |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 67.00%  |
-| Collision Rate             | 33.00%  |
+| Success Rate               | 72.00%  |
+| Collision Rate             | 28.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -714.50 |
-| Mean Episode Length        | 267.36  |
+| Mean Reward                | -698.66 |
+| Mean Episode Length        | 290.21  |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
+| Success Rate               | 72.00%  |
+| Collision Rate             | 28.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -749.01 |
-| Mean Episode Length        | 271.73  |
+| Mean Reward                | -742.14 |
+| Mean Episode Length        | 304.16  |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 64.00%  |
-| Collision Rate             | 36.00%  |
+| Success Rate               | 69.00%  |
+| Collision Rate             | 31.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -813.91 |
-| Mean Episode Length        | 278.21  |
+| Mean Reward                | -877.90 |
+| Mean Episode Length        | 329.25  |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 0.4$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 65.00%  |
-| Collision Rate             | 35.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -844.67 |
-| Mean Episode Length        | 290.15  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 67.00%   |
+| Collision Rate             | 33.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1020.50 |
+| Mean Episode Length        | 362.24   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 0.5$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -886.65 |
-| Mean Episode Length        | 305.72  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 67.00%   |
+| Collision Rate             | 33.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1154.78 |
+| Mean Episode Length        | 400.17   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 63.00%   |
-| Collision Rate             | 37.00%   |
+| Success Rate               | 66.00%   |
+| Collision Rate             | 34.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1009.63 |
-| Mean Episode Length        | 323.32   |
+| Mean Reward                | -1318.50 |
+| Mean Episode Length        | 439.29   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
@@ -3839,30 +3839,30 @@ mus = [0.   0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1  0.11 0.12 0.13
 | Success Rate               | 62.00%   |
 | Collision Rate             | 38.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1126.58 |
-| Mean Episode Length        | 349.01   |
+| Mean Reward                | -1476.16 |
+| Mean Episode Length        | 455.09   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 56.00%   |
-| Collision Rate             | 44.00%   |
+| Success Rate               | 59.00%   |
+| Collision Rate             | 41.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1293.31 |
-| Mean Episode Length        | 362.02   |
+| Mean Reward                | -1733.29 |
+| Mean Episode Length        | 512.43   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 60.00%   |
-| Collision Rate             | 40.00%   |
+| Success Rate               | 61.00%   |
+| Collision Rate             | 39.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1304.87 |
-| Mean Episode Length        | 382.29   |
+| Mean Reward                | -1800.12 |
+| Mean Episode Length        | 537.65   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 1.0$ | Denoiser = `None`
@@ -3870,263 +3870,263 @@ mus = [0.   0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1  0.11 0.12 0.13
 | Metric                     | Value    |
 |----------------------------|----------|
 | Success Rate               | 56.00%   |
-| Collision Rate             | 44.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1488.61 |
-| Mean Episode Length        | 414.2    |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.15m    |
+| Mean Reward                | -1961.65 |
+| Mean Episode Length        | 560.93   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 56.00%   |
-| Collision Rate             | 44.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1522.18 |
-| Mean Episode Length        | 415.34   |
+| Success Rate               | 58.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2026.58 |
+| Mean Episode Length        | 592.93   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 47.00%   |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1778.13 |
-| Mean Episode Length        | 432.71   |
+| Success Rate               | 48.00%   |
+| Collision Rate             | 48.00%   |
+| Mean Incompletion Distance | 0.15m    |
+| Mean Reward                | -2404.66 |
+| Mean Episode Length        | 655.75   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 44.00%   |
-| Collision Rate             | 56.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1945.21 |
-| Mean Episode Length        | 463.81   |
+| Success Rate               | 47.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.14m    |
+| Mean Reward                | -2376.88 |
+| Mean Episode Length        | 663.05   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 42.00%   |
-| Collision Rate             | 58.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2090.80 |
-| Mean Episode Length        | 494.18   |
+| Success Rate               | 41.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2565.33 |
+| Mean Episode Length        | 679.96   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 37.00%   |
-| Collision Rate             | 63.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2252.23 |
-| Mean Episode Length        | 504.98   |
+| Success Rate               | 39.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2736.07 |
+| Mean Episode Length        | 725.13   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 39.00%   |
-| Collision Rate             | 61.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2301.37 |
-| Mean Episode Length        | 531.98   |
+| Success Rate               | 30.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2855.92 |
+| Mean Episode Length        | 733.36   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 33.00%   |
-| Collision Rate             | 67.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2500.47 |
-| Mean Episode Length        | 545.68   |
+| Success Rate               | 22.00%   |
+| Collision Rate             | 46.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2920.52 |
+| Mean Episode Length        | 702.64   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 32.00%   |
-| Collision Rate             | 68.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2592.33 |
-| Mean Episode Length        | 567.97   |
+| Success Rate               | 15.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.23m    |
+| Mean Reward                | -3091.59 |
+| Mean Episode Length        | 739.05   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 33.00%   |
-| Collision Rate             | 67.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2692.90 |
-| Mean Episode Length        | 609.55   |
+| Success Rate               | 9.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.23m    |
+| Mean Reward                | -3246.44 |
+| Mean Episode Length        | 743.7    |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 30.00%   |
-| Collision Rate             | 69.00%   |
-| Mean Incompletion Distance | 0.10m    |
-| Mean Reward                | -2799.72 |
-| Mean Episode Length        | 616.5    |
+| Success Rate               | 4.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.26m    |
+| Mean Reward                | -3426.68 |
+| Mean Episode Length        | 765.28   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 23.00%   |
-| Collision Rate             | 72.00%   |
-| Mean Incompletion Distance | 0.13m    |
-| Mean Reward                | -3002.79 |
-| Mean Episode Length        | 650.87   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.28m    |
+| Mean Reward                | -3480.63 |
+| Mean Episode Length        | 757.04   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 27.00%   |
-| Collision Rate             | 66.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -2982.40 |
-| Mean Episode Length        | 664.76   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.30m    |
+| Mean Reward                | -3566.50 |
+| Mean Episode Length        | 755.71   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 21.00%   |
-| Collision Rate             | 66.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3202.25 |
-| Mean Episode Length        | 714.94   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.34m    |
+| Mean Reward                | -3643.24 |
+| Mean Episode Length        | 778.22   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 60.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -3246.07 |
-| Mean Episode Length        | 727.54   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.36m    |
+| Mean Reward                | -3644.19 |
+| Mean Episode Length        | 771.72   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 15.00%   |
-| Collision Rate             | 56.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3259.96 |
-| Mean Episode Length        | 722.32   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.38m    |
+| Mean Reward                | -3716.84 |
+| Mean Episode Length        | 758.08   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3411.37 |
-| Mean Episode Length        | 754.53   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.41m    |
+| Mean Reward                | -3741.65 |
+| Mean Episode Length        | 759.43   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 50.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3544.03 |
-| Mean Episode Length        | 777.14   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.43m    |
+| Mean Reward                | -3783.02 |
+| Mean Episode Length        | 772.22   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 46.00%   |
-| Mean Incompletion Distance | 0.25m    |
-| Mean Reward                | -3585.59 |
-| Mean Episode Length        | 779.41   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.46m    |
+| Mean Reward                | -3811.12 |
+| Mean Episode Length        | 771.57   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 41.00%   |
-| Mean Incompletion Distance | 0.27m    |
-| Mean Reward                | -3559.43 |
-| Mean Episode Length        | 782.25   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.47m    |
+| Mean Reward                | -3837.84 |
+| Mean Episode Length        | 744.05   |
 ---
 
 ### $\mu = 0.11$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 48.00%   |
-| Mean Incompletion Distance | 0.27m    |
-| Mean Reward                | -3558.45 |
-| Mean Episode Length        | 749.89   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.49m    |
+| Mean Reward                | -3994.96 |
+| Mean Episode Length        | 799.54   |
 ---
 
 ### $\mu = 0.12$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 65.00%  |
-| Collision Rate             | 35.00%  |
+| Success Rate               | 73.00%  |
+| Collision Rate             | 27.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -741.63 |
-| Mean Episode Length        | 263.44  |
+| Mean Reward                | -665.95 |
+| Mean Episode Length        | 287.22  |
 ---
 
 ### $\mu = 0.12$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 65.00%  |
-| Collision Rate             | 35.00%  |
+| Success Rate               | 72.00%  |
+| Collision Rate             | 28.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -748.50 |
-| Mean Episode Length        | 265.47  |
+| Mean Reward                | -693.00 |
+| Mean Episode Length        | 290.49  |
 ---
 
 ### $\mu = 0.12$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 67.00%  |
-| Collision Rate             | 33.00%  |
+| Success Rate               | 69.00%  |
+| Collision Rate             | 31.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -725.04 |
-| Mean Episode Length        | 270.42  |
+| Mean Reward                | -788.76 |
+| Mean Episode Length        | 301.71  |
 ---
 
 ### $\mu = 0.12$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
@@ -4136,734 +4136,734 @@ mus = [0.   0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1  0.11 0.12 0.13
 | Success Rate               | 67.00%  |
 | Collision Rate             | 33.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -748.23 |
-| Mean Episode Length        | 276.79  |
+| Mean Reward                | -915.33 |
+| Mean Episode Length        | 330.49  |
 ---
 
 ### $\mu = 0.12$ | $\sigma = 0.4$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 64.00%  |
-| Collision Rate             | 36.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -853.59 |
-| Mean Episode Length        | 288.16  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 66.00%   |
+| Collision Rate             | 34.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1063.12 |
+| Mean Episode Length        | 368.3    |
 ---
 
 ### $\mu = 0.12$ | $\sigma = 0.5$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 65.00%  |
-| Collision Rate             | 35.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -893.17 |
-| Mean Episode Length        | 302.67  |
----
-
-### $\mu = 0.12$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 63.00%   |
-| Collision Rate             | 37.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1003.86 |
-| Mean Episode Length        | 322.33   |
----
-
-### $\mu = 0.12$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 63.00%   |
-| Collision Rate             | 37.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1086.51 |
-| Mean Episode Length        | 343.18   |
----
-
-### $\mu = 0.12$ | $\sigma = 0.8$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 60.00%   |
-| Collision Rate             | 40.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1218.07 |
-| Mean Episode Length        | 361.24   |
----
-
-### $\mu = 0.12$ | $\sigma = 0.9$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 55.00%   |
-| Collision Rate             | 45.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1403.48 |
-| Mean Episode Length        | 383.95   |
----
-
-### $\mu = 0.12$ | $\sigma = 1.0$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 51.00%   |
-| Collision Rate             | 49.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1523.76 |
-| Mean Episode Length        | 392.48   |
----
-
-### $\mu = 0.12$ | $\sigma = 1.1$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 48.00%   |
-| Collision Rate             | 52.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1690.10 |
-| Mean Episode Length        | 419.52   |
----
-
-### $\mu = 0.12$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 46.00%   |
-| Collision Rate             | 54.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1803.02 |
-| Mean Episode Length        | 435.74   |
----
-
-### $\mu = 0.12$ | $\sigma = 1.3$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 46.00%   |
-| Collision Rate             | 54.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1882.68 |
-| Mean Episode Length        | 455.58   |
----
-
-### $\mu = 0.12$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 38.00%   |
-| Collision Rate             | 62.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2128.57 |
-| Mean Episode Length        | 480.98   |
----
-
-### $\mu = 0.12$ | $\sigma = 1.5$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 35.00%   |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2258.08 |
-| Mean Episode Length        | 500.72   |
----
-
-### $\mu = 0.12$ | $\sigma = 1.6$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 34.00%   |
-| Collision Rate             | 66.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2403.79 |
-| Mean Episode Length        | 530.07   |
----
-
-### $\mu = 0.12$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 35.00%   |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2459.89 |
-| Mean Episode Length        | 552.67   |
----
-
-### $\mu = 0.12$ | $\sigma = 1.8$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 30.00%   |
-| Collision Rate             | 70.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2667.53 |
-| Mean Episode Length        | 580.88   |
----
-
-### $\mu = 0.12$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 35.00%   |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2596.55 |
-| Mean Episode Length        | 592.28   |
----
-
-### $\mu = 0.12$ | $\sigma = 2.0$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 22.00%   |
-| Collision Rate             | 76.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -2959.59 |
-| Mean Episode Length        | 621.19   |
----
-
-### $\mu = 0.12$ | $\sigma = 2.1$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 30.00%   |
-| Collision Rate             | 67.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -2961.06 |
-| Mean Episode Length        | 679.24   |
----
-
-### $\mu = 0.12$ | $\sigma = 2.2$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 25.00%   |
-| Collision Rate             | 68.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -3040.52 |
-| Mean Episode Length        | 670.36   |
----
-
-### $\mu = 0.12$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 19.00%   |
-| Collision Rate             | 64.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -3245.33 |
-| Mean Episode Length        | 723.37   |
----
-
-### $\mu = 0.12$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 16.00%   |
-| Collision Rate             | 64.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -3273.81 |
-| Mean Episode Length        | 725.11   |
----
-
-### $\mu = 0.12$ | $\sigma = 2.5$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 11.00%   |
-| Collision Rate             | 64.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -3358.64 |
-| Mean Episode Length        | 727.14   |
----
-
-### $\mu = 0.12$ | $\sigma = 2.6$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 11.00%   |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3325.05 |
-| Mean Episode Length        | 719.52   |
----
-
-### $\mu = 0.12$ | $\sigma = 2.7$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 9.00%    |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3404.02 |
-| Mean Episode Length        | 748.05   |
----
-
-### $\mu = 0.12$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3498.95 |
-| Mean Episode Length        | 747.6    |
----
-
-### $\mu = 0.12$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 49.00%   |
-| Mean Incompletion Distance | 0.24m    |
-| Mean Reward                | -3559.99 |
-| Mean Episode Length        | 745.14   |
----
-
-### $\mu = 0.12$ | $\sigma = 3.0$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 1.00%    |
-| Collision Rate             | 44.00%   |
-| Mean Incompletion Distance | 0.25m    |
-| Mean Reward                | -3658.19 |
-| Mean Episode Length        | 780.82   |
----
-
-### $\mu = 0.13$ | $\sigma = 0.0$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 69.00%  |
-| Collision Rate             | 31.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -671.34 |
-| Mean Episode Length        | 267.77  |
----
-
-### $\mu = 0.13$ | $\sigma = 0.1$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 64.00%  |
-| Collision Rate             | 36.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -752.40 |
-| Mean Episode Length        | 260.69  |
----
-
-### $\mu = 0.13$ | $\sigma = 0.2$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 67.00%  |
-| Collision Rate             | 33.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -721.53 |
-| Mean Episode Length        | 269.28  |
----
-
-### $\mu = 0.13$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -770.85 |
-| Mean Episode Length        | 277.38  |
----
-
-### $\mu = 0.13$ | $\sigma = 0.4$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 63.00%  |
-| Collision Rate             | 37.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -867.87 |
-| Mean Episode Length        | 287.86  |
----
-
-### $\mu = 0.13$ | $\sigma = 0.5$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -859.90 |
-| Mean Episode Length        | 300.21  |
----
-
-### $\mu = 0.13$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 64.00%  |
-| Collision Rate             | 36.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -975.69 |
-| Mean Episode Length        | 319.69  |
----
-
-### $\mu = 0.13$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 61.00%   |
-| Collision Rate             | 39.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1114.59 |
-| Mean Episode Length        | 340.63   |
----
-
-### $\mu = 0.13$ | $\sigma = 0.8$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 60.00%   |
-| Collision Rate             | 40.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1220.08 |
-| Mean Episode Length        | 364.92   |
----
-
-### $\mu = 0.13$ | $\sigma = 0.9$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 54.00%   |
-| Collision Rate             | 46.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1397.75 |
-| Mean Episode Length        | 379.95   |
----
-
-### $\mu = 0.13$ | $\sigma = 1.0$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 57.00%   |
-| Collision Rate             | 43.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1426.59 |
-| Mean Episode Length        | 402.81   |
----
-
-### $\mu = 0.13$ | $\sigma = 1.1$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 49.00%   |
-| Collision Rate             | 51.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1669.16 |
-| Mean Episode Length        | 420.33   |
----
-
-### $\mu = 0.13$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 42.00%   |
-| Collision Rate             | 58.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1852.56 |
-| Mean Episode Length        | 431.69   |
----
-
-### $\mu = 0.13$ | $\sigma = 1.3$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 42.00%   |
-| Collision Rate             | 58.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1925.67 |
-| Mean Episode Length        | 452.46   |
----
-
-### $\mu = 0.13$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 34.00%   |
-| Collision Rate             | 66.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2153.41 |
-| Mean Episode Length        | 466.72   |
----
-
-### $\mu = 0.13$ | $\sigma = 1.5$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 36.00%   |
-| Collision Rate             | 64.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2176.27 |
-| Mean Episode Length        | 481.35   |
----
-
-### $\mu = 0.13$ | $\sigma = 1.6$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 31.00%   |
-| Collision Rate             | 69.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2411.01 |
-| Mean Episode Length        | 512.67   |
----
-
-### $\mu = 0.13$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 33.00%   |
-| Collision Rate             | 67.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2471.64 |
-| Mean Episode Length        | 545.57   |
----
-
-### $\mu = 0.13$ | $\sigma = 1.8$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 27.00%   |
-| Collision Rate             | 73.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2688.41 |
-| Mean Episode Length        | 572.71   |
----
-
-### $\mu = 0.13$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 32.00%   |
-| Collision Rate             | 68.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2679.67 |
-| Mean Episode Length        | 596.26   |
----
-
-### $\mu = 0.13$ | $\sigma = 2.0$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 29.00%   |
-| Collision Rate             | 70.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -2809.30 |
-| Mean Episode Length        | 609.78   |
----
-
-### $\mu = 0.13$ | $\sigma = 2.1$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 30.00%   |
-| Collision Rate             | 68.00%   |
-| Mean Incompletion Distance | 0.14m    |
-| Mean Reward                | -2888.17 |
-| Mean Episode Length        | 643.34   |
----
-
-### $\mu = 0.13$ | $\sigma = 2.2$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 21.00%   |
-| Collision Rate             | 72.00%   |
-| Mean Incompletion Distance | 0.16m    |
-| Mean Reward                | -3090.20 |
-| Mean Episode Length        | 670.89   |
----
-
-### $\mu = 0.13$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 19.00%   |
-| Collision Rate             | 67.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -3262.76 |
-| Mean Episode Length        | 720.86   |
----
-
-### $\mu = 0.13$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 11.00%   |
-| Collision Rate             | 68.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -3383.14 |
-| Mean Episode Length        | 732.25   |
----
-
-### $\mu = 0.13$ | $\sigma = 2.5$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 11.00%   |
-| Collision Rate             | 66.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -3350.53 |
-| Mean Episode Length        | 714.08   |
----
-
-### $\mu = 0.13$ | $\sigma = 2.6$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 8.00%    |
-| Collision Rate             | 60.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -3385.17 |
-| Mean Episode Length        | 731.52   |
----
-
-### $\mu = 0.13$ | $\sigma = 2.7$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3509.94 |
-| Mean Episode Length        | 764.21   |
----
-
-### $\mu = 0.13$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3529.04 |
-| Mean Episode Length        | 747.5    |
----
-
-### $\mu = 0.13$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 1.00%    |
-| Collision Rate             | 52.00%   |
-| Mean Incompletion Distance | 0.25m    |
-| Mean Reward                | -3640.01 |
-| Mean Episode Length        | 767.33   |
----
-
-### $\mu = 0.13$ | $\sigma = 3.0$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 1.00%    |
-| Collision Rate             | 47.00%   |
-| Mean Incompletion Distance | 0.25m    |
-| Mean Reward                | -3651.38 |
-| Mean Episode Length        | 774.86   |
----
-
-### $\mu = 0.14$ | $\sigma = 0.0$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 62.00%  |
-| Collision Rate             | 38.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -792.65 |
-| Mean Episode Length        | 261.96  |
----
-
-### $\mu = 0.14$ | $\sigma = 0.1$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 64.00%  |
-| Collision Rate             | 36.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -758.52 |
-| Mean Episode Length        | 262.79  |
----
-
-### $\mu = 0.14$ | $\sigma = 0.2$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -744.31 |
-| Mean Episode Length        | 270.36  |
----
-
-### $\mu = 0.14$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -756.11 |
-| Mean Episode Length        | 273.35  |
----
-
-### $\mu = 0.14$ | $\sigma = 0.4$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 62.00%  |
-| Collision Rate             | 38.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -870.33 |
-| Mean Episode Length        | 281.25  |
----
-
-### $\mu = 0.14$ | $\sigma = 0.5$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 67.00%  |
-| Collision Rate             | 33.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -840.54 |
-| Mean Episode Length        | 300.59  |
----
-
-### $\mu = 0.14$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 64.00%  |
-| Collision Rate             | 36.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -969.87 |
-| Mean Episode Length        | 317.7   |
----
-
-### $\mu = 0.14$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
 | Success Rate               | 65.00%   |
 | Collision Rate             | 35.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1021.61 |
-| Mean Episode Length        | 335.22   |
+| Mean Reward                | -1202.82 |
+| Mean Episode Length        | 404.39   |
+---
+
+### $\mu = 0.12$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 68.00%   |
+| Collision Rate             | 32.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1317.51 |
+| Mean Episode Length        | 454.29   |
+---
+
+### $\mu = 0.12$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 61.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1550.51 |
+| Mean Episode Length        | 473.82   |
+---
+
+### $\mu = 0.12$ | $\sigma = 0.8$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 59.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1771.41 |
+| Mean Episode Length        | 514.5    |
+---
+
+### $\mu = 0.12$ | $\sigma = 0.9$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 58.00%   |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1838.73 |
+| Mean Episode Length        | 538.5    |
+---
+
+### $\mu = 0.12$ | $\sigma = 1.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 60.00%   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1885.36 |
+| Mean Episode Length        | 556.58   |
+---
+
+### $\mu = 0.12$ | $\sigma = 1.1$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 53.00%   |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.16m    |
+| Mean Reward                | -2149.40 |
+| Mean Episode Length        | 601.59   |
+---
+
+### $\mu = 0.12$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 51.00%   |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.15m    |
+| Mean Reward                | -2281.58 |
+| Mean Episode Length        | 630.19   |
+---
+
+### $\mu = 0.12$ | $\sigma = 1.3$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 48.00%   |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.16m    |
+| Mean Reward                | -2438.28 |
+| Mean Episode Length        | 668.54   |
+---
+
+### $\mu = 0.12$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 40.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2653.23 |
+| Mean Episode Length        | 714.5    |
+---
+
+### $\mu = 0.12$ | $\sigma = 1.5$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 41.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2676.45 |
+| Mean Episode Length        | 720.24   |
+---
+
+### $\mu = 0.12$ | $\sigma = 1.6$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 30.00%   |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2918.73 |
+| Mean Episode Length        | 757.06   |
+---
+
+### $\mu = 0.12$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 20.00%   |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -3082.20 |
+| Mean Episode Length        | 766.15   |
+---
+
+### $\mu = 0.12$ | $\sigma = 1.8$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 11.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -3148.09 |
+| Mean Episode Length        | 747.32   |
+---
+
+### $\mu = 0.12$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 12.00%   |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.24m    |
+| Mean Reward                | -3238.83 |
+| Mean Episode Length        | 758.11   |
+---
+
+### $\mu = 0.12$ | $\sigma = 2.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 6.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.27m    |
+| Mean Reward                | -3418.70 |
+| Mean Episode Length        | 759.09   |
+---
+
+### $\mu = 0.12$ | $\sigma = 2.1$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 3.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.28m    |
+| Mean Reward                | -3451.78 |
+| Mean Episode Length        | 759.72   |
+---
+
+### $\mu = 0.12$ | $\sigma = 2.2$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.31m    |
+| Mean Reward                | -3563.24 |
+| Mean Episode Length        | 747.68   |
+---
+
+### $\mu = 0.12$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.34m    |
+| Mean Reward                | -3608.34 |
+| Mean Episode Length        | 752.62   |
+---
+
+### $\mu = 0.12$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.38m    |
+| Mean Reward                | -3688.62 |
+| Mean Episode Length        | 781.2    |
+---
+
+### $\mu = 0.12$ | $\sigma = 2.5$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.40m    |
+| Mean Reward                | -3675.23 |
+| Mean Episode Length        | 762.46   |
+---
+
+### $\mu = 0.12$ | $\sigma = 2.6$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 1.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.41m    |
+| Mean Reward                | -3699.21 |
+| Mean Episode Length        | 760.15   |
+---
+
+### $\mu = 0.12$ | $\sigma = 2.7$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.44m    |
+| Mean Reward                | -3767.86 |
+| Mean Episode Length        | 766.1    |
+---
+
+### $\mu = 0.12$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.48m    |
+| Mean Reward                | -3872.40 |
+| Mean Episode Length        | 752.84   |
+---
+
+### $\mu = 0.12$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.47m    |
+| Mean Reward                | -3793.89 |
+| Mean Episode Length        | 743.56   |
+---
+
+### $\mu = 0.12$ | $\sigma = 3.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.51m    |
+| Mean Reward                | -3920.63 |
+| Mean Episode Length        | 771.1    |
+---
+
+### $\mu = 0.13$ | $\sigma = 0.0$ | Denoiser = `None`
+
+| Metric                     | Value   |
+|----------------------------|---------|
+| Success Rate               | 73.00%  |
+| Collision Rate             | 27.00%  |
+| Mean Incompletion Distance | N/A     |
+| Mean Reward                | -667.23 |
+| Mean Episode Length        | 287.58  |
+---
+
+### $\mu = 0.13$ | $\sigma = 0.1$ | Denoiser = `None`
+
+| Metric                     | Value   |
+|----------------------------|---------|
+| Success Rate               | 72.00%  |
+| Collision Rate             | 28.00%  |
+| Mean Incompletion Distance | N/A     |
+| Mean Reward                | -685.24 |
+| Mean Episode Length        | 287.62  |
+---
+
+### $\mu = 0.13$ | $\sigma = 0.2$ | Denoiser = `None`
+
+| Metric                     | Value   |
+|----------------------------|---------|
+| Success Rate               | 68.00%  |
+| Collision Rate             | 32.00%  |
+| Mean Incompletion Distance | N/A     |
+| Mean Reward                | -801.67 |
+| Mean Episode Length        | 301.03  |
+---
+
+### $\mu = 0.13$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
+
+| Metric                     | Value   |
+|----------------------------|---------|
+| Success Rate               | 67.00%  |
+| Collision Rate             | 33.00%  |
+| Mean Incompletion Distance | N/A     |
+| Mean Reward                | -929.53 |
+| Mean Episode Length        | 336.89  |
+---
+
+### $\mu = 0.13$ | $\sigma = 0.4$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 65.00%   |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1101.69 |
+| Mean Episode Length        | 376.75   |
+---
+
+### $\mu = 0.13$ | $\sigma = 0.5$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 62.00%   |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1275.67 |
+| Mean Episode Length        | 409.64   |
+---
+
+### $\mu = 0.13$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 64.00%   |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1430.22 |
+| Mean Episode Length        | 456.93   |
+---
+
+### $\mu = 0.13$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 63.00%   |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1545.11 |
+| Mean Episode Length        | 486.69   |
+---
+
+### $\mu = 0.13$ | $\sigma = 0.8$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 63.00%   |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1681.24 |
+| Mean Episode Length        | 518.78   |
+---
+
+### $\mu = 0.13$ | $\sigma = 0.9$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 61.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1810.53 |
+| Mean Episode Length        | 543.93   |
+---
+
+### $\mu = 0.13$ | $\sigma = 1.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 58.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.13m    |
+| Mean Reward                | -1976.79 |
+| Mean Episode Length        | 580.19   |
+---
+
+### $\mu = 0.13$ | $\sigma = 1.1$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 54.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2143.86 |
+| Mean Episode Length        | 606.99   |
+---
+
+### $\mu = 0.13$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 52.00%   |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.14m    |
+| Mean Reward                | -2260.73 |
+| Mean Episode Length        | 638.49   |
+---
+
+### $\mu = 0.13$ | $\sigma = 1.3$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 46.00%   |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2489.02 |
+| Mean Episode Length        | 663.17   |
+---
+
+### $\mu = 0.13$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 43.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2603.73 |
+| Mean Episode Length        | 710.12   |
+---
+
+### $\mu = 0.13$ | $\sigma = 1.5$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 37.00%   |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2739.15 |
+| Mean Episode Length        | 730.53   |
+---
+
+### $\mu = 0.13$ | $\sigma = 1.6$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 27.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2915.53 |
+| Mean Episode Length        | 746.06   |
+---
+
+### $\mu = 0.13$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 21.00%   |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -3022.71 |
+| Mean Episode Length        | 754.79   |
+---
+
+### $\mu = 0.13$ | $\sigma = 1.8$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 20.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.24m    |
+| Mean Reward                | -3106.34 |
+| Mean Episode Length        | 753.11   |
+---
+
+### $\mu = 0.13$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 11.00%   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.25m    |
+| Mean Reward                | -3260.99 |
+| Mean Episode Length        | 757.01   |
+---
+
+### $\mu = 0.13$ | $\sigma = 2.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 4.00%    |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.25m    |
+| Mean Reward                | -3383.85 |
+| Mean Episode Length        | 738.48   |
+---
+
+### $\mu = 0.13$ | $\sigma = 2.1$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 3.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.29m    |
+| Mean Reward                | -3515.41 |
+| Mean Episode Length        | 763.92   |
+---
+
+### $\mu = 0.13$ | $\sigma = 2.2$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.31m    |
+| Mean Reward                | -3559.19 |
+| Mean Episode Length        | 753.66   |
+---
+
+### $\mu = 0.13$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.35m    |
+| Mean Reward                | -3674.69 |
+| Mean Episode Length        | 770.13   |
+---
+
+### $\mu = 0.13$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 2.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.39m    |
+| Mean Reward                | -3668.47 |
+| Mean Episode Length        | 764.2    |
+---
+
+### $\mu = 0.13$ | $\sigma = 2.5$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.40m    |
+| Mean Reward                | -3739.80 |
+| Mean Episode Length        | 763.19   |
+---
+
+### $\mu = 0.13$ | $\sigma = 2.6$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.43m    |
+| Mean Reward                | -3824.27 |
+| Mean Episode Length        | 789.89   |
+---
+
+### $\mu = 0.13$ | $\sigma = 2.7$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.44m    |
+| Mean Reward                | -3783.63 |
+| Mean Episode Length        | 774.54   |
+---
+
+### $\mu = 0.13$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.47m    |
+| Mean Reward                | -3869.52 |
+| Mean Episode Length        | 780.84   |
+---
+
+### $\mu = 0.13$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.48m    |
+| Mean Reward                | -3825.08 |
+| Mean Episode Length        | 768.11   |
+---
+
+### $\mu = 0.13$ | $\sigma = 3.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.52m    |
+| Mean Reward                | -4010.01 |
+| Mean Episode Length        | 802.04   |
+---
+
+### $\mu = 0.14$ | $\sigma = 0.0$ | Denoiser = `None`
+
+| Metric                     | Value   |
+|----------------------------|---------|
+| Success Rate               | 71.00%  |
+| Collision Rate             | 29.00%  |
+| Mean Incompletion Distance | N/A     |
+| Mean Reward                | -688.13 |
+| Mean Episode Length        | 283.13  |
+---
+
+### $\mu = 0.14$ | $\sigma = 0.1$ | Denoiser = `None`
+
+| Metric                     | Value   |
+|----------------------------|---------|
+| Success Rate               | 71.00%  |
+| Collision Rate             | 29.00%  |
+| Mean Incompletion Distance | N/A     |
+| Mean Reward                | -700.41 |
+| Mean Episode Length        | 287.08  |
+---
+
+### $\mu = 0.14$ | $\sigma = 0.2$ | Denoiser = `None`
+
+| Metric                     | Value   |
+|----------------------------|---------|
+| Success Rate               | 69.00%  |
+| Collision Rate             | 31.00%  |
+| Mean Incompletion Distance | N/A     |
+| Mean Reward                | -779.03 |
+| Mean Episode Length        | 301.32  |
+---
+
+### $\mu = 0.14$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
+
+| Metric                     | Value   |
+|----------------------------|---------|
+| Success Rate               | 65.00%  |
+| Collision Rate             | 35.00%  |
+| Mean Incompletion Distance | N/A     |
+| Mean Reward                | -963.43 |
+| Mean Episode Length        | 338.24  |
+---
+
+### $\mu = 0.14$ | $\sigma = 0.4$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 61.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1165.19 |
+| Mean Episode Length        | 374.39   |
+---
+
+### $\mu = 0.14$ | $\sigma = 0.5$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 62.00%   |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1306.40 |
+| Mean Episode Length        | 420.6    |
+---
+
+### $\mu = 0.14$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 67.00%   |
+| Collision Rate             | 33.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1403.21 |
+| Mean Episode Length        | 466.42   |
+---
+
+### $\mu = 0.14$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 61.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1609.58 |
+| Mean Episode Length        | 493.58   |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 0.8$ | Denoiser = `None`
@@ -4873,657 +4873,657 @@ mus = [0.   0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1  0.11 0.12 0.13
 | Success Rate               | 61.00%   |
 | Collision Rate             | 39.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1181.96 |
-| Mean Episode Length        | 359.48   |
+| Mean Reward                | -1708.73 |
+| Mean Episode Length        | 513.3    |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 58.00%   |
-| Collision Rate             | 42.00%   |
+| Success Rate               | 56.00%   |
+| Collision Rate             | 44.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1318.86 |
-| Mean Episode Length        | 376.46   |
+| Mean Reward                | -1907.86 |
+| Mean Episode Length        | 541.24   |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 50.00%   |
-| Collision Rate             | 50.00%   |
+| Success Rate               | 59.00%   |
+| Collision Rate             | 41.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1510.99 |
-| Mean Episode Length        | 386.02   |
+| Mean Reward                | -1984.58 |
+| Mean Episode Length        | 580.7    |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 48.00%   |
-| Collision Rate             | 52.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1690.35 |
-| Mean Episode Length        | 425.43   |
+| Success Rate               | 53.00%   |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2144.65 |
+| Mean Episode Length        | 599.26   |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 41.00%   |
-| Collision Rate             | 59.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1864.71 |
-| Mean Episode Length        | 431.24   |
+| Success Rate               | 53.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.15m    |
+| Mean Reward                | -2298.30 |
+| Mean Episode Length        | 645.98   |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 31.00%   |
-| Collision Rate             | 69.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2131.87 |
-| Mean Episode Length        | 441.02   |
+| Success Rate               | 48.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.16m    |
+| Mean Reward                | -2401.75 |
+| Mean Episode Length        | 677.34   |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 38.00%   |
-| Collision Rate             | 62.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2100.62 |
-| Mean Episode Length        | 477.36   |
+| Success Rate               | 43.00%   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2622.77 |
+| Mean Episode Length        | 708.68   |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 29.00%   |
-| Collision Rate             | 71.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2342.50 |
-| Mean Episode Length        | 488.48   |
+| Success Rate               | 33.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2762.77 |
+| Mean Episode Length        | 716.26   |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 31.00%   |
-| Collision Rate             | 69.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2375.15 |
-| Mean Episode Length        | 506.47   |
+| Success Rate               | 27.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2877.69 |
+| Mean Episode Length        | 727.6    |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 34.00%   |
-| Collision Rate             | 66.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2387.35 |
-| Mean Episode Length        | 527.51   |
+| Success Rate               | 18.00%   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -3098.95 |
+| Mean Episode Length        | 748.01   |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 31.00%   |
-| Collision Rate             | 69.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2543.61 |
-| Mean Episode Length        | 558.36   |
+| Success Rate               | 15.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.23m    |
+| Mean Reward                | -3263.49 |
+| Mean Episode Length        | 771.55   |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 25.00%   |
-| Collision Rate             | 75.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2823.35 |
-| Mean Episode Length        | 595.4    |
+| Success Rate               | 12.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.27m    |
+| Mean Reward                | -3339.14 |
+| Mean Episode Length        | 761.72   |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 26.00%   |
-| Collision Rate             | 73.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -2845.16 |
-| Mean Episode Length        | 614.68   |
+| Success Rate               | 8.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.28m    |
+| Mean Reward                | -3418.44 |
+| Mean Episode Length        | 758.52   |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 23.00%   |
-| Collision Rate             | 75.00%   |
-| Mean Incompletion Distance | 0.15m    |
-| Mean Reward                | -2951.83 |
-| Mean Episode Length        | 623.13   |
+| Success Rate               | 3.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.30m    |
+| Mean Reward                | -3553.75 |
+| Mean Episode Length        | 774.05   |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 21.00%   |
-| Collision Rate             | 70.00%   |
-| Mean Incompletion Distance | 0.16m    |
-| Mean Reward                | -3125.96 |
-| Mean Episode Length        | 697.02   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.32m    |
+| Mean Reward                | -3561.58 |
+| Mean Episode Length        | 763.53   |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 71.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -3237.91 |
-| Mean Episode Length        | 702.08   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.36m    |
+| Mean Reward                | -3655.57 |
+| Mean Episode Length        | 773.28   |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 14.00%   |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -3228.26 |
-| Mean Episode Length        | 704.2    |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 34.00%   |
+| Mean Incompletion Distance | 0.38m    |
+| Mean Reward                | -3692.47 |
+| Mean Episode Length        | 785.2    |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 13.00%   |
-| Collision Rate             | 66.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -3383.96 |
-| Mean Episode Length        | 730.13   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.41m    |
+| Mean Reward                | -3770.85 |
+| Mean Episode Length        | 787.87   |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 63.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3408.63 |
-| Mean Episode Length        | 736.73   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.44m    |
+| Mean Reward                | -3778.56 |
+| Mean Episode Length        | 774.83   |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 8.00%    |
-| Collision Rate             | 58.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3421.80 |
-| Mean Episode Length        | 743.55   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.47m    |
+| Mean Reward                | -3860.11 |
+| Mean Episode Length        | 785.35   |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 51.00%   |
-| Mean Incompletion Distance | 0.24m    |
-| Mean Reward                | -3500.70 |
-| Mean Episode Length        | 762.21   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.49m    |
+| Mean Reward                | -3947.59 |
+| Mean Episode Length        | 791.62   |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 50.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3474.79 |
-| Mean Episode Length        | 744.06   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.50m    |
+| Mean Reward                | -3966.63 |
+| Mean Episode Length        | 796.33   |
 ---
 
 ### $\mu = 0.14$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 46.00%   |
-| Mean Incompletion Distance | 0.26m    |
-| Mean Reward                | -3637.11 |
-| Mean Episode Length        | 781.76   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.51m    |
+| Mean Reward                | -3972.25 |
+| Mean Episode Length        | 782.38   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 64.00%  |
-| Collision Rate             | 36.00%  |
+| Success Rate               | 70.00%  |
+| Collision Rate             | 30.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -758.57 |
-| Mean Episode Length        | 264.07  |
+| Mean Reward                | -721.94 |
+| Mean Episode Length        | 288.43  |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 64.00%  |
-| Collision Rate             | 36.00%  |
+| Success Rate               | 69.00%  |
+| Collision Rate             | 31.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -761.06 |
-| Mean Episode Length        | 265.84  |
+| Mean Reward                | -753.03 |
+| Mean Episode Length        | 291.78  |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
+| Success Rate               | 64.00%  |
+| Collision Rate             | 36.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -727.86 |
-| Mean Episode Length        | 265.9   |
+| Mean Reward                | -881.71 |
+| Mean Episode Length        | 303.89  |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -761.85 |
-| Mean Episode Length        | 274.2   |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 59.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1081.66 |
+| Mean Episode Length        | 339.05   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 0.4$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 65.00%  |
-| Collision Rate             | 35.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -819.44 |
-| Mean Episode Length        | 283.63  |
----
-
-### $\mu = 0.15$ | $\sigma = 0.5$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 64.00%  |
-| Collision Rate             | 36.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -892.01 |
-| Mean Episode Length        | 298.57  |
----
-
-### $\mu = 0.15$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 65.00%  |
-| Collision Rate             | 35.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -943.21 |
-| Mean Episode Length        | 315.64  |
----
-
-### $\mu = 0.15$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
 | Success Rate               | 62.00%   |
 | Collision Rate             | 38.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1073.87 |
-| Mean Episode Length        | 333.91   |
+| Mean Reward                | -1182.22 |
+| Mean Episode Length        | 385.89   |
 ---
 
-### $\mu = 0.15$ | $\sigma = 0.8$ | Denoiser = `None`
+### $\mu = 0.15$ | $\sigma = 0.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
 | Success Rate               | 58.00%   |
 | Collision Rate             | 42.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1217.01 |
-| Mean Episode Length        | 351.69   |
+| Mean Reward                | -1420.47 |
+| Mean Episode Length        | 430.59   |
+---
+
+### $\mu = 0.15$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 63.00%   |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1444.54 |
+| Mean Episode Length        | 462.08   |
+---
+
+### $\mu = 0.15$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 64.00%   |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1591.09 |
+| Mean Episode Length        | 505.7    |
+---
+
+### $\mu = 0.15$ | $\sigma = 0.8$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 59.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1795.58 |
+| Mean Episode Length        | 531.61   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 52.00%   |
-| Collision Rate             | 48.00%   |
+| Success Rate               | 61.00%   |
+| Collision Rate             | 39.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1419.60 |
-| Mean Episode Length        | 374.37   |
+| Mean Reward                | -1867.09 |
+| Mean Episode Length        | 562.27   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 53.00%   |
-| Collision Rate             | 47.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1478.41 |
-| Mean Episode Length        | 391.36   |
+| Success Rate               | 54.00%   |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.11m    |
+| Mean Reward                | -2058.84 |
+| Mean Episode Length        | 578.93   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 42.00%   |
-| Collision Rate             | 58.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1779.87 |
-| Mean Episode Length        | 416.86   |
+| Success Rate               | 56.00%   |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -2171.90 |
+| Mean Episode Length        | 621.05   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 42.00%   |
-| Collision Rate             | 58.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1861.02 |
-| Mean Episode Length        | 435.44   |
+| Success Rate               | 53.00%   |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.15m    |
+| Mean Reward                | -2299.11 |
+| Mean Episode Length        | 663.32   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 35.00%   |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2076.83 |
-| Mean Episode Length        | 454.8    |
+| Success Rate               | 47.00%   |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2459.70 |
+| Mean Episode Length        | 655.24   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 33.00%   |
-| Collision Rate             | 67.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2174.61 |
-| Mean Episode Length        | 462.82   |
+| Success Rate               | 39.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2639.92 |
+| Mean Episode Length        | 695.93   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 26.00%   |
-| Collision Rate             | 74.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2369.73 |
-| Mean Episode Length        | 482.08   |
+| Success Rate               | 38.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2732.45 |
+| Mean Episode Length        | 720.82   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 35.00%   |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2298.43 |
-| Mean Episode Length        | 508.0    |
+| Success Rate               | 25.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2978.94 |
+| Mean Episode Length        | 750.77   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 33.00%   |
-| Collision Rate             | 67.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2392.86 |
-| Mean Episode Length        | 520.93   |
+| Success Rate               | 16.00%   |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -3206.44 |
+| Mean Episode Length        | 770.07   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 27.00%   |
-| Collision Rate             | 73.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2668.30 |
-| Mean Episode Length        | 566.81   |
+| Success Rate               | 11.00%   |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -3239.30 |
+| Mean Episode Length        | 758.98   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 27.00%   |
-| Collision Rate             | 73.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2766.90 |
-| Mean Episode Length        | 595.98   |
+| Success Rate               | 7.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.25m    |
+| Mean Reward                | -3320.73 |
+| Mean Episode Length        | 741.61   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 23.00%   |
-| Collision Rate             | 77.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2907.05 |
-| Mean Episode Length        | 607.95   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.26m    |
+| Mean Reward                | -3535.72 |
+| Mean Episode Length        | 765.37   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 25.00%   |
-| Collision Rate             | 74.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -2964.74 |
-| Mean Episode Length        | 638.84   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.31m    |
+| Mean Reward                | -3546.23 |
+| Mean Episode Length        | 766.95   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 76.00%   |
-| Mean Incompletion Distance | 0.13m    |
-| Mean Reward                | -3124.57 |
-| Mean Episode Length        | 660.34   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 34.00%   |
+| Mean Incompletion Distance | 0.33m    |
+| Mean Reward                | -3579.17 |
+| Mean Episode Length        | 781.83   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 23.00%   |
-| Collision Rate             | 70.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -3098.60 |
-| Mean Episode Length        | 683.22   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.36m    |
+| Mean Reward                | -3688.06 |
+| Mean Episode Length        | 781.69   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 75.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -3369.12 |
-| Mean Episode Length        | 711.18   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.40m    |
+| Mean Reward                | -3728.85 |
+| Mean Episode Length        | 773.22   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 11.00%   |
-| Collision Rate             | 66.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3319.08 |
-| Mean Episode Length        | 718.22   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.39m    |
+| Mean Reward                | -3775.54 |
+| Mean Episode Length        | 773.63   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 14.00%   |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3376.36 |
-| Mean Episode Length        | 756.78   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.43m    |
+| Mean Reward                | -3797.60 |
+| Mean Episode Length        | 762.74   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 9.00%    |
-| Collision Rate             | 56.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3397.36 |
-| Mean Episode Length        | 742.11   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.45m    |
+| Mean Reward                | -3858.35 |
+| Mean Episode Length        | 769.2    |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 51.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3534.69 |
-| Mean Episode Length        | 770.62   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.48m    |
+| Mean Reward                | -3938.59 |
+| Mean Episode Length        | 785.88   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 56.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3564.15 |
-| Mean Episode Length        | 739.73   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.51m    |
+| Mean Reward                | -3994.42 |
+| Mean Episode Length        | 800.63   |
 ---
 
 ### $\mu = 0.15$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 54.00%   |
-| Mean Incompletion Distance | 0.24m    |
-| Mean Reward                | -3580.01 |
-| Mean Episode Length        | 749.65   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.52m    |
+| Mean Reward                | -3952.31 |
+| Mean Episode Length        | 762.91   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 62.00%  |
-| Collision Rate             | 38.00%  |
+| Success Rate               | 69.00%  |
+| Collision Rate             | 31.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -798.89 |
-| Mean Episode Length        | 263.98  |
+| Mean Reward                | -737.26 |
+| Mean Episode Length        | 286.59  |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 62.00%  |
-| Collision Rate             | 38.00%  |
+| Success Rate               | 65.00%  |
+| Collision Rate             | 35.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -794.02 |
-| Mean Episode Length        | 262.66  |
+| Mean Reward                | -807.04 |
+| Mean Episode Length        | 286.18  |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 64.00%  |
-| Collision Rate             | 36.00%  |
+| Success Rate               | 60.00%  |
+| Collision Rate             | 40.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -770.99 |
-| Mean Episode Length        | 268.53  |
+| Mean Reward                | -965.05 |
+| Mean Episode Length        | 308.0   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -758.98 |
-| Mean Episode Length        | 273.14  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 56.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1160.47 |
+| Mean Episode Length        | 346.32   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 0.4$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -799.99 |
-| Mean Episode Length        | 285.29  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 59.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1269.95 |
+| Mean Episode Length        | 396.9    |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 0.5$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 64.00%  |
-| Collision Rate             | 36.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -881.70 |
-| Mean Episode Length        | 294.93  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 59.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1410.05 |
+| Mean Episode Length        | 435.99   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
@@ -5533,624 +5533,624 @@ mus = [0.   0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1  0.11 0.12 0.13
 | Success Rate               | 61.00%   |
 | Collision Rate             | 39.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1002.79 |
-| Mean Episode Length        | 311.97   |
+| Mean Reward                | -1535.57 |
+| Mean Episode Length        | 476.54   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 59.00%   |
-| Collision Rate             | 41.00%   |
+| Success Rate               | 60.00%   |
+| Collision Rate             | 40.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1098.49 |
-| Mean Episode Length        | 326.28   |
+| Mean Reward                | -1689.83 |
+| Mean Episode Length        | 509.56   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 53.00%   |
-| Collision Rate             | 47.00%   |
+| Success Rate               | 59.00%   |
+| Collision Rate             | 41.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1333.86 |
-| Mean Episode Length        | 356.97   |
+| Mean Reward                | -1799.24 |
+| Mean Episode Length        | 532.44   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 53.00%   |
-| Collision Rate             | 47.00%   |
+| Success Rate               | 61.00%   |
+| Collision Rate             | 39.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1386.02 |
-| Mean Episode Length        | 368.67   |
+| Mean Reward                | -1886.73 |
+| Mean Episode Length        | 568.17   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 46.00%   |
-| Collision Rate             | 54.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1579.54 |
-| Mean Episode Length        | 384.59   |
+| Success Rate               | 57.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2020.10 |
+| Mean Episode Length        | 586.84   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 51.00%   |
-| Collision Rate             | 49.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1591.90 |
-| Mean Episode Length        | 409.11   |
+| Success Rate               | 54.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.16m    |
+| Mean Reward                | -2215.72 |
+| Mean Episode Length        | 622.86   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 35.00%   |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1974.78 |
-| Mean Episode Length        | 430.44   |
+| Success Rate               | 57.00%   |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2228.43 |
+| Mean Episode Length        | 658.11   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 34.00%   |
-| Collision Rate             | 66.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2074.93 |
-| Mean Episode Length        | 449.51   |
+| Success Rate               | 50.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2470.69 |
+| Mean Episode Length        | 696.63   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 29.00%   |
-| Collision Rate             | 71.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2274.69 |
-| Mean Episode Length        | 476.69   |
+| Success Rate               | 41.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.16m    |
+| Mean Reward                | -2630.64 |
+| Mean Episode Length        | 706.83   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 34.00%   |
-| Collision Rate             | 66.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2247.74 |
-| Mean Episode Length        | 495.74   |
+| Success Rate               | 33.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2803.39 |
+| Mean Episode Length        | 718.85   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 30.00%   |
-| Collision Rate             | 70.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2398.98 |
-| Mean Episode Length        | 506.79   |
+| Success Rate               | 24.00%   |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -3013.08 |
+| Mean Episode Length        | 738.44   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 28.00%   |
-| Collision Rate             | 72.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2602.34 |
-| Mean Episode Length        | 557.18   |
+| Success Rate               | 17.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.24m    |
+| Mean Reward                | -3279.12 |
+| Mean Episode Length        | 780.69   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 27.00%   |
-| Collision Rate             | 73.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2609.59 |
-| Mean Episode Length        | 554.07   |
+| Success Rate               | 11.00%   |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.24m    |
+| Mean Reward                | -3254.00 |
+| Mean Episode Length        | 765.52   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 29.00%   |
-| Collision Rate             | 71.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2682.99 |
-| Mean Episode Length        | 581.75   |
+| Success Rate               | 7.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.27m    |
+| Mean Reward                | -3354.28 |
+| Mean Episode Length        | 752.83   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 22.00%   |
-| Collision Rate             | 77.00%   |
-| Mean Incompletion Distance | 0.16m    |
-| Mean Reward                | -2952.05 |
-| Mean Episode Length        | 625.76   |
+| Success Rate               | 4.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.31m    |
+| Mean Reward                | -3504.68 |
+| Mean Episode Length        | 779.37   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 82.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -3123.07 |
-| Mean Episode Length        | 641.85   |
+| Success Rate               | 3.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.30m    |
+| Mean Reward                | -3526.11 |
+| Mean Episode Length        | 762.63   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 77.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3128.06 |
-| Mean Episode Length        | 658.42   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.36m    |
+| Mean Reward                | -3623.71 |
+| Mean Episode Length        | 759.45   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 16.00%   |
-| Collision Rate             | 76.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3183.16 |
-| Mean Episode Length        | 671.41   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.37m    |
+| Mean Reward                | -3614.68 |
+| Mean Episode Length        | 748.13   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 70.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3172.48 |
-| Mean Episode Length        | 682.13   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.40m    |
+| Mean Reward                | -3768.06 |
+| Mean Episode Length        | 789.86   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 9.00%    |
-| Collision Rate             | 70.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -3372.83 |
-| Mean Episode Length        | 712.99   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.41m    |
+| Mean Reward                | -3776.74 |
+| Mean Episode Length        | 769.99   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 7.00%    |
-| Collision Rate             | 61.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3442.99 |
-| Mean Episode Length        | 751.46   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.45m    |
+| Mean Reward                | -3815.25 |
+| Mean Episode Length        | 779.23   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 9.00%    |
-| Collision Rate             | 62.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3428.37 |
-| Mean Episode Length        | 737.7    |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.48m    |
+| Mean Reward                | -3853.23 |
+| Mean Episode Length        | 780.97   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 7.00%    |
-| Collision Rate             | 62.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3508.92 |
-| Mean Episode Length        | 743.77   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.50m    |
+| Mean Reward                | -3935.64 |
+| Mean Episode Length        | 777.22   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3514.04 |
-| Mean Episode Length        | 748.95   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.51m    |
+| Mean Reward                | -3967.05 |
+| Mean Episode Length        | 789.29   |
 ---
 
 ### $\mu = 0.16$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 49.00%   |
-| Mean Incompletion Distance | 0.25m    |
-| Mean Reward                | -3527.46 |
-| Mean Episode Length        | 757.83   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.53m    |
+| Mean Reward                | -3977.53 |
+| Mean Episode Length        | 786.81   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 57.00%  |
-| Collision Rate             | 43.00%  |
+| Success Rate               | 64.00%  |
+| Collision Rate             | 36.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -887.81 |
-| Mean Episode Length        | 262.6   |
+| Mean Reward                | -801.73 |
+| Mean Episode Length        | 278.14  |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 61.00%  |
-| Collision Rate             | 39.00%  |
+| Success Rate               | 63.00%  |
+| Collision Rate             | 37.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -814.88 |
-| Mean Episode Length        | 264.4   |
+| Mean Reward                | -856.15 |
+| Mean Episode Length        | 290.71  |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 0.2$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 63.00%  |
-| Collision Rate             | 37.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -805.19 |
-| Mean Episode Length        | 272.84  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 52.00%   |
+| Collision Rate             | 48.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1136.22 |
+| Mean Episode Length        | 313.82   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -758.92 |
-| Mean Episode Length        | 273.11  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 55.00%   |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1209.92 |
+| Mean Episode Length        | 355.44   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 0.4$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 66.00%  |
-| Collision Rate             | 34.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -799.29 |
-| Mean Episode Length        | 286.05  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 50.00%   |
+| Collision Rate             | 50.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1464.94 |
+| Mean Episode Length        | 403.09   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 0.5$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 63.00%  |
-| Collision Rate             | 37.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -902.88 |
-| Mean Episode Length        | 295.09  |
----
-
-### $\mu = 0.17$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 62.00%  |
-| Collision Rate             | 38.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -988.38 |
-| Mean Episode Length        | 309.37  |
----
-
-### $\mu = 0.17$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 61.00%   |
-| Collision Rate             | 39.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1069.62 |
-| Mean Episode Length        | 328.5    |
----
-
-### $\mu = 0.17$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
 | Success Rate               | 54.00%   |
 | Collision Rate             | 46.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1296.44 |
-| Mean Episode Length        | 351.76   |
+| Mean Reward                | -1509.86 |
+| Mean Episode Length        | 435.34   |
+---
+
+### $\mu = 0.17$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 60.00%   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1524.69 |
+| Mean Episode Length        | 468.31   |
+---
+
+### $\mu = 0.17$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 57.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1725.31 |
+| Mean Episode Length        | 503.77   |
+---
+
+### $\mu = 0.17$ | $\sigma = 0.8$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 58.00%   |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1882.47 |
+| Mean Episode Length        | 552.96   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 51.00%   |
-| Collision Rate             | 49.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1417.35 |
-| Mean Episode Length        | 368.86   |
+| Success Rate               | 59.00%   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.13m    |
+| Mean Reward                | -1914.85 |
+| Mean Episode Length        | 573.18   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 47.00%   |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1561.20 |
-| Mean Episode Length        | 384.98   |
+| Success Rate               | 58.00%   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.14m    |
+| Mean Reward                | -2098.49 |
+| Mean Episode Length        | 621.28   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 37.00%   |
-| Collision Rate             | 63.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1838.44 |
-| Mean Episode Length        | 403.85   |
+| Success Rate               | 51.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2281.51 |
+| Mean Episode Length        | 629.12   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 37.00%   |
-| Collision Rate             | 63.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1934.13 |
-| Mean Episode Length        | 428.83   |
+| Success Rate               | 50.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2375.37 |
+| Mean Episode Length        | 659.83   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 32.00%   |
-| Collision Rate             | 68.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2113.65 |
-| Mean Episode Length        | 451.3    |
+| Success Rate               | 45.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.16m    |
+| Mean Reward                | -2516.52 |
+| Mean Episode Length        | 695.73   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 29.00%   |
-| Collision Rate             | 71.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2206.27 |
-| Mean Episode Length        | 454.92   |
+| Success Rate               | 37.00%   |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2710.22 |
+| Mean Episode Length        | 722.8    |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 33.00%   |
-| Collision Rate             | 67.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2228.09 |
-| Mean Episode Length        | 480.07   |
+| Success Rate               | 31.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -2863.92 |
+| Mean Episode Length        | 727.86   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 29.00%   |
-| Collision Rate             | 71.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2371.71 |
-| Mean Episode Length        | 500.01   |
+| Success Rate               | 23.00%   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.23m    |
+| Mean Reward                | -3018.87 |
+| Mean Episode Length        | 739.3    |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 26.00%   |
-| Collision Rate             | 74.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2532.73 |
-| Mean Episode Length        | 529.61   |
+| Success Rate               | 19.00%   |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.23m    |
+| Mean Reward                | -3164.38 |
+| Mean Episode Length        | 774.03   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 27.00%   |
-| Collision Rate             | 73.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2575.00 |
-| Mean Episode Length        | 531.97   |
+| Success Rate               | 9.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.23m    |
+| Mean Reward                | -3265.22 |
+| Mean Episode Length        | 754.62   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 27.00%   |
-| Collision Rate             | 73.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2709.19 |
-| Mean Episode Length        | 578.74   |
+| Success Rate               | 4.00%    |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.26m    |
+| Mean Reward                | -3490.86 |
+| Mean Episode Length        | 759.72   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 17.00%   |
-| Collision Rate             | 82.00%   |
-| Mean Incompletion Distance | 0.16m    |
-| Mean Reward                | -2989.85 |
-| Mean Episode Length        | 607.81   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.31m    |
+| Mean Reward                | -3548.78 |
+| Mean Episode Length        | 778.48   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 78.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -2978.94 |
-| Mean Episode Length        | 611.84   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.32m    |
+| Mean Reward                | -3535.99 |
+| Mean Episode Length        | 760.66   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 19.00%   |
-| Collision Rate             | 79.00%   |
-| Mean Incompletion Distance | 0.15m    |
-| Mean Reward                | -3050.02 |
-| Mean Episode Length        | 625.66   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.36m    |
+| Mean Reward                | -3648.91 |
+| Mean Episode Length        | 772.46   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 19.00%   |
-| Collision Rate             | 72.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -3162.89 |
-| Mean Episode Length        | 682.46   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.37m    |
+| Mean Reward                | -3739.05 |
+| Mean Episode Length        | 786.17   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 15.00%   |
-| Collision Rate             | 68.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -3214.48 |
-| Mean Episode Length        | 694.66   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.40m    |
+| Mean Reward                | -3740.77 |
+| Mean Episode Length        | 774.25   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 8.00%    |
-| Collision Rate             | 69.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -3458.15 |
-| Mean Episode Length        | 740.72   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.44m    |
+| Mean Reward                | -3771.06 |
+| Mean Episode Length        | 764.94   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 7.00%    |
-| Collision Rate             | 66.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -3456.84 |
-| Mean Episode Length        | 739.6    |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.47m    |
+| Mean Reward                | -3886.68 |
+| Mean Episode Length        | 784.74   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 60.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3393.69 |
-| Mean Episode Length        | 721.7    |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.47m    |
+| Mean Reward                | -3842.88 |
+| Mean Episode Length        | 783.05   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3461.81 |
-| Mean Episode Length        | 745.99   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.50m    |
+| Mean Reward                | -3966.12 |
+| Mean Episode Length        | 793.67   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3626.09 |
-| Mean Episode Length        | 733.35   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.52m    |
+| Mean Reward                | -3996.79 |
+| Mean Episode Length        | 794.58   |
 ---
 
 ### $\mu = 0.17$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | 0.24m    |
-| Mean Reward                | -3617.97 |
-| Mean Episode Length        | 773.95   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.55m    |
+| Mean Reward                | -4042.97 |
+| Mean Episode Length        | 789.57   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 60.00%  |
-| Collision Rate             | 40.00%  |
+| Success Rate               | 58.00%  |
+| Collision Rate             | 42.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -828.57 |
-| Mean Episode Length        | 262.67  |
+| Mean Reward                | -936.79 |
+| Mean Episode Length        | 284.94  |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 0.1$ | Denoiser = `None`
@@ -6160,63 +6160,63 @@ mus = [0.   0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1  0.11 0.12 0.13
 | Success Rate               | 58.00%  |
 | Collision Rate             | 42.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -874.01 |
-| Mean Episode Length        | 265.1   |
+| Mean Reward                | -950.39 |
+| Mean Episode Length        | 290.67  |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 0.2$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 60.00%  |
-| Collision Rate             | 40.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -841.39 |
-| Mean Episode Length        | 266.27  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 50.00%   |
+| Collision Rate             | 50.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1193.03 |
+| Mean Episode Length        | 319.23   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 63.00%  |
-| Collision Rate             | 37.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -818.73 |
-| Mean Episode Length        | 274.05  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 46.00%   |
+| Collision Rate             | 54.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1398.23 |
+| Mean Episode Length        | 359.33   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 0.4$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 65.00%  |
-| Collision Rate             | 35.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -818.01 |
-| Mean Episode Length        | 284.46  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 47.00%   |
+| Collision Rate             | 53.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1515.48 |
+| Mean Episode Length        | 399.77   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 0.5$ | Denoiser = `None`
 
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 64.00%  |
-| Collision Rate             | 36.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -870.37 |
-| Mean Episode Length        | 292.42  |
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 51.00%   |
+| Collision Rate             | 49.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1598.89 |
+| Mean Episode Length        | 448.65   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 59.00%   |
-| Collision Rate             | 41.00%   |
+| Success Rate               | 56.00%   |
+| Collision Rate             | 44.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1045.41 |
-| Mean Episode Length        | 312.13   |
+| Mean Reward                | -1629.43 |
+| Mean Episode Length        | 479.09   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
@@ -6226,1801 +6226,1801 @@ mus = [0.   0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1  0.11 0.12 0.13
 | Success Rate               | 59.00%   |
 | Collision Rate             | 41.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1097.53 |
-| Mean Episode Length        | 325.77   |
+| Mean Reward                | -1756.85 |
+| Mean Episode Length        | 526.35   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 52.00%   |
-| Collision Rate             | 48.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1331.05 |
-| Mean Episode Length        | 350.86   |
+| Success Rate               | 58.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.24m    |
+| Mean Reward                | -1858.26 |
+| Mean Episode Length        | 549.56   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 45.00%   |
-| Collision Rate             | 55.00%   |
+| Success Rate               | 59.00%   |
+| Collision Rate             | 41.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1514.00 |
-| Mean Episode Length        | 363.36   |
+| Mean Reward                | -1915.70 |
+| Mean Episode Length        | 568.39   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 43.00%   |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1612.53 |
-| Mean Episode Length        | 374.14   |
+| Success Rate               | 53.00%   |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2194.01 |
+| Mean Episode Length        | 613.53   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 39.00%   |
-| Collision Rate             | 61.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1794.63 |
-| Mean Episode Length        | 404.26   |
+| Success Rate               | 49.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.16m    |
+| Mean Reward                | -2353.50 |
+| Mean Episode Length        | 645.68   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 32.00%   |
-| Collision Rate             | 68.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2021.13 |
-| Mean Episode Length        | 429.14   |
+| Success Rate               | 50.00%   |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2413.10 |
+| Mean Episode Length        | 668.16   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 35.00%   |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2007.29 |
-| Mean Episode Length        | 437.27   |
+| Success Rate               | 47.00%   |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2509.76 |
+| Mean Episode Length        | 677.66   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 26.00%   |
-| Collision Rate             | 74.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2254.06 |
-| Mean Episode Length        | 453.82   |
+| Success Rate               | 38.00%   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2761.94 |
+| Mean Episode Length        | 730.88   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 30.00%   |
-| Collision Rate             | 70.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2310.63 |
-| Mean Episode Length        | 493.04   |
+| Success Rate               | 33.00%   |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2913.26 |
+| Mean Episode Length        | 756.05   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 28.00%   |
-| Collision Rate             | 72.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2383.93 |
-| Mean Episode Length        | 499.58   |
+| Success Rate               | 24.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.24m    |
+| Mean Reward                | -3055.20 |
+| Mean Episode Length        | 744.33   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 28.00%   |
-| Collision Rate             | 72.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2473.78 |
-| Mean Episode Length        | 521.2    |
+| Success Rate               | 16.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.23m    |
+| Mean Reward                | -3165.29 |
+| Mean Episode Length        | 746.8    |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 29.00%   |
-| Collision Rate             | 71.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2494.57 |
-| Mean Episode Length        | 528.29   |
+| Success Rate               | 11.00%   |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.28m    |
+| Mean Reward                | -3351.44 |
+| Mean Episode Length        | 772.97   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 17.00%   |
-| Collision Rate             | 83.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2888.56 |
-| Mean Episode Length        | 580.31   |
+| Success Rate               | 3.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.26m    |
+| Mean Reward                | -3495.31 |
+| Mean Episode Length        | 777.96   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 23.00%   |
-| Collision Rate             | 77.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2887.15 |
-| Mean Episode Length        | 610.9    |
+| Success Rate               | 3.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.32m    |
+| Mean Reward                | -3577.80 |
+| Mean Episode Length        | 763.68   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 15.00%   |
-| Collision Rate             | 84.00%   |
-| Mean Incompletion Distance | 0.31m    |
-| Mean Reward                | -3120.03 |
-| Mean Episode Length        | 638.76   |
+| Success Rate               | 3.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.33m    |
+| Mean Reward                | -3565.53 |
+| Mean Episode Length        | 768.52   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 14.00%   |
-| Collision Rate             | 83.00%   |
-| Mean Incompletion Distance | 0.17m    |
-| Mean Reward                | -3166.96 |
-| Mean Episode Length        | 639.16   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.36m    |
+| Mean Reward                | -3683.01 |
+| Mean Episode Length        | 785.08   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 14.00%   |
-| Collision Rate             | 80.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -3202.53 |
-| Mean Episode Length        | 653.21   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.39m    |
+| Mean Reward                | -3713.61 |
+| Mean Episode Length        | 778.42   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 17.00%   |
-| Collision Rate             | 72.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3174.14 |
-| Mean Episode Length        | 677.03   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.41m    |
+| Mean Reward                | -3704.60 |
+| Mean Episode Length        | 761.81   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 8.00%    |
-| Collision Rate             | 76.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -3404.45 |
-| Mean Episode Length        | 699.31   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.43m    |
+| Mean Reward                | -3866.48 |
+| Mean Episode Length        | 797.12   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 7.00%    |
-| Collision Rate             | 63.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3393.40 |
-| Mean Episode Length        | 739.62   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.47m    |
+| Mean Reward                | -3784.86 |
+| Mean Episode Length        | 766.42   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 67.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3472.58 |
-| Mean Episode Length        | 726.94   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.50m    |
+| Mean Reward                | -3933.71 |
+| Mean Episode Length        | 778.06   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 59.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3483.27 |
-| Mean Episode Length        | 740.69   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.51m    |
+| Mean Reward                | -3990.98 |
+| Mean Episode Length        | 793.23   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3518.72 |
-| Mean Episode Length        | 765.27   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.54m    |
+| Mean Reward                | -3995.51 |
+| Mean Episode Length        | 791.77   |
 ---
 
 ### $\mu = 0.18$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 52.00%   |
-| Mean Incompletion Distance | 0.24m    |
-| Mean Reward                | -3538.58 |
-| Mean Episode Length        | 757.89   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.54m    |
+| Mean Reward                | -4089.90 |
+| Mean Episode Length        | 807.29   |
 ---
 
 ### $\mu = 0.19$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value   |
 |----------------------------|---------|
-| Success Rate               | 58.00%  |
-| Collision Rate             | 42.00%  |
+| Success Rate               | 56.00%  |
+| Collision Rate             | 44.00%  |
 | Mean Incompletion Distance | N/A     |
-| Mean Reward                | -868.37 |
-| Mean Episode Length        | 263.14  |
+| Mean Reward                | -979.83 |
+| Mean Episode Length        | 286.02  |
 ---
 
 ### $\mu = 0.19$ | $\sigma = 0.1$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 58.00%  |
-| Collision Rate             | 42.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -875.10 |
-| Mean Episode Length        | 265.62  |
----
-
-### $\mu = 0.19$ | $\sigma = 0.2$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 59.00%  |
-| Collision Rate             | 41.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -860.61 |
-| Mean Episode Length        | 265.13  |
----
-
-### $\mu = 0.19$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 61.00%  |
-| Collision Rate             | 39.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -860.82 |
-| Mean Episode Length        | 275.6   |
----
-
-### $\mu = 0.19$ | $\sigma = 0.4$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 61.00%  |
-| Collision Rate             | 39.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -896.57 |
-| Mean Episode Length        | 284.04  |
----
-
-### $\mu = 0.19$ | $\sigma = 0.5$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 62.00%  |
-| Collision Rate             | 38.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -920.83 |
-| Mean Episode Length        | 294.51  |
----
-
-### $\mu = 0.19$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 58.00%   |
-| Collision Rate             | 42.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1036.71 |
-| Mean Episode Length        | 303.52   |
----
-
-### $\mu = 0.19$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 55.00%   |
-| Collision Rate             | 45.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1174.83 |
-| Mean Episode Length        | 323.89   |
----
-
-### $\mu = 0.19$ | $\sigma = 0.8$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 41.00%   |
-| Collision Rate             | 59.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1500.25 |
-| Mean Episode Length        | 339.48   |
----
-
-### $\mu = 0.19$ | $\sigma = 0.9$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 51.00%   |
-| Collision Rate             | 49.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1376.22 |
-| Mean Episode Length        | 356.88   |
----
-
-### $\mu = 0.19$ | $\sigma = 1.0$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 39.00%   |
-| Collision Rate             | 61.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1711.27 |
-| Mean Episode Length        | 383.03   |
----
-
-### $\mu = 0.19$ | $\sigma = 1.1$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 40.00%   |
-| Collision Rate             | 60.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1739.83 |
-| Mean Episode Length        | 391.29   |
----
-
-### $\mu = 0.19$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 29.00%   |
-| Collision Rate             | 71.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2073.75 |
-| Mean Episode Length        | 424.62   |
----
-
-### $\mu = 0.19$ | $\sigma = 1.3$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 28.00%   |
-| Collision Rate             | 72.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2141.14 |
-| Mean Episode Length        | 432.44   |
----
-
-### $\mu = 0.19$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 29.00%   |
-| Collision Rate             | 71.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2181.28 |
-| Mean Episode Length        | 446.5    |
----
-
-### $\mu = 0.19$ | $\sigma = 1.5$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 25.00%   |
-| Collision Rate             | 75.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2381.76 |
-| Mean Episode Length        | 483.58   |
----
-
-### $\mu = 0.19$ | $\sigma = 1.6$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 23.00%   |
-| Collision Rate             | 77.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2481.04 |
-| Mean Episode Length        | 504.67   |
----
-
-### $\mu = 0.19$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 23.00%   |
-| Collision Rate             | 77.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2560.24 |
-| Mean Episode Length        | 521.61   |
----
-
-### $\mu = 0.19$ | $\sigma = 1.8$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 82.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2748.03 |
-| Mean Episode Length        | 543.28   |
----
-
-### $\mu = 0.19$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 25.00%   |
-| Collision Rate             | 75.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2650.02 |
-| Mean Episode Length        | 552.44   |
----
-
-### $\mu = 0.19$ | $\sigma = 2.0$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 20.00%   |
-| Collision Rate             | 80.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2929.41 |
-| Mean Episode Length        | 596.15   |
----
-
-### $\mu = 0.19$ | $\sigma = 2.1$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 14.00%   |
-| Collision Rate             | 86.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -3132.64 |
-| Mean Episode Length        | 626.9    |
----
-
-### $\mu = 0.19$ | $\sigma = 2.2$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 12.00%   |
-| Collision Rate             | 82.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3089.96 |
-| Mean Episode Length        | 615.75   |
----
-
-### $\mu = 0.19$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 11.00%   |
-| Collision Rate             | 86.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3343.01 |
-| Mean Episode Length        | 679.22   |
----
-
-### $\mu = 0.19$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 12.00%   |
-| Collision Rate             | 77.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3252.29 |
-| Mean Episode Length        | 666.34   |
----
-
-### $\mu = 0.19$ | $\sigma = 2.5$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 9.00%    |
-| Collision Rate             | 73.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3356.66 |
-| Mean Episode Length        | 705.3    |
----
-
-### $\mu = 0.19$ | $\sigma = 2.6$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 11.00%   |
-| Collision Rate             | 66.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3364.63 |
-| Mean Episode Length        | 720.67   |
----
-
-### $\mu = 0.19$ | $\sigma = 2.7$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 9.00%    |
-| Collision Rate             | 64.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3391.18 |
-| Mean Episode Length        | 726.99   |
----
-
-### $\mu = 0.19$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 63.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3484.38 |
-| Mean Episode Length        | 729.65   |
----
-
-### $\mu = 0.19$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 59.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3558.18 |
-| Mean Episode Length        | 756.13   |
----
-
-### $\mu = 0.19$ | $\sigma = 3.0$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3553.89 |
-| Mean Episode Length        | 745.91   |
----
-
-### $\mu = 0.2$ | $\sigma = 0.0$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 58.00%  |
-| Collision Rate             | 42.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -872.89 |
-| Mean Episode Length        | 265.16  |
----
-
-### $\mu = 0.2$ | $\sigma = 0.1$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 55.00%  |
-| Collision Rate             | 45.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -932.03 |
-| Mean Episode Length        | 264.76  |
----
-
-### $\mu = 0.2$ | $\sigma = 0.2$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 58.00%  |
-| Collision Rate             | 42.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -878.78 |
-| Mean Episode Length        | 265.62  |
----
-
-### $\mu = 0.2$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 60.00%  |
-| Collision Rate             | 40.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -877.46 |
-| Mean Episode Length        | 274.27  |
----
-
-### $\mu = 0.2$ | $\sigma = 0.4$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 61.00%  |
-| Collision Rate             | 39.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -882.13 |
-| Mean Episode Length        | 280.91  |
----
-
-### $\mu = 0.2$ | $\sigma = 0.5$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 60.00%  |
-| Collision Rate             | 40.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -937.42 |
-| Mean Episode Length        | 288.71  |
----
-
-### $\mu = 0.2$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 59.00%   |
-| Collision Rate             | 41.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1019.97 |
-| Mean Episode Length        | 303.85   |
----
-
-### $\mu = 0.2$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 57.00%   |
-| Collision Rate             | 43.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1118.04 |
-| Mean Episode Length        | 319.02   |
----
-
-### $\mu = 0.2$ | $\sigma = 0.8$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 43.00%   |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1470.19 |
-| Mean Episode Length        | 341.2    |
----
-
-### $\mu = 0.2$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
 | Success Rate               | 46.00%   |
 | Collision Rate             | 54.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1461.95 |
-| Mean Episode Length        | 354.05   |
+| Mean Reward                | -1191.34 |
+| Mean Episode Length        | 293.08   |
 ---
 
-### $\mu = 0.2$ | $\sigma = 1.0$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 42.00%   |
-| Collision Rate             | 58.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1640.31 |
-| Mean Episode Length        | 380.74   |
----
-
-### $\mu = 0.2$ | $\sigma = 1.1$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 34.00%   |
-| Collision Rate             | 66.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1861.03 |
-| Mean Episode Length        | 394.27   |
----
-
-### $\mu = 0.2$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 32.00%   |
-| Collision Rate             | 68.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1969.56 |
-| Mean Episode Length        | 414.19   |
----
-
-### $\mu = 0.2$ | $\sigma = 1.3$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 26.00%   |
-| Collision Rate             | 74.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2190.89 |
-| Mean Episode Length        | 437.06   |
----
-
-### $\mu = 0.2$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 23.00%   |
-| Collision Rate             | 77.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2295.72 |
-| Mean Episode Length        | 443.71   |
----
-
-### $\mu = 0.2$ | $\sigma = 1.5$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 21.00%   |
-| Collision Rate             | 79.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2416.24 |
-| Mean Episode Length        | 470.31   |
----
-
-### $\mu = 0.2$ | $\sigma = 1.6$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 20.00%   |
-| Collision Rate             | 80.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2526.89 |
-| Mean Episode Length        | 491.33   |
----
-
-### $\mu = 0.2$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 19.00%   |
-| Collision Rate             | 81.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2633.01 |
-| Mean Episode Length        | 522.18   |
----
-
-### $\mu = 0.2$ | $\sigma = 1.8$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 19.00%   |
-| Collision Rate             | 81.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2722.45 |
-| Mean Episode Length        | 540.95   |
----
-
-### $\mu = 0.2$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 19.00%   |
-| Collision Rate             | 81.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2757.74 |
-| Mean Episode Length        | 545.59   |
----
-
-### $\mu = 0.2$ | $\sigma = 2.0$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 15.00%   |
-| Collision Rate             | 84.00%   |
-| Mean Incompletion Distance | 0.16m    |
-| Mean Reward                | -2986.02 |
-| Mean Episode Length        | 597.79   |
----
-
-### $\mu = 0.2$ | $\sigma = 2.1$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 20.00%   |
-| Collision Rate             | 80.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2937.59 |
-| Mean Episode Length        | 602.07   |
----
-
-### $\mu = 0.2$ | $\sigma = 2.2$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 13.00%   |
-| Collision Rate             | 84.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3135.80 |
-| Mean Episode Length        | 630.11   |
----
-
-### $\mu = 0.2$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 16.00%   |
-| Collision Rate             | 78.00%   |
-| Mean Incompletion Distance | 0.24m    |
-| Mean Reward                | -3166.78 |
-| Mean Episode Length        | 665.87   |
----
-
-### $\mu = 0.2$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 12.00%   |
-| Collision Rate             | 81.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3294.19 |
-| Mean Episode Length        | 661.54   |
----
-
-### $\mu = 0.2$ | $\sigma = 2.5$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 8.00%    |
-| Collision Rate             | 75.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3404.48 |
-| Mean Episode Length        | 718.02   |
----
-
-### $\mu = 0.2$ | $\sigma = 2.6$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 66.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3363.67 |
-| Mean Episode Length        | 709.67   |
----
-
-### $\mu = 0.2$ | $\sigma = 2.7$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 14.00%   |
-| Collision Rate             | 61.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3302.12 |
-| Mean Episode Length        | 722.18   |
----
-
-### $\mu = 0.2$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 7.00%    |
-| Collision Rate             | 58.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3443.28 |
-| Mean Episode Length        | 746.27   |
----
-
-### $\mu = 0.2$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 56.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3530.65 |
-| Mean Episode Length        | 768.47   |
----
-
-### $\mu = 0.2$ | $\sigma = 3.0$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 1.00%    |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3607.55 |
-| Mean Episode Length        | 753.62   |
----
-
-### $\mu = 0.21$ | $\sigma = 0.0$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 53.00%  |
-| Collision Rate             | 47.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -967.73 |
-| Mean Episode Length        | 263.9   |
----
-
-### $\mu = 0.21$ | $\sigma = 0.1$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 55.00%  |
-| Collision Rate             | 45.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -938.86 |
-| Mean Episode Length        | 265.97  |
----
-
-### $\mu = 0.21$ | $\sigma = 0.2$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 54.00%  |
-| Collision Rate             | 46.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -959.69 |
-| Mean Episode Length        | 266.09  |
----
-
-### $\mu = 0.21$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 58.00%  |
-| Collision Rate             | 42.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -911.21 |
-| Mean Episode Length        | 274.48  |
----
-
-### $\mu = 0.21$ | $\sigma = 0.4$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 58.00%  |
-| Collision Rate             | 42.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -938.36 |
-| Mean Episode Length        | 281.54  |
----
-
-### $\mu = 0.21$ | $\sigma = 0.5$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 57.00%   |
-| Collision Rate             | 43.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1006.48 |
-| Mean Episode Length        | 293.07   |
----
-
-### $\mu = 0.21$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 55.00%   |
-| Collision Rate             | 45.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1081.59 |
-| Mean Episode Length        | 300.31   |
----
-
-### $\mu = 0.21$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 51.00%   |
-| Collision Rate             | 49.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1232.57 |
-| Mean Episode Length        | 319.95   |
----
-
-### $\mu = 0.21$ | $\sigma = 0.8$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 45.00%   |
-| Collision Rate             | 55.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1408.52 |
-| Mean Episode Length        | 335.25   |
----
-
-### $\mu = 0.21$ | $\sigma = 0.9$ | Denoiser = `None`
+### $\mu = 0.19$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
 | Success Rate               | 41.00%   |
 | Collision Rate             | 59.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1546.55 |
-| Mean Episode Length        | 349.93   |
+| Mean Reward                | -1372.95 |
+| Mean Episode Length        | 321.9    |
 ---
 
-### $\mu = 0.21$ | $\sigma = 1.0$ | Denoiser = `None`
+### $\mu = 0.19$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 40.00%   |
-| Collision Rate             | 60.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1652.38 |
-| Mean Episode Length        | 373.2    |
----
-
-### $\mu = 0.21$ | $\sigma = 1.1$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 35.00%   |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1839.44 |
-| Mean Episode Length        | 395.64   |
----
-
-### $\mu = 0.21$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 30.00%   |
-| Collision Rate             | 70.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2010.72 |
-| Mean Episode Length        | 416.03   |
----
-
-### $\mu = 0.21$ | $\sigma = 1.3$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 23.00%   |
-| Collision Rate             | 77.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2201.19 |
-| Mean Episode Length        | 420.54   |
----
-
-### $\mu = 0.21$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 26.00%   |
-| Collision Rate             | 74.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2211.07 |
-| Mean Episode Length        | 442.47   |
----
-
-### $\mu = 0.21$ | $\sigma = 1.5$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 20.00%   |
-| Collision Rate             | 80.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2463.18 |
-| Mean Episode Length        | 484.45   |
----
-
-### $\mu = 0.21$ | $\sigma = 1.6$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 19.00%   |
-| Collision Rate             | 81.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2552.14 |
-| Mean Episode Length        | 501.58   |
----
-
-### $\mu = 0.21$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 82.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2647.24 |
-| Mean Episode Length        | 525.54   |
----
-
-### $\mu = 0.21$ | $\sigma = 1.8$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 16.00%   |
-| Collision Rate             | 84.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2766.61 |
-| Mean Episode Length        | 535.22   |
----
-
-### $\mu = 0.21$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 19.00%   |
-| Collision Rate             | 81.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2804.39 |
-| Mean Episode Length        | 566.15   |
----
-
-### $\mu = 0.21$ | $\sigma = 2.0$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 82.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2906.28 |
-| Mean Episode Length        | 584.85   |
----
-
-### $\mu = 0.21$ | $\sigma = 2.1$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 88.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3171.65 |
-| Mean Episode Length        | 620.28   |
----
-
-### $\mu = 0.21$ | $\sigma = 2.2$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 12.00%   |
-| Collision Rate             | 88.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -3192.29 |
-| Mean Episode Length        | 638.2    |
----
-
-### $\mu = 0.21$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 14.00%   |
-| Collision Rate             | 84.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3245.91 |
-| Mean Episode Length        | 659.41   |
----
-
-### $\mu = 0.21$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 8.00%    |
-| Collision Rate             | 86.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3375.96 |
-| Mean Episode Length        | 668.63   |
----
-
-### $\mu = 0.21$ | $\sigma = 2.5$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 8.00%    |
-| Collision Rate             | 80.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3421.48 |
-| Mean Episode Length        | 698.9    |
----
-
-### $\mu = 0.21$ | $\sigma = 2.6$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 7.00%    |
-| Collision Rate             | 71.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3360.08 |
-| Mean Episode Length        | 702.18   |
----
-
-### $\mu = 0.21$ | $\sigma = 2.7$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 7.00%    |
-| Collision Rate             | 64.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3402.36 |
-| Mean Episode Length        | 723.4    |
----
-
-### $\mu = 0.21$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3466.16 |
-| Mean Episode Length        | 722.25   |
----
-
-### $\mu = 0.21$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 3.00%    |
+| Success Rate               | 39.00%   |
 | Collision Rate             | 61.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3448.17 |
-| Mean Episode Length        | 726.34   |
----
-
-### $\mu = 0.21$ | $\sigma = 3.0$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 52.00%   |
-| Mean Incompletion Distance | 0.24m    |
-| Mean Reward                | -3511.61 |
-| Mean Episode Length        | 755.91   |
----
-
-### $\mu = 0.22$ | $\sigma = 0.0$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 53.00%  |
-| Collision Rate             | 47.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -980.06 |
-| Mean Episode Length        | 267.51  |
----
-
-### $\mu = 0.22$ | $\sigma = 0.1$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 51.00%   |
-| Collision Rate             | 49.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1016.45 |
-| Mean Episode Length        | 265.9    |
+| Mean Reward                | -1556.96 |
+| Mean Episode Length        | 365.3    |
 ---
 
-### $\mu = 0.22$ | $\sigma = 0.2$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 56.00%  |
-| Collision Rate             | 44.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -920.52 |
-| Mean Episode Length        | 266.25  |
----
-
-### $\mu = 0.22$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 56.00%  |
-| Collision Rate             | 44.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -938.76 |
-| Mean Episode Length        | 271.1   |
----
-
-### $\mu = 0.22$ | $\sigma = 0.4$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 59.00%  |
-| Collision Rate             | 41.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -922.98 |
-| Mean Episode Length        | 281.42  |
----
-
-### $\mu = 0.22$ | $\sigma = 0.5$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 59.00%  |
-| Collision Rate             | 41.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -951.54 |
-| Mean Episode Length        | 287.0   |
----
-
-### $\mu = 0.22$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
+### $\mu = 0.19$ | $\sigma = 0.4$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 55.00%   |
-| Collision Rate             | 45.00%   |
+| Success Rate               | 44.00%   |
+| Collision Rate             | 56.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1102.06 |
-| Mean Episode Length        | 307.4    |
+| Mean Reward                | -1632.46 |
+| Mean Episode Length        | 418.13   |
 ---
 
-### $\mu = 0.22$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
+### $\mu = 0.19$ | $\sigma = 0.5$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 49.00%   |
+| Collision Rate             | 51.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1658.21 |
+| Mean Episode Length        | 449.88   |
+---
+
+### $\mu = 0.19$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
 | Success Rate               | 53.00%   |
 | Collision Rate             | 47.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1180.27 |
-| Mean Episode Length        | 314.75   |
+| Mean Reward                | -1721.93 |
+| Mean Episode Length        | 487.49   |
 ---
 
-### $\mu = 0.22$ | $\sigma = 0.8$ | Denoiser = `None`
+### $\mu = 0.19$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 59.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1774.95 |
+| Mean Episode Length        | 539.06   |
+---
+
+### $\mu = 0.19$ | $\sigma = 0.8$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 56.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.13m    |
+| Mean Reward                | -1965.77 |
+| Mean Episode Length        | 574.49   |
+---
+
+### $\mu = 0.19$ | $\sigma = 0.9$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 61.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1987.78 |
+| Mean Episode Length        | 606.59   |
+---
+
+### $\mu = 0.19$ | $\sigma = 1.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 54.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.15m    |
+| Mean Reward                | -2190.02 |
+| Mean Episode Length        | 621.89   |
+---
+
+### $\mu = 0.19$ | $\sigma = 1.1$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 52.00%   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.16m    |
+| Mean Reward                | -2331.22 |
+| Mean Episode Length        | 657.55   |
+---
+
+### $\mu = 0.19$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 45.00%   |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2494.52 |
+| Mean Episode Length        | 670.82   |
+---
+
+### $\mu = 0.19$ | $\sigma = 1.3$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 43.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2582.06 |
+| Mean Episode Length        | 688.47   |
+---
+
+### $\mu = 0.19$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 34.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2768.97 |
+| Mean Episode Length        | 707.26   |
+---
+
+### $\mu = 0.19$ | $\sigma = 1.5$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 26.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -2942.76 |
+| Mean Episode Length        | 730.73   |
+---
+
+### $\mu = 0.19$ | $\sigma = 1.6$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 19.00%   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.24m    |
+| Mean Reward                | -3124.16 |
+| Mean Episode Length        | 750.75   |
+---
+
+### $\mu = 0.19$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 12.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.25m    |
+| Mean Reward                | -3333.79 |
+| Mean Episode Length        | 766.92   |
+---
+
+### $\mu = 0.19$ | $\sigma = 1.8$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 11.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.25m    |
+| Mean Reward                | -3322.21 |
+| Mean Episode Length        | 754.91   |
+---
+
+### $\mu = 0.19$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 6.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.29m    |
+| Mean Reward                | -3489.26 |
+| Mean Episode Length        | 764.29   |
+---
+
+### $\mu = 0.19$ | $\sigma = 2.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 5.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.30m    |
+| Mean Reward                | -3539.80 |
+| Mean Episode Length        | 770.88   |
+---
+
+### $\mu = 0.19$ | $\sigma = 2.1$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.33m    |
+| Mean Reward                | -3593.69 |
+| Mean Episode Length        | 766.64   |
+---
+
+### $\mu = 0.19$ | $\sigma = 2.2$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 2.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.39m    |
+| Mean Reward                | -3639.20 |
+| Mean Episode Length        | 771.74   |
+---
+
+### $\mu = 0.19$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.39m    |
+| Mean Reward                | -3692.47 |
+| Mean Episode Length        | 762.87   |
+---
+
+### $\mu = 0.19$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 1.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.42m    |
+| Mean Reward                | -3725.42 |
+| Mean Episode Length        | 778.86   |
+---
+
+### $\mu = 0.19$ | $\sigma = 2.5$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.44m    |
+| Mean Reward                | -3829.76 |
+| Mean Episode Length        | 782.62   |
+---
+
+### $\mu = 0.19$ | $\sigma = 2.6$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.46m    |
+| Mean Reward                | -3861.17 |
+| Mean Episode Length        | 782.53   |
+---
+
+### $\mu = 0.19$ | $\sigma = 2.7$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.49m    |
+| Mean Reward                | -3912.88 |
+| Mean Episode Length        | 777.05   |
+---
+
+### $\mu = 0.19$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.53m    |
+| Mean Reward                | -4028.64 |
+| Mean Episode Length        | 800.18   |
+---
+
+### $\mu = 0.19$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.54m    |
+| Mean Reward                | -3999.95 |
+| Mean Episode Length        | 797.21   |
+---
+
+### $\mu = 0.19$ | $\sigma = 3.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.55m    |
+| Mean Reward                | -4034.28 |
+| Mean Episode Length        | 778.57   |
+---
+
+### $\mu = 0.2$ | $\sigma = 0.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 49.00%   |
+| Collision Rate             | 51.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1117.75 |
+| Mean Episode Length        | 288.63   |
+---
+
+### $\mu = 0.2$ | $\sigma = 0.1$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 40.00%   |
+| Collision Rate             | 60.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1352.45 |
+| Mean Episode Length        | 306.3    |
+---
+
+### $\mu = 0.2$ | $\sigma = 0.2$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 30.00%   |
+| Collision Rate             | 70.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1622.87 |
+| Mean Episode Length        | 334.12   |
+---
+
+### $\mu = 0.2$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 32.00%   |
+| Collision Rate             | 68.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1710.67 |
+| Mean Episode Length        | 373.94   |
+---
+
+### $\mu = 0.2$ | $\sigma = 0.4$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 34.00%   |
+| Collision Rate             | 66.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1851.41 |
+| Mean Episode Length        | 427.56   |
+---
+
+### $\mu = 0.2$ | $\sigma = 0.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
 | Success Rate               | 44.00%   |
 | Collision Rate             | 56.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1435.13 |
-| Mean Episode Length        | 339.74   |
+| Mean Reward                | -1812.95 |
+| Mean Episode Length        | 470.17   |
 ---
 
-### $\mu = 0.22$ | $\sigma = 0.9$ | Denoiser = `None`
+### $\mu = 0.2$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 33.00%   |
-| Collision Rate             | 67.00%   |
+| Success Rate               | 56.00%   |
+| Collision Rate             | 44.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1719.24 |
-| Mean Episode Length        | 355.37   |
+| Mean Reward                | -1701.84 |
+| Mean Episode Length        | 506.72   |
 ---
 
-### $\mu = 0.22$ | $\sigma = 1.0$ | Denoiser = `None`
+### $\mu = 0.2$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 36.00%   |
-| Collision Rate             | 64.00%   |
+| Success Rate               | 59.00%   |
+| Collision Rate             | 41.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1735.38 |
-| Mean Episode Length        | 373.15   |
+| Mean Reward                | -1809.07 |
+| Mean Episode Length        | 544.69   |
 ---
 
-### $\mu = 0.22$ | $\sigma = 1.1$ | Denoiser = `None`
+### $\mu = 0.2$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 31.00%   |
-| Collision Rate             | 69.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1920.13 |
-| Mean Episode Length        | 397.32   |
+| Success Rate               | 57.00%   |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.23m    |
+| Mean Reward                | -1982.43 |
+| Mean Episode Length        | 581.45   |
 ---
 
-### $\mu = 0.22$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
+### $\mu = 0.2$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 33.00%   |
-| Collision Rate             | 67.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1971.27 |
-| Mean Episode Length        | 422.86   |
+| Success Rate               | 52.00%   |
+| Collision Rate             | 46.00%   |
+| Mean Incompletion Distance | 0.14m    |
+| Mean Reward                | -2162.47 |
+| Mean Episode Length        | 608.63   |
 ---
 
-### $\mu = 0.22$ | $\sigma = 1.3$ | Denoiser = `None`
+### $\mu = 0.2$ | $\sigma = 1.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 55.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2189.78 |
+| Mean Episode Length        | 632.73   |
+---
+
+### $\mu = 0.2$ | $\sigma = 1.1$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 49.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2351.84 |
+| Mean Episode Length        | 644.65   |
+---
+
+### $\mu = 0.2$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 47.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2459.45 |
+| Mean Episode Length        | 679.02   |
+---
+
+### $\mu = 0.2$ | $\sigma = 1.3$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 43.00%   |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -2592.13 |
+| Mean Episode Length        | 687.47   |
+---
+
+### $\mu = 0.2$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 37.00%   |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2808.78 |
+| Mean Episode Length        | 724.21   |
+---
+
+### $\mu = 0.2$ | $\sigma = 1.5$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 25.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.24m    |
+| Mean Reward                | -3003.61 |
+| Mean Episode Length        | 749.67   |
+---
+
+### $\mu = 0.2$ | $\sigma = 1.6$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 18.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.26m    |
+| Mean Reward                | -3202.43 |
+| Mean Episode Length        | 747.56   |
+---
+
+### $\mu = 0.2$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 14.00%   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.27m    |
+| Mean Reward                | -3276.41 |
+| Mean Episode Length        | 755.3    |
+---
+
+### $\mu = 0.2$ | $\sigma = 1.8$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 8.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.28m    |
+| Mean Reward                | -3370.23 |
+| Mean Episode Length        | 749.95   |
+---
+
+### $\mu = 0.2$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 3.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.29m    |
+| Mean Reward                | -3546.53 |
+| Mean Episode Length        | 774.74   |
+---
+
+### $\mu = 0.2$ | $\sigma = 2.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 3.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.32m    |
+| Mean Reward                | -3536.21 |
+| Mean Episode Length        | 764.52   |
+---
+
+### $\mu = 0.2$ | $\sigma = 2.1$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 1.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.36m    |
+| Mean Reward                | -3615.42 |
+| Mean Episode Length        | 762.86   |
+---
+
+### $\mu = 0.2$ | $\sigma = 2.2$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 1.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.40m    |
+| Mean Reward                | -3663.56 |
+| Mean Episode Length        | 768.48   |
+---
+
+### $\mu = 0.2$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.41m    |
+| Mean Reward                | -3725.96 |
+| Mean Episode Length        | 780.8    |
+---
+
+### $\mu = 0.2$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.43m    |
+| Mean Reward                | -3836.96 |
+| Mean Episode Length        | 787.4    |
+---
+
+### $\mu = 0.2$ | $\sigma = 2.5$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.46m    |
+| Mean Reward                | -3824.44 |
+| Mean Episode Length        | 779.91   |
+---
+
+### $\mu = 0.2$ | $\sigma = 2.6$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.48m    |
+| Mean Reward                | -3865.74 |
+| Mean Episode Length        | 789.02   |
+---
+
+### $\mu = 0.2$ | $\sigma = 2.7$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.50m    |
+| Mean Reward                | -3914.62 |
+| Mean Episode Length        | 784.97   |
+---
+
+### $\mu = 0.2$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.53m    |
+| Mean Reward                | -3949.19 |
+| Mean Episode Length        | 774.49   |
+---
+
+### $\mu = 0.2$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.54m    |
+| Mean Reward                | -3937.33 |
+| Mean Episode Length        | 780.36   |
+---
+
+### $\mu = 0.2$ | $\sigma = 3.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.56m    |
+| Mean Reward                | -4117.89 |
+| Mean Episode Length        | 802.32   |
+---
+
+### $\mu = 0.21$ | $\sigma = 0.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 42.00%   |
+| Collision Rate             | 58.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1283.50 |
+| Mean Episode Length        | 298.12   |
+---
+
+### $\mu = 0.21$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
 | Success Rate               | 27.00%   |
 | Collision Rate             | 73.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2148.78 |
-| Mean Episode Length        | 437.41   |
+| Mean Reward                | -1604.95 |
+| Mean Episode Length        | 307.89   |
 ---
 
-### $\mu = 0.22$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
+### $\mu = 0.21$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 19.00%   |
-| Collision Rate             | 81.00%   |
+| Success Rate               | 26.00%   |
+| Collision Rate             | 74.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2329.61 |
-| Mean Episode Length        | 430.84   |
+| Mean Reward                | -1721.93 |
+| Mean Episode Length        | 339.14   |
 ---
 
-### $\mu = 0.22$ | $\sigma = 1.5$ | Denoiser = `None`
+### $\mu = 0.21$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 24.00%   |
-| Collision Rate             | 76.00%   |
+| Success Rate               | 23.00%   |
+| Collision Rate             | 77.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2313.48 |
-| Mean Episode Length        | 459.62   |
+| Mean Reward                | -1914.22 |
+| Mean Episode Length        | 382.49   |
 ---
 
-### $\mu = 0.22$ | $\sigma = 1.6$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 17.00%   |
-| Collision Rate             | 83.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2558.46 |
-| Mean Episode Length        | 490.96   |
----
-
-### $\mu = 0.22$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 19.00%   |
-| Collision Rate             | 81.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2601.28 |
-| Mean Episode Length        | 508.7    |
----
-
-### $\mu = 0.22$ | $\sigma = 1.8$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 16.00%   |
-| Collision Rate             | 84.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2730.57 |
-| Mean Episode Length        | 529.57   |
----
-
-### $\mu = 0.22$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 82.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2792.40 |
-| Mean Episode Length        | 552.27   |
----
-
-### $\mu = 0.22$ | $\sigma = 2.0$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 82.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2929.69 |
-| Mean Episode Length        | 596.74   |
----
-
-### $\mu = 0.22$ | $\sigma = 2.1$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 15.00%   |
-| Collision Rate             | 84.00%   |
-| Mean Incompletion Distance | 0.25m    |
-| Mean Reward                | -3044.99 |
-| Mean Episode Length        | 613.83   |
----
-
-### $\mu = 0.22$ | $\sigma = 2.2$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 11.00%   |
-| Collision Rate             | 88.00%   |
-| Mean Incompletion Distance | 0.15m    |
-| Mean Reward                | -3190.58 |
-| Mean Episode Length        | 634.82   |
----
-
-### $\mu = 0.22$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 8.00%    |
-| Collision Rate             | 87.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3312.02 |
-| Mean Episode Length        | 653.31   |
----
-
-### $\mu = 0.22$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 83.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3301.51 |
-| Mean Episode Length        | 668.0    |
----
-
-### $\mu = 0.22$ | $\sigma = 2.5$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 84.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3431.43 |
-| Mean Episode Length        | 686.42   |
----
-
-### $\mu = 0.22$ | $\sigma = 2.6$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 8.00%    |
-| Collision Rate             | 76.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3339.22 |
-| Mean Episode Length        | 680.92   |
----
-
-### $\mu = 0.22$ | $\sigma = 2.7$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 76.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3474.01 |
-| Mean Episode Length        | 708.21   |
----
-
-### $\mu = 0.22$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3522.21 |
-| Mean Episode Length        | 738.75   |
----
-
-### $\mu = 0.22$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 62.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3503.31 |
-| Mean Episode Length        | 739.88   |
----
-
-### $\mu = 0.22$ | $\sigma = 3.0$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 1.00%    |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3590.84 |
-| Mean Episode Length        | 764.08   |
----
-
-### $\mu = 0.23$ | $\sigma = 0.0$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 50.00%   |
-| Collision Rate             | 50.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1033.83 |
-| Mean Episode Length        | 265.07   |
----
-
-### $\mu = 0.23$ | $\sigma = 0.1$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 49.00%   |
-| Collision Rate             | 51.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1055.08 |
-| Mean Episode Length        | 266.34   |
----
-
-### $\mu = 0.23$ | $\sigma = 0.2$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 50.00%   |
-| Collision Rate             | 50.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1049.10 |
-| Mean Episode Length        | 270.47   |
----
-
-### $\mu = 0.23$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 52.00%   |
-| Collision Rate             | 48.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1025.22 |
-| Mean Episode Length        | 272.47   |
----
-
-### $\mu = 0.23$ | $\sigma = 0.4$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 55.00%  |
-| Collision Rate             | 45.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -989.15 |
-| Mean Episode Length        | 278.69  |
----
-
-### $\mu = 0.23$ | $\sigma = 0.5$ | Denoiser = `None`
-
-| Metric                     | Value   |
-|----------------------------|---------|
-| Success Rate               | 59.00%  |
-| Collision Rate             | 41.00%  |
-| Mean Incompletion Distance | N/A     |
-| Mean Reward                | -960.79 |
-| Mean Episode Length        | 291.37  |
----
-
-### $\mu = 0.23$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 50.00%   |
-| Collision Rate             | 50.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1176.82 |
-| Mean Episode Length        | 298.58   |
----
-
-### $\mu = 0.23$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 49.00%   |
-| Collision Rate             | 51.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1251.19 |
-| Mean Episode Length        | 314.03   |
----
-
-### $\mu = 0.23$ | $\sigma = 0.8$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 44.00%   |
-| Collision Rate             | 56.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1417.02 |
-| Mean Episode Length        | 333.67   |
----
-
-### $\mu = 0.23$ | $\sigma = 0.9$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 37.00%   |
-| Collision Rate             | 63.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1622.19 |
-| Mean Episode Length        | 349.31   |
----
-
-### $\mu = 0.23$ | $\sigma = 1.0$ | Denoiser = `None`
-
-| Metric                     | Value    |
-|----------------------------|----------|
-| Success Rate               | 33.00%   |
-| Collision Rate             | 67.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1769.32 |
-| Mean Episode Length        | 370.0    |
----
-
-### $\mu = 0.23$ | $\sigma = 1.1$ | Denoiser = `None`
+### $\mu = 0.21$ | $\sigma = 0.4$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
 | Success Rate               | 28.00%   |
 | Collision Rate             | 72.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1954.90 |
-| Mean Episode Length        | 390.57   |
+| Mean Reward                | -1984.03 |
+| Mean Episode Length        | 431.78   |
+---
+
+### $\mu = 0.21$ | $\sigma = 0.5$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 44.00%   |
+| Collision Rate             | 56.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1827.78 |
+| Mean Episode Length        | 475.77   |
+---
+
+### $\mu = 0.21$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 44.00%   |
+| Collision Rate             | 56.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1953.36 |
+| Mean Episode Length        | 500.49   |
+---
+
+### $\mu = 0.21$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 48.00%   |
+| Collision Rate             | 52.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -2043.13 |
+| Mean Episode Length        | 551.54   |
+---
+
+### $\mu = 0.21$ | $\sigma = 0.8$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 50.00%   |
+| Collision Rate             | 48.00%   |
+| Mean Incompletion Distance | 0.15m    |
+| Mean Reward                | -2123.85 |
+| Mean Episode Length        | 593.65   |
+---
+
+### $\mu = 0.21$ | $\sigma = 0.9$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 53.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.15m    |
+| Mean Reward                | -2183.83 |
+| Mean Episode Length        | 621.55   |
+---
+
+### $\mu = 0.21$ | $\sigma = 1.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 52.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2329.20 |
+| Mean Episode Length        | 656.38   |
+---
+
+### $\mu = 0.21$ | $\sigma = 1.1$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 47.00%   |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2433.10 |
+| Mean Episode Length        | 654.92   |
+---
+
+### $\mu = 0.21$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 46.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.15m    |
+| Mean Reward                | -2521.13 |
+| Mean Episode Length        | 686.56   |
+---
+
+### $\mu = 0.21$ | $\sigma = 1.3$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 38.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -2742.57 |
+| Mean Episode Length        | 716.8    |
+---
+
+### $\mu = 0.21$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 27.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2932.01 |
+| Mean Episode Length        | 746.02   |
+---
+
+### $\mu = 0.21$ | $\sigma = 1.5$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 21.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -3036.75 |
+| Mean Episode Length        | 728.94   |
+---
+
+### $\mu = 0.21$ | $\sigma = 1.6$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 22.00%   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.25m    |
+| Mean Reward                | -3179.81 |
+| Mean Episode Length        | 761.42   |
+---
+
+### $\mu = 0.21$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 8.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.25m    |
+| Mean Reward                | -3345.98 |
+| Mean Episode Length        | 760.57   |
+---
+
+### $\mu = 0.21$ | $\sigma = 1.8$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 6.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.30m    |
+| Mean Reward                | -3474.47 |
+| Mean Episode Length        | 784.94   |
+---
+
+### $\mu = 0.21$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 5.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.31m    |
+| Mean Reward                | -3499.46 |
+| Mean Episode Length        | 765.49   |
+---
+
+### $\mu = 0.21$ | $\sigma = 2.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 3.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.33m    |
+| Mean Reward                | -3578.62 |
+| Mean Episode Length        | 761.44   |
+---
+
+### $\mu = 0.21$ | $\sigma = 2.1$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 2.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.37m    |
+| Mean Reward                | -3647.16 |
+| Mean Episode Length        | 767.93   |
+---
+
+### $\mu = 0.21$ | $\sigma = 2.2$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 1.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.39m    |
+| Mean Reward                | -3760.24 |
+| Mean Episode Length        | 789.03   |
+---
+
+### $\mu = 0.21$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.41m    |
+| Mean Reward                | -3753.96 |
+| Mean Episode Length        | 771.93   |
+---
+
+### $\mu = 0.21$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.46m    |
+| Mean Reward                | -3821.07 |
+| Mean Episode Length        | 780.09   |
+---
+
+### $\mu = 0.21$ | $\sigma = 2.5$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.47m    |
+| Mean Reward                | -3836.15 |
+| Mean Episode Length        | 777.38   |
+---
+
+### $\mu = 0.21$ | $\sigma = 2.6$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.49m    |
+| Mean Reward                | -3898.63 |
+| Mean Episode Length        | 796.21   |
+---
+
+### $\mu = 0.21$ | $\sigma = 2.7$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.53m    |
+| Mean Reward                | -4041.99 |
+| Mean Episode Length        | 809.36   |
+---
+
+### $\mu = 0.21$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.52m    |
+| Mean Reward                | -3919.57 |
+| Mean Episode Length        | 779.0    |
+---
+
+### $\mu = 0.21$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.54m    |
+| Mean Reward                | -4035.76 |
+| Mean Episode Length        | 796.82   |
+---
+
+### $\mu = 0.21$ | $\sigma = 3.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.57m    |
+| Mean Reward                | -4091.03 |
+| Mean Episode Length        | 799.29   |
+---
+
+### $\mu = 0.22$ | $\sigma = 0.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 27.00%   |
+| Collision Rate             | 73.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1603.53 |
+| Mean Episode Length        | 306.25   |
+---
+
+### $\mu = 0.22$ | $\sigma = 0.1$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 19.00%   |
+| Collision Rate             | 81.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1787.03 |
+| Mean Episode Length        | 316.05   |
+---
+
+### $\mu = 0.22$ | $\sigma = 0.2$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 16.00%   |
+| Collision Rate             | 84.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1955.63 |
+| Mean Episode Length        | 352.28   |
+---
+
+### $\mu = 0.22$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 23.00%   |
+| Collision Rate             | 77.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1965.27 |
+| Mean Episode Length        | 401.87   |
+---
+
+### $\mu = 0.22$ | $\sigma = 0.4$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 26.00%   |
+| Collision Rate             | 74.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -2074.38 |
+| Mean Episode Length        | 450.14   |
+---
+
+### $\mu = 0.22$ | $\sigma = 0.5$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 41.00%   |
+| Collision Rate             | 59.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1942.52 |
+| Mean Episode Length        | 492.51   |
+---
+
+### $\mu = 0.22$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 40.00%   |
+| Collision Rate             | 60.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -2101.95 |
+| Mean Episode Length        | 526.13   |
+---
+
+### $\mu = 0.22$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 51.00%   |
+| Collision Rate             | 47.00%   |
+| Mean Incompletion Distance | 0.16m    |
+| Mean Reward                | -2037.75 |
+| Mean Episode Length        | 574.24   |
+---
+
+### $\mu = 0.22$ | $\sigma = 0.8$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 46.00%   |
+| Collision Rate             | 52.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -2261.83 |
+| Mean Episode Length        | 608.53   |
+---
+
+### $\mu = 0.22$ | $\sigma = 0.9$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 53.00%   |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.17m    |
+| Mean Reward                | -2132.37 |
+| Mean Episode Length        | 610.52   |
+---
+
+### $\mu = 0.22$ | $\sigma = 1.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 52.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2309.27 |
+| Mean Episode Length        | 654.14   |
+---
+
+### $\mu = 0.22$ | $\sigma = 1.1$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 47.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -2414.00 |
+| Mean Episode Length        | 656.17   |
+---
+
+### $\mu = 0.22$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 41.00%   |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2677.01 |
+| Mean Episode Length        | 711.97   |
+---
+
+### $\mu = 0.22$ | $\sigma = 1.3$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 33.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2815.67 |
+| Mean Episode Length        | 718.25   |
+---
+
+### $\mu = 0.22$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 29.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -2888.78 |
+| Mean Episode Length        | 718.46   |
+---
+
+### $\mu = 0.22$ | $\sigma = 1.5$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 21.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.24m    |
+| Mean Reward                | -3113.99 |
+| Mean Episode Length        | 741.25   |
+---
+
+### $\mu = 0.22$ | $\sigma = 1.6$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 12.00%   |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.25m    |
+| Mean Reward                | -3283.10 |
+| Mean Episode Length        | 767.75   |
+---
+
+### $\mu = 0.22$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 9.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.30m    |
+| Mean Reward                | -3421.54 |
+| Mean Episode Length        | 781.45   |
+---
+
+### $\mu = 0.22$ | $\sigma = 1.8$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 5.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.29m    |
+| Mean Reward                | -3495.11 |
+| Mean Episode Length        | 766.15   |
+---
+
+### $\mu = 0.22$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 4.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.33m    |
+| Mean Reward                | -3600.05 |
+| Mean Episode Length        | 778.39   |
+---
+
+### $\mu = 0.22$ | $\sigma = 2.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 1.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.33m    |
+| Mean Reward                | -3625.09 |
+| Mean Episode Length        | 782.08   |
+---
+
+### $\mu = 0.22$ | $\sigma = 2.1$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 1.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.37m    |
+| Mean Reward                | -3676.54 |
+| Mean Episode Length        | 779.36   |
+---
+
+### $\mu = 0.22$ | $\sigma = 2.2$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 2.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.42m    |
+| Mean Reward                | -3738.33 |
+| Mean Episode Length        | 785.81   |
+---
+
+### $\mu = 0.22$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.44m    |
+| Mean Reward                | -3821.23 |
+| Mean Episode Length        | 790.07   |
+---
+
+### $\mu = 0.22$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.45m    |
+| Mean Reward                | -3826.53 |
+| Mean Episode Length        | 784.36   |
+---
+
+### $\mu = 0.22$ | $\sigma = 2.5$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.48m    |
+| Mean Reward                | -3932.20 |
+| Mean Episode Length        | 804.5    |
+---
+
+### $\mu = 0.22$ | $\sigma = 2.6$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 34.00%   |
+| Mean Incompletion Distance | 0.50m    |
+| Mean Reward                | -3914.87 |
+| Mean Episode Length        | 796.01   |
+---
+
+### $\mu = 0.22$ | $\sigma = 2.7$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.50m    |
+| Mean Reward                | -3962.16 |
+| Mean Episode Length        | 794.93   |
+---
+
+### $\mu = 0.22$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.53m    |
+| Mean Reward                | -4005.04 |
+| Mean Episode Length        | 795.59   |
+---
+
+### $\mu = 0.22$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.56m    |
+| Mean Reward                | -4032.73 |
+| Mean Episode Length        | 793.79   |
+---
+
+### $\mu = 0.22$ | $\sigma = 3.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.57m    |
+| Mean Reward                | -4077.94 |
+| Mean Episode Length        | 802.19   |
+---
+
+### $\mu = 0.23$ | $\sigma = 0.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 10.00%   |
+| Collision Rate             | 90.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1943.74 |
+| Mean Episode Length        | 309.28   |
+---
+
+### $\mu = 0.23$ | $\sigma = 0.1$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 13.00%   |
+| Collision Rate             | 87.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -1909.66 |
+| Mean Episode Length        | 319.12   |
+---
+
+### $\mu = 0.23$ | $\sigma = 0.2$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 13.00%   |
+| Collision Rate             | 87.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -2028.94 |
+| Mean Episode Length        | 357.9    |
+---
+
+### $\mu = 0.23$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 19.00%   |
+| Collision Rate             | 81.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -2064.83 |
+| Mean Episode Length        | 404.9    |
+---
+
+### $\mu = 0.23$ | $\sigma = 0.4$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 21.00%   |
+| Collision Rate             | 79.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -2182.83 |
+| Mean Episode Length        | 456.06   |
+---
+
+### $\mu = 0.23$ | $\sigma = 0.5$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 32.00%   |
+| Collision Rate             | 68.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -2150.31 |
+| Mean Episode Length        | 503.75   |
+---
+
+### $\mu = 0.23$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 41.00%   |
+| Collision Rate             | 59.00%   |
+| Mean Incompletion Distance | N/A      |
+| Mean Reward                | -2155.16 |
+| Mean Episode Length        | 551.56   |
+---
+
+### $\mu = 0.23$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 41.00%   |
+| Collision Rate             | 57.00%   |
+| Mean Incompletion Distance | 0.26m    |
+| Mean Reward                | -2206.72 |
+| Mean Episode Length        | 561.71   |
+---
+
+### $\mu = 0.23$ | $\sigma = 0.8$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 46.00%   |
+| Collision Rate             | 50.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2257.97 |
+| Mean Episode Length        | 610.67   |
+---
+
+### $\mu = 0.23$ | $\sigma = 0.9$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 46.00%   |
+| Collision Rate             | 49.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2356.66 |
+| Mean Episode Length        | 641.66   |
+---
+
+### $\mu = 0.23$ | $\sigma = 1.0$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 51.00%   |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2336.07 |
+| Mean Episode Length        | 654.05   |
+---
+
+### $\mu = 0.23$ | $\sigma = 1.1$ | Denoiser = `None`
+
+| Metric                     | Value    |
+|----------------------------|----------|
+| Success Rate               | 44.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.16m    |
+| Mean Reward                | -2506.65 |
+| Mean Episode Length        | 675.79   |
 ---
 
 ### $\mu = 0.23$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 35.00%   |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1908.21 |
-| Mean Episode Length        | 417.58   |
+| Success Rate               | 31.00%   |
+| Collision Rate             | 49.00%   |
+| Mean Incompletion Distance | 0.23m    |
+| Mean Reward                | -2829.66 |
+| Mean Episode Length        | 695.74   |
 ---
 
 ### $\mu = 0.23$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 82.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2315.19 |
-| Mean Episode Length        | 433.58   |
+| Success Rate               | 31.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -2856.72 |
+| Mean Episode Length        | 729.65   |
 ---
 
 ### $\mu = 0.23$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 20.00%   |
-| Collision Rate             | 80.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2315.09 |
-| Mean Episode Length        | 438.32   |
+| Success Rate               | 21.00%   |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.23m    |
+| Mean Reward                | -3004.12 |
+| Mean Episode Length        | 725.93   |
 ---
 
 ### $\mu = 0.23$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 82.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2446.52 |
-| Mean Episode Length        | 468.0    |
+| Success Rate               | 24.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.27m    |
+| Mean Reward                | -3044.81 |
+| Mean Episode Length        | 725.16   |
 ---
 
 ### $\mu = 0.23$ | $\sigma = 1.6$ | Denoiser = `None`
@@ -8028,1275 +8028,1275 @@ mus = [0.   0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1  0.11 0.12 0.13
 | Metric                     | Value    |
 |----------------------------|----------|
 | Success Rate               | 11.00%   |
-| Collision Rate             | 89.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2657.42 |
-| Mean Episode Length        | 485.24   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.27m    |
+| Mean Reward                | -3328.80 |
+| Mean Episode Length        | 768.56   |
 ---
 
 ### $\mu = 0.23$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 82.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2624.27 |
-| Mean Episode Length        | 513.45   |
+| Success Rate               | 7.00%    |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.30m    |
+| Mean Reward                | -3434.42 |
+| Mean Episode Length        | 752.72   |
 ---
 
 ### $\mu = 0.23$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 19.00%   |
-| Collision Rate             | 81.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2654.55 |
-| Mean Episode Length        | 525.9    |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.30m    |
+| Mean Reward                | -3534.29 |
+| Mean Episode Length        | 784.05   |
 ---
 
 ### $\mu = 0.23$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 15.00%   |
-| Collision Rate             | 85.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2839.66 |
-| Mean Episode Length        | 548.53   |
+| Success Rate               | 4.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.33m    |
+| Mean Reward                | -3574.27 |
+| Mean Episode Length        | 771.94   |
 ---
 
 ### $\mu = 0.23$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 17.00%   |
-| Collision Rate             | 83.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2872.30 |
-| Mean Episode Length        | 567.73   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.37m    |
+| Mean Reward                | -3716.58 |
+| Mean Episode Length        | 788.65   |
 ---
 
 ### $\mu = 0.23$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 13.00%   |
-| Collision Rate             | 87.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -3012.71 |
-| Mean Episode Length        | 582.81   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.40m    |
+| Mean Reward                | -3667.03 |
+| Mean Episode Length        | 770.3    |
 ---
 
 ### $\mu = 0.23$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 90.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -3230.96 |
-| Mean Episode Length        | 634.73   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.41m    |
+| Mean Reward                | -3795.79 |
+| Mean Episode Length        | 786.05   |
 ---
 
 ### $\mu = 0.23$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 92.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3351.95 |
-| Mean Episode Length        | 643.97   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.41m    |
+| Mean Reward                | -3797.94 |
+| Mean Episode Length        | 787.27   |
 ---
 
 ### $\mu = 0.23$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 12.00%   |
-| Collision Rate             | 83.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -3247.38 |
-| Mean Episode Length        | 657.01   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.47m    |
+| Mean Reward                | -3872.81 |
+| Mean Episode Length        | 796.26   |
 ---
 
 ### $\mu = 0.23$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 79.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -3258.26 |
-| Mean Episode Length        | 665.09   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 34.00%   |
+| Mean Incompletion Distance | 0.49m    |
+| Mean Reward                | -3870.45 |
+| Mean Episode Length        | 793.65   |
 ---
 
 ### $\mu = 0.23$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 78.00%   |
-| Mean Incompletion Distance | 0.17m    |
-| Mean Reward                | -3372.24 |
-| Mean Episode Length        | 699.33   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.49m    |
+| Mean Reward                | -3993.96 |
+| Mean Episode Length        | 796.62   |
 ---
 
 ### $\mu = 0.23$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 12.00%   |
-| Collision Rate             | 68.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3388.73 |
-| Mean Episode Length        | 725.44   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.52m    |
+| Mean Reward                | -4000.00 |
+| Mean Episode Length        | 799.98   |
 ---
 
 ### $\mu = 0.23$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 68.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3425.82 |
-| Mean Episode Length        | 719.62   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.55m    |
+| Mean Reward                | -3987.71 |
+| Mean Episode Length        | 787.04   |
 ---
 
 ### $\mu = 0.23$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 62.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3470.71 |
-| Mean Episode Length        | 737.67   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 34.00%   |
+| Mean Incompletion Distance | 0.57m    |
+| Mean Reward                | -4072.40 |
+| Mean Episode Length        | 801.73   |
 ---
 
 ### $\mu = 0.23$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 55.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3532.91 |
-| Mean Episode Length        | 762.65   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.57m    |
+| Mean Reward                | -4069.73 |
+| Mean Episode Length        | 796.83   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 48.00%   |
-| Collision Rate             | 52.00%   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 98.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1068.40 |
-| Mean Episode Length        | 265.02   |
+| Mean Reward                | -2123.46 |
+| Mean Episode Length        | 316.42   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 47.00%   |
-| Collision Rate             | 53.00%   |
+| Success Rate               | 7.00%    |
+| Collision Rate             | 93.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1098.78 |
-| Mean Episode Length        | 267.27   |
+| Mean Reward                | -2048.54 |
+| Mean Episode Length        | 326.65   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 47.00%   |
-| Collision Rate             | 53.00%   |
+| Success Rate               | 7.00%    |
+| Collision Rate             | 93.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1108.48 |
-| Mean Episode Length        | 269.12   |
+| Mean Reward                | -2177.26 |
+| Mean Episode Length        | 369.2    |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 43.00%   |
-| Collision Rate             | 57.00%   |
+| Success Rate               | 8.00%    |
+| Collision Rate             | 92.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1201.84 |
-| Mean Episode Length        | 272.18   |
+| Mean Reward                | -2312.07 |
+| Mean Episode Length        | 415.93   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 0.4$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 54.00%   |
-| Collision Rate             | 46.00%   |
+| Success Rate               | 18.00%   |
+| Collision Rate             | 82.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1024.27 |
-| Mean Episode Length        | 282.78   |
+| Mean Reward                | -2308.21 |
+| Mean Episode Length        | 470.58   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 0.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 53.00%   |
-| Collision Rate             | 47.00%   |
+| Success Rate               | 25.00%   |
+| Collision Rate             | 75.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1069.55 |
-| Mean Episode Length        | 287.82   |
+| Mean Reward                | -2343.63 |
+| Mean Episode Length        | 523.68   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 50.00%   |
-| Collision Rate             | 50.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1175.85 |
-| Mean Episode Length        | 299.7    |
+| Success Rate               | 38.00%   |
+| Collision Rate             | 61.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2228.83 |
+| Mean Episode Length        | 559.93   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 43.00%   |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1368.58 |
-| Mean Episode Length        | 315.29   |
+| Success Rate               | 35.00%   |
+| Collision Rate             | 61.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2396.93 |
+| Mean Episode Length        | 591.5    |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 39.00%   |
-| Collision Rate             | 61.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1501.40 |
-| Mean Episode Length        | 329.07   |
+| Success Rate               | 43.00%   |
+| Collision Rate             | 51.00%   |
+| Mean Incompletion Distance | 0.23m    |
+| Mean Reward                | -2345.29 |
+| Mean Episode Length        | 631.01   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 36.00%   |
-| Collision Rate             | 64.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1647.67 |
-| Mean Episode Length        | 352.53   |
+| Success Rate               | 47.00%   |
+| Collision Rate             | 47.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2344.53 |
+| Mean Episode Length        | 644.51   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 32.00%   |
-| Collision Rate             | 68.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1796.25 |
-| Mean Episode Length        | 370.92   |
+| Success Rate               | 42.00%   |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2455.17 |
+| Mean Episode Length        | 653.05   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 28.00%   |
-| Collision Rate             | 72.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1945.57 |
-| Mean Episode Length        | 390.26   |
+| Success Rate               | 38.00%   |
+| Collision Rate             | 46.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2647.40 |
+| Mean Episode Length        | 689.18   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 24.00%   |
-| Collision Rate             | 76.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2111.42 |
-| Mean Episode Length        | 407.74   |
+| Success Rate               | 37.00%   |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2717.83 |
+| Mean Episode Length        | 699.25   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 21.00%   |
-| Collision Rate             | 79.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2255.62 |
-| Mean Episode Length        | 430.0    |
+| Success Rate               | 27.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2944.05 |
+| Mean Episode Length        | 723.76   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 16.00%   |
-| Collision Rate             | 84.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2403.75 |
-| Mean Episode Length        | 442.92   |
+| Success Rate               | 20.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.24m    |
+| Mean Reward                | -3071.27 |
+| Mean Episode Length        | 733.45   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 82.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2410.53 |
-| Mean Episode Length        | 454.7    |
+| Success Rate               | 16.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.24m    |
+| Mean Reward                | -3199.12 |
+| Mean Episode Length        | 738.92   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 20.00%   |
-| Collision Rate             | 80.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2454.30 |
-| Mean Episode Length        | 477.57   |
+| Success Rate               | 11.00%   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.26m    |
+| Mean Reward                | -3299.21 |
+| Mean Episode Length        | 758.44   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 22.00%   |
-| Collision Rate             | 78.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2524.51 |
-| Mean Episode Length        | 507.03   |
+| Success Rate               | 6.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.29m    |
+| Mean Reward                | -3459.21 |
+| Mean Episode Length        | 771.07   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 12.00%   |
-| Collision Rate             | 88.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2786.00 |
-| Mean Episode Length        | 520.94   |
+| Success Rate               | 3.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.32m    |
+| Mean Reward                | -3509.91 |
+| Mean Episode Length        | 766.68   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 17.00%   |
-| Collision Rate             | 83.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2782.73 |
-| Mean Episode Length        | 547.62   |
+| Success Rate               | 3.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.35m    |
+| Mean Reward                | -3628.56 |
+| Mean Episode Length        | 775.95   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 15.00%   |
-| Collision Rate             | 85.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2898.12 |
-| Mean Episode Length        | 563.95   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.38m    |
+| Mean Reward                | -3686.99 |
+| Mean Episode Length        | 778.64   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 11.00%   |
-| Collision Rate             | 89.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -3034.51 |
-| Mean Episode Length        | 578.54   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.40m    |
+| Mean Reward                | -3776.15 |
+| Mean Episode Length        | 790.46   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 7.00%    |
-| Collision Rate             | 91.00%   |
-| Mean Incompletion Distance | 0.24m    |
-| Mean Reward                | -3275.30 |
-| Mean Episode Length        | 634.02   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.43m    |
+| Mean Reward                | -3871.72 |
+| Mean Episode Length        | 808.71   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 9.00%    |
-| Collision Rate             | 89.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -3267.82 |
-| Mean Episode Length        | 634.3    |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 33.00%   |
+| Mean Incompletion Distance | 0.44m    |
+| Mean Reward                | -3847.85 |
+| Mean Episode Length        | 805.38   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 88.00%   |
-| Mean Incompletion Distance | 0.25m    |
-| Mean Reward                | -3402.72 |
-| Mean Episode Length        | 673.61   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.47m    |
+| Mean Reward                | -3945.16 |
+| Mean Episode Length        | 800.41   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 80.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3269.39 |
-| Mean Episode Length        | 661.4    |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.51m    |
+| Mean Reward                | -3985.72 |
+| Mean Episode Length        | 805.42   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 9.00%    |
-| Collision Rate             | 81.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3345.60 |
-| Mean Episode Length        | 678.35   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.52m    |
+| Mean Reward                | -3971.60 |
+| Mean Episode Length        | 784.82   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 72.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3466.24 |
-| Mean Episode Length        | 727.56   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.54m    |
+| Mean Reward                | -3953.77 |
+| Mean Episode Length        | 781.38   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 70.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3541.62 |
-| Mean Episode Length        | 734.07   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.55m    |
+| Mean Reward                | -4081.01 |
+| Mean Episode Length        | 809.38   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 66.00%   |
-| Mean Incompletion Distance | 0.24m    |
-| Mean Reward                | -3538.77 |
-| Mean Episode Length        | 753.5    |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.57m    |
+| Mean Reward                | -4013.80 |
+| Mean Episode Length        | 795.36   |
 ---
 
 ### $\mu = 0.24$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 63.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3565.66 |
-| Mean Episode Length        | 731.73   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 33.00%   |
+| Mean Incompletion Distance | 0.59m    |
+| Mean Reward                | -4111.48 |
+| Mean Episode Length        | 813.78   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 39.00%   |
-| Collision Rate             | 61.00%   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 100.00%  |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1261.27 |
-| Mean Episode Length        | 270.38   |
+| Mean Reward                | -2172.91 |
+| Mean Episode Length        | 321.59   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 44.00%   |
-| Collision Rate             | 56.00%   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 99.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1157.27 |
-| Mean Episode Length        | 267.46   |
+| Mean Reward                | -2197.30 |
+| Mean Episode Length        | 337.83   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 43.00%   |
-| Collision Rate             | 57.00%   |
+| Success Rate               | 5.00%    |
+| Collision Rate             | 95.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1184.51 |
-| Mean Episode Length        | 269.83   |
+| Mean Reward                | -2216.94 |
+| Mean Episode Length        | 370.75   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 49.00%   |
-| Collision Rate             | 51.00%   |
+| Success Rate               | 6.00%    |
+| Collision Rate             | 94.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1070.76 |
-| Mean Episode Length        | 267.37   |
+| Mean Reward                | -2354.94 |
+| Mean Episode Length        | 416.62   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 0.4$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 49.00%   |
-| Collision Rate             | 51.00%   |
+| Success Rate               | 12.00%   |
+| Collision Rate             | 88.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1118.49 |
-| Mean Episode Length        | 281.19   |
+| Mean Reward                | -2432.29 |
+| Mean Episode Length        | 479.08   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 0.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 51.00%   |
-| Collision Rate             | 49.00%   |
+| Success Rate               | 22.00%   |
+| Collision Rate             | 78.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1112.11 |
-| Mean Episode Length        | 289.45   |
+| Mean Reward                | -2410.15 |
+| Mean Episode Length        | 527.35   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 47.00%   |
-| Collision Rate             | 53.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1232.58 |
-| Mean Episode Length        | 301.31   |
+| Success Rate               | 33.00%   |
+| Collision Rate             | 66.00%   |
+| Mean Incompletion Distance | 0.36m    |
+| Mean Reward                | -2391.86 |
+| Mean Episode Length        | 578.27   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 49.00%   |
-| Collision Rate             | 51.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1230.44 |
-| Mean Episode Length        | 307.12   |
+| Success Rate               | 32.00%   |
+| Collision Rate             | 64.00%   |
+| Mean Incompletion Distance | 0.26m    |
+| Mean Reward                | -2434.37 |
+| Mean Episode Length        | 594.65   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 44.00%   |
+| Success Rate               | 38.00%   |
 | Collision Rate             | 56.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1410.74 |
-| Mean Episode Length        | 331.85   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2418.11 |
+| Mean Episode Length        | 624.32   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 26.00%   |
-| Collision Rate             | 74.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1841.31 |
-| Mean Episode Length        | 353.07   |
+| Success Rate               | 48.00%   |
+| Collision Rate             | 46.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2367.81 |
+| Mean Episode Length        | 656.01   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 33.00%   |
-| Collision Rate             | 67.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1759.84 |
-| Mean Episode Length        | 365.79   |
+| Success Rate               | 40.00%   |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2584.20 |
+| Mean Episode Length        | 690.11   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 27.00%   |
-| Collision Rate             | 73.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1939.74 |
-| Mean Episode Length        | 381.75   |
+| Success Rate               | 31.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2696.38 |
+| Mean Episode Length        | 691.6    |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 20.00%   |
-| Collision Rate             | 80.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2149.19 |
-| Mean Episode Length        | 400.61   |
+| Success Rate               | 33.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -2808.76 |
+| Mean Episode Length        | 721.1    |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 23.00%   |
-| Collision Rate             | 77.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2165.31 |
-| Mean Episode Length        | 416.47   |
+| Success Rate               | 25.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -2923.05 |
+| Mean Episode Length        | 720.49   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 20.00%   |
-| Collision Rate             | 80.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2348.32 |
-| Mean Episode Length        | 452.84   |
+| Success Rate               | 19.00%   |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.26m    |
+| Mean Reward                | -3135.80 |
+| Mean Episode Length        | 746.56   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 17.00%   |
-| Collision Rate             | 83.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2442.21 |
-| Mean Episode Length        | 463.66   |
+| Success Rate               | 11.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.27m    |
+| Mean Reward                | -3237.18 |
+| Mean Episode Length        | 732.28   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 20.00%   |
-| Collision Rate             | 80.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2465.56 |
-| Mean Episode Length        | 483.17   |
+| Success Rate               | 10.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.31m    |
+| Mean Reward                | -3349.53 |
+| Mean Episode Length        | 751.15   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 15.00%   |
-| Collision Rate             | 85.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2644.95 |
-| Mean Episode Length        | 506.69   |
+| Success Rate               | 6.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.31m    |
+| Mean Reward                | -3443.65 |
+| Mean Episode Length        | 760.33   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 90.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2788.54 |
-| Mean Episode Length        | 506.83   |
+| Success Rate               | 4.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.34m    |
+| Mean Reward                | -3501.07 |
+| Mean Episode Length        | 755.8    |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 16.00%   |
-| Collision Rate             | 84.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2756.73 |
-| Mean Episode Length        | 528.88   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.37m    |
+| Mean Reward                | -3694.67 |
+| Mean Episode Length        | 781.65   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 12.00%   |
-| Collision Rate             | 88.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2953.32 |
-| Mean Episode Length        | 563.7    |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.38m    |
+| Mean Reward                | -3665.06 |
+| Mean Episode Length        | 777.77   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 14.00%   |
-| Collision Rate             | 86.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -3020.47 |
-| Mean Episode Length        | 601.54   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 34.00%   |
+| Mean Incompletion Distance | 0.40m    |
+| Mean Reward                | -3818.24 |
+| Mean Episode Length        | 811.35   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 88.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3179.67 |
-| Mean Episode Length        | 623.19   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.45m    |
+| Mean Reward                | -3824.08 |
+| Mean Episode Length        | 792.89   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 92.00%   |
-| Mean Incompletion Distance | 0.16m    |
-| Mean Reward                | -3324.16 |
-| Mean Episode Length        | 635.43   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.45m    |
+| Mean Reward                | -3874.07 |
+| Mean Episode Length        | 786.5    |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 7.00%    |
-| Collision Rate             | 89.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3352.82 |
-| Mean Episode Length        | 658.74   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 34.00%   |
+| Mean Incompletion Distance | 0.48m    |
+| Mean Reward                | -3898.06 |
+| Mean Episode Length        | 799.56   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 7.00%    |
-| Collision Rate             | 87.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3364.50 |
-| Mean Episode Length        | 663.01   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.52m    |
+| Mean Reward                | -3941.39 |
+| Mean Episode Length        | 793.42   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 7.00%    |
-| Collision Rate             | 79.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3366.89 |
-| Mean Episode Length        | 682.99   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.51m    |
+| Mean Reward                | -3955.23 |
+| Mean Episode Length        | 792.37   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 78.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3433.14 |
-| Mean Episode Length        | 690.7    |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.56m    |
+| Mean Reward                | -4092.16 |
+| Mean Episode Length        | 809.03   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 71.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3451.72 |
-| Mean Episode Length        | 717.91   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.57m    |
+| Mean Reward                | -4073.98 |
+| Mean Episode Length        | 795.49   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 68.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3500.52 |
-| Mean Episode Length        | 727.23   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.58m    |
+| Mean Reward                | -4061.63 |
+| Mean Episode Length        | 792.37   |
 ---
 
 ### $\mu = 0.25$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 56.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3518.12 |
-| Mean Episode Length        | 768.75   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 32.00%   |
+| Mean Incompletion Distance | 0.60m    |
+| Mean Reward                | -4112.66 |
+| Mean Episode Length        | 812.54   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 41.00%   |
-| Collision Rate             | 59.00%   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 100.00%  |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1222.86 |
-| Mean Episode Length        | 271.21   |
+| Mean Reward                | -2174.34 |
+| Mean Episode Length        | 322.41   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 42.00%   |
-| Collision Rate             | 58.00%   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 99.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1199.20 |
-| Mean Episode Length        | 267.9    |
+| Mean Reward                | -2203.41 |
+| Mean Episode Length        | 340.23   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 38.00%   |
-| Collision Rate             | 62.00%   |
+| Success Rate               | 3.00%    |
+| Collision Rate             | 97.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1289.41 |
-| Mean Episode Length        | 271.67   |
+| Mean Reward                | -2282.19 |
+| Mean Episode Length        | 377.24   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 46.00%   |
-| Collision Rate             | 54.00%   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 99.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1145.29 |
-| Mean Episode Length        | 273.21   |
+| Mean Reward                | -2507.78 |
+| Mean Episode Length        | 437.1    |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 0.4$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 47.00%   |
-| Collision Rate             | 53.00%   |
+| Success Rate               | 11.00%   |
+| Collision Rate             | 89.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1141.11 |
-| Mean Episode Length        | 277.0    |
+| Mean Reward                | -2511.80 |
+| Mean Episode Length        | 500.22   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 0.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 50.00%   |
-| Collision Rate             | 50.00%   |
+| Success Rate               | 16.00%   |
+| Collision Rate             | 84.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1137.75 |
-| Mean Episode Length        | 293.04   |
+| Mean Reward                | -2622.63 |
+| Mean Episode Length        | 560.09   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 49.00%   |
-| Collision Rate             | 51.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1200.17 |
-| Mean Episode Length        | 301.61   |
+| Success Rate               | 30.00%   |
+| Collision Rate             | 68.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -2489.03 |
+| Mean Episode Length        | 603.44   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 44.00%   |
-| Collision Rate             | 56.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1358.52 |
-| Mean Episode Length        | 317.95   |
+| Success Rate               | 35.00%   |
+| Collision Rate             | 58.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -2471.68 |
+| Mean Episode Length        | 627.54   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 41.00%   |
-| Collision Rate             | 59.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1476.55 |
-| Mean Episode Length        | 335.16   |
+| Success Rate               | 39.00%   |
+| Collision Rate             | 51.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2464.80 |
+| Mean Episode Length        | 655.6    |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 32.00%   |
-| Collision Rate             | 68.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1700.62 |
-| Mean Episode Length        | 345.3    |
+| Success Rate               | 31.00%   |
+| Collision Rate             | 52.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2645.04 |
+| Mean Episode Length        | 665.53   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 28.00%   |
-| Collision Rate             | 72.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1855.61 |
-| Mean Episode Length        | 366.68   |
+| Success Rate               | 38.00%   |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2584.93 |
+| Mean Episode Length        | 681.92   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 26.00%   |
-| Collision Rate             | 74.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1967.19 |
-| Mean Episode Length        | 385.1    |
+| Success Rate               | 32.00%   |
+| Collision Rate             | 46.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2765.96 |
+| Mean Episode Length        | 698.6    |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 16.00%   |
-| Collision Rate             | 84.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2257.20 |
-| Mean Episode Length        | 408.55   |
+| Success Rate               | 25.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -2933.43 |
+| Mean Episode Length        | 724.46   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 22.00%   |
-| Collision Rate             | 78.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2172.56 |
-| Mean Episode Length        | 416.92   |
+| Success Rate               | 23.00%   |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -3048.00 |
+| Mean Episode Length        | 771.65   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 15.00%   |
-| Collision Rate             | 85.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2422.12 |
-| Mean Episode Length        | 444.91   |
+| Success Rate               | 16.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.27m    |
+| Mean Reward                | -3166.33 |
+| Mean Episode Length        | 734.49   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 12.00%   |
-| Collision Rate             | 88.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2523.54 |
-| Mean Episode Length        | 453.28   |
+| Success Rate               | 7.00%    |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.26m    |
+| Mean Reward                | -3330.69 |
+| Mean Episode Length        | 750.26   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 15.00%   |
-| Collision Rate             | 85.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2539.10 |
-| Mean Episode Length        | 473.48   |
+| Success Rate               | 6.00%    |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.27m    |
+| Mean Reward                | -3403.30 |
+| Mean Episode Length        | 747.09   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 90.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2747.19 |
-| Mean Episode Length        | 500.99   |
+| Success Rate               | 4.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.33m    |
+| Mean Reward                | -3513.94 |
+| Mean Episode Length        | 771.54   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 12.00%   |
-| Collision Rate             | 88.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2757.80 |
-| Mean Episode Length        | 516.8    |
+| Success Rate               | 3.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.34m    |
+| Mean Reward                | -3612.28 |
+| Mean Episode Length        | 784.48   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 16.00%   |
-| Collision Rate             | 84.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2774.42 |
-| Mean Episode Length        | 540.59   |
+| Success Rate               | 3.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.38m    |
+| Mean Reward                | -3642.66 |
+| Mean Episode Length        | 788.6    |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 12.00%   |
-| Collision Rate             | 88.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2929.02 |
-| Mean Episode Length        | 555.23   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.40m    |
+| Mean Reward                | -3712.38 |
+| Mean Episode Length        | 766.41   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 9.00%    |
-| Collision Rate             | 91.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -3074.53 |
-| Mean Episode Length        | 583.59   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.41m    |
+| Mean Reward                | -3797.54 |
+| Mean Episode Length        | 794.93   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 94.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -3269.86 |
-| Mean Episode Length        | 620.69   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.45m    |
+| Mean Reward                | -3792.98 |
+| Mean Episode Length        | 775.16   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 86.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3239.93 |
-| Mean Episode Length        | 651.91   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.47m    |
+| Mean Reward                | -3881.83 |
+| Mean Episode Length        | 788.61   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 93.00%   |
-| Mean Incompletion Distance | 0.19m    |
-| Mean Reward                | -3383.54 |
-| Mean Episode Length        | 646.31   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.50m    |
+| Mean Reward                | -3913.37 |
+| Mean Episode Length        | 793.74   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 7.00%    |
-| Collision Rate             | 86.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -3406.92 |
-| Mean Episode Length        | 672.24   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 33.00%   |
+| Mean Incompletion Distance | 0.52m    |
+| Mean Reward                | -4032.12 |
+| Mean Episode Length        | 816.05   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 83.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3390.70 |
-| Mean Episode Length        | 687.82   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 34.00%   |
+| Mean Incompletion Distance | 0.55m    |
+| Mean Reward                | -4080.95 |
+| Mean Episode Length        | 814.54   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 80.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3533.41 |
-| Mean Episode Length        | 718.39   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 33.00%   |
+| Mean Incompletion Distance | 0.55m    |
+| Mean Reward                | -4053.43 |
+| Mean Episode Length        | 814.41   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 75.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3494.58 |
-| Mean Episode Length        | 715.11   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.57m    |
+| Mean Reward                | -4088.97 |
+| Mean Episode Length        | 802.48   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 1.00%    |
-| Collision Rate             | 68.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3585.46 |
-| Mean Episode Length        | 750.77   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.58m    |
+| Mean Reward                | -4096.80 |
+| Mean Episode Length        | 802.51   |
 ---
 
 ### $\mu = 0.26$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 64.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3537.92 |
-| Mean Episode Length        | 746.38   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 33.00%   |
+| Mean Incompletion Distance | 0.60m    |
+| Mean Reward                | -4204.42 |
+| Mean Episode Length        | 820.65   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 29.00%   |
-| Collision Rate             | 71.00%   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 100.00%  |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1469.06 |
-| Mean Episode Length        | 274.28   |
+| Mean Reward                | -2182.55 |
+| Mean Episode Length        | 323.91   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 31.00%   |
-| Collision Rate             | 69.00%   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 100.00%  |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1431.73 |
-| Mean Episode Length        | 274.72   |
+| Mean Reward                | -2241.91 |
+| Mean Episode Length        | 345.17   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 37.00%   |
-| Collision Rate             | 63.00%   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 100.00%  |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1301.41 |
-| Mean Episode Length        | 268.46   |
+| Mean Reward                | -2341.19 |
+| Mean Episode Length        | 378.42   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 42.00%   |
-| Collision Rate             | 58.00%   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 98.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1216.62 |
-| Mean Episode Length        | 272.34   |
+| Mean Reward                | -2518.58 |
+| Mean Episode Length        | 447.71   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 0.4$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 46.00%   |
-| Collision Rate             | 54.00%   |
+| Success Rate               | 8.00%    |
+| Collision Rate             | 92.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1169.87 |
-| Mean Episode Length        | 279.05   |
+| Mean Reward                | -2570.68 |
+| Mean Episode Length        | 502.85   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 0.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 50.00%   |
-| Collision Rate             | 50.00%   |
+| Success Rate               | 18.00%   |
+| Collision Rate             | 82.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1137.56 |
-| Mean Episode Length        | 290.22   |
+| Mean Reward                | -2625.91 |
+| Mean Episode Length        | 569.68   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 44.00%   |
-| Collision Rate             | 56.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1290.91 |
-| Mean Episode Length        | 300.79   |
+| Success Rate               | 24.00%   |
+| Collision Rate             | 72.00%   |
+| Mean Incompletion Distance | 0.27m    |
+| Mean Reward                | -2639.17 |
+| Mean Episode Length        | 617.17   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 44.00%   |
-| Collision Rate             | 56.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1333.73 |
-| Mean Episode Length        | 312.9    |
+| Success Rate               | 30.00%   |
+| Collision Rate             | 64.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2586.32 |
+| Mean Episode Length        | 634.55   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 0.8$ | Denoiser = `None`
@@ -9304,54 +9304,54 @@ mus = [0.   0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1  0.11 0.12 0.13
 | Metric                     | Value    |
 |----------------------------|----------|
 | Success Rate               | 34.00%   |
-| Collision Rate             | 66.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1583.56 |
-| Mean Episode Length        | 324.17   |
+| Collision Rate             | 54.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2567.02 |
+| Mean Episode Length        | 668.83   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 32.00%   |
-| Collision Rate             | 68.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1711.87 |
-| Mean Episode Length        | 348.52   |
+| Success Rate               | 31.00%   |
+| Collision Rate             | 49.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2597.45 |
+| Mean Episode Length        | 663.6    |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 28.00%   |
-| Collision Rate             | 72.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1847.37 |
-| Mean Episode Length        | 366.9    |
+| Success Rate               | 29.00%   |
+| Collision Rate             | 51.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2755.16 |
+| Mean Episode Length        | 679.97   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 20.00%   |
-| Collision Rate             | 80.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2058.77 |
-| Mean Episode Length        | 376.01   |
+| Success Rate               | 31.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2816.87 |
+| Mean Episode Length        | 721.12   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 19.00%   |
-| Collision Rate             | 81.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2159.84 |
-| Mean Episode Length        | 399.8    |
+| Success Rate               | 22.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -2980.67 |
+| Mean Episode Length        | 746.53   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 1.3$ | Denoiser = `None`
@@ -9359,21 +9359,21 @@ mus = [0.   0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1  0.11 0.12 0.13
 | Metric                     | Value    |
 |----------------------------|----------|
 | Success Rate               | 17.00%   |
-| Collision Rate             | 83.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2264.29 |
-| Mean Episode Length        | 415.57   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.25m    |
+| Mean Reward                | -3074.12 |
+| Mean Episode Length        | 723.01   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 20.00%   |
-| Collision Rate             | 80.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2308.55 |
-| Mean Episode Length        | 442.3    |
+| Success Rate               | 12.00%   |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.26m    |
+| Mean Reward                | -3216.99 |
+| Mean Episode Length        | 746.93   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 1.5$ | Denoiser = `None`
@@ -9381,318 +9381,318 @@ mus = [0.   0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1  0.11 0.12 0.13
 | Metric                     | Value    |
 |----------------------------|----------|
 | Success Rate               | 10.00%   |
-| Collision Rate             | 90.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2554.13 |
-| Mean Episode Length        | 450.66   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.30m    |
+| Mean Reward                | -3357.36 |
+| Mean Episode Length        | 765.9    |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 90.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2616.93 |
-| Mean Episode Length        | 472.3    |
+| Success Rate               | 7.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.32m    |
+| Mean Reward                | -3383.65 |
+| Mean Episode Length        | 761.32   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 90.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2721.62 |
-| Mean Episode Length        | 494.7    |
+| Success Rate               | 4.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.36m    |
+| Mean Reward                | -3558.52 |
+| Mean Episode Length        | 768.62   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 9.00%    |
-| Collision Rate             | 91.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2804.58 |
-| Mean Episode Length        | 515.13   |
+| Success Rate               | 3.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.36m    |
+| Mean Reward                | -3649.38 |
+| Mean Episode Length        | 787.01   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 11.00%   |
-| Collision Rate             | 89.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2836.38 |
-| Mean Episode Length        | 529.86   |
+| Success Rate               | 3.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.39m    |
+| Mean Reward                | -3680.62 |
+| Mean Episode Length        | 776.66   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 7.00%    |
-| Collision Rate             | 93.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -3065.81 |
-| Mean Episode Length        | 566.91   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.41m    |
+| Mean Reward                | -3699.06 |
+| Mean Episode Length        | 783.66   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 95.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -3159.61 |
-| Mean Episode Length        | 574.86   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.43m    |
+| Mean Reward                | -3777.35 |
+| Mean Episode Length        | 783.3    |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 92.00%   |
-| Mean Incompletion Distance | 0.18m    |
-| Mean Reward                | -3290.06 |
-| Mean Episode Length        | 632.23   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.45m    |
+| Mean Reward                | -3910.01 |
+| Mean Episode Length        | 809.74   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 7.00%    |
-| Collision Rate             | 92.00%   |
-| Mean Incompletion Distance | 0.25m    |
-| Mean Reward                | -3202.98 |
-| Mean Episode Length        | 602.26   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.50m    |
+| Mean Reward                | -3920.89 |
+| Mean Episode Length        | 788.63   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 93.00%   |
-| Mean Incompletion Distance | 0.28m    |
-| Mean Reward                | -3392.69 |
-| Mean Episode Length        | 652.98   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.51m    |
+| Mean Reward                | -3949.43 |
+| Mean Episode Length        | 794.66   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 7.00%    |
-| Collision Rate             | 87.00%   |
-| Mean Incompletion Distance | 0.24m    |
-| Mean Reward                | -3393.09 |
-| Mean Episode Length        | 671.08   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.53m    |
+| Mean Reward                | -4048.74 |
+| Mean Episode Length        | 804.82   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 85.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3434.45 |
-| Mean Episode Length        | 679.87   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.54m    |
+| Mean Reward                | -4088.68 |
+| Mean Episode Length        | 807.74   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 80.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3385.95 |
-| Mean Episode Length        | 683.87   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.56m    |
+| Mean Reward                | -4059.60 |
+| Mean Episode Length        | 800.9    |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 80.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3592.68 |
-| Mean Episode Length        | 721.49   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 31.00%   |
+| Mean Incompletion Distance | 0.59m    |
+| Mean Reward                | -4128.01 |
+| Mean Episode Length        | 822.65   |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 68.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3504.61 |
-| Mean Episode Length        | 729.63   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.58m    |
+| Mean Reward                | -4136.43 |
+| Mean Episode Length        | 818.4    |
 ---
 
 ### $\mu = 0.27$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | 0.24m    |
-| Mean Reward                | -3534.72 |
-| Mean Episode Length        | 733.22   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 32.00%   |
+| Mean Incompletion Distance | 0.61m    |
+| Mean Reward                | -4193.19 |
+| Mean Episode Length        | 825.02   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 20.00%   |
-| Collision Rate             | 80.00%   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 100.00%  |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1651.76 |
-| Mean Episode Length        | 276.27   |
+| Mean Reward                | -2175.17 |
+| Mean Episode Length        | 321.98   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 30.00%   |
-| Collision Rate             | 70.00%   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 100.00%  |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1458.30 |
-| Mean Episode Length        | 276.43   |
+| Mean Reward                | -2233.52 |
+| Mean Episode Length        | 343.47   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 34.00%   |
-| Collision Rate             | 66.00%   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 99.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1370.62 |
-| Mean Episode Length        | 272.18   |
+| Mean Reward                | -2366.95 |
+| Mean Episode Length        | 394.2    |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 40.00%   |
-| Collision Rate             | 60.00%   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 99.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1260.84 |
-| Mean Episode Length        | 274.5    |
+| Mean Reward                | -2562.17 |
+| Mean Episode Length        | 461.09   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 0.4$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 41.00%   |
-| Collision Rate             | 59.00%   |
+| Success Rate               | 4.00%    |
+| Collision Rate             | 96.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1268.50 |
-| Mean Episode Length        | 279.81   |
+| Mean Reward                | -2746.34 |
+| Mean Episode Length        | 541.34   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 0.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 45.00%   |
-| Collision Rate             | 55.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1208.90 |
-| Mean Episode Length        | 283.05   |
+| Success Rate               | 10.00%   |
+| Collision Rate             | 88.00%   |
+| Mean Incompletion Distance | 0.18m    |
+| Mean Reward                | -2795.73 |
+| Mean Episode Length        | 580.75   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 43.00%   |
-| Collision Rate             | 57.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1304.59 |
-| Mean Episode Length        | 299.39   |
+| Success Rate               | 24.00%   |
+| Collision Rate             | 71.00%   |
+| Mean Incompletion Distance | 0.24m    |
+| Mean Reward                | -2650.24 |
+| Mean Episode Length        | 630.83   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 44.00%   |
-| Collision Rate             | 56.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1329.40 |
-| Mean Episode Length        | 310.23   |
+| Success Rate               | 30.00%   |
+| Collision Rate             | 58.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -2618.16 |
+| Mean Episode Length        | 664.08   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 37.00%   |
-| Collision Rate             | 63.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1530.77 |
-| Mean Episode Length        | 327.46   |
+| Success Rate               | 28.00%   |
+| Collision Rate             | 55.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2648.31 |
+| Mean Episode Length        | 658.57   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 26.00%   |
-| Collision Rate             | 74.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1814.87 |
-| Mean Episode Length        | 346.2    |
+| Success Rate               | 28.00%   |
+| Collision Rate             | 47.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2735.69 |
+| Mean Episode Length        | 708.47   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 28.00%   |
-| Collision Rate             | 72.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1841.65 |
-| Mean Episode Length        | 360.02   |
+| Success Rate               | 25.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -2813.24 |
+| Mean Episode Length        | 718.31   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 20.00%   |
-| Collision Rate             | 80.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2063.94 |
-| Mean Episode Length        | 379.67   |
+| Success Rate               | 23.00%   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -2967.91 |
+| Mean Episode Length        | 738.46   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 20.00%   |
-| Collision Rate             | 80.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2138.25 |
-| Mean Episode Length        | 399.83   |
+| Success Rate               | 13.00%   |
+| Collision Rate             | 46.00%   |
+| Mean Incompletion Distance | 0.23m    |
+| Mean Reward                | -3135.74 |
+| Mean Episode Length        | 723.92   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 1.3$ | Denoiser = `None`
@@ -9700,670 +9700,670 @@ mus = [0.   0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1  0.11 0.12 0.13
 | Metric                     | Value    |
 |----------------------------|----------|
 | Success Rate               | 14.00%   |
-| Collision Rate             | 86.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2322.17 |
-| Mean Episode Length        | 414.22   |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.26m    |
+| Mean Reward                | -3199.11 |
+| Mean Episode Length        | 741.59   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 12.00%   |
-| Collision Rate             | 88.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2451.52 |
-| Mean Episode Length        | 441.45   |
+| Success Rate               | 10.00%   |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.27m    |
+| Mean Reward                | -3288.52 |
+| Mean Episode Length        | 756.96   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 11.00%   |
-| Collision Rate             | 89.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2516.98 |
-| Mean Episode Length        | 449.33   |
+| Success Rate               | 7.00%    |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.31m    |
+| Mean Reward                | -3394.94 |
+| Mean Episode Length        | 752.99   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 14.00%   |
-| Collision Rate             | 86.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2538.07 |
-| Mean Episode Length        | 469.8    |
+| Success Rate               | 4.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.32m    |
+| Mean Reward                | -3490.92 |
+| Mean Episode Length        | 768.55   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 13.00%   |
-| Collision Rate             | 87.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2649.94 |
-| Mean Episode Length        | 491.48   |
+| Success Rate               | 3.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.36m    |
+| Mean Reward                | -3594.54 |
+| Mean Episode Length        | 776.7    |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 14.00%   |
-| Collision Rate             | 86.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2729.70 |
-| Mean Episode Length        | 522.94   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.35m    |
+| Mean Reward                | -3683.64 |
+| Mean Episode Length        | 786.66   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 11.00%   |
-| Collision Rate             | 89.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2848.07 |
-| Mean Episode Length        | 529.42   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.40m    |
+| Mean Reward                | -3616.86 |
+| Mean Episode Length        | 765.7    |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 15.00%   |
-| Collision Rate             | 85.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2830.84 |
-| Mean Episode Length        | 547.54   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.42m    |
+| Mean Reward                | -3737.03 |
+| Mean Episode Length        | 781.88   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 9.00%    |
-| Collision Rate             | 91.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -3077.92 |
-| Mean Episode Length        | 584.07   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.45m    |
+| Mean Reward                | -3775.97 |
+| Mean Episode Length        | 775.52   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 93.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3224.32 |
-| Mean Episode Length        | 615.21   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.47m    |
+| Mean Reward                | -3988.09 |
+| Mean Episode Length        | 805.11   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 95.00%   |
-| Mean Incompletion Distance | 0.26m    |
-| Mean Reward                | -3268.53 |
-| Mean Episode Length        | 606.19   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.50m    |
+| Mean Reward                | -3947.98 |
+| Mean Episode Length        | 802.43   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 92.00%   |
-| Mean Incompletion Distance | 0.26m    |
-| Mean Reward                | -3328.98 |
-| Mean Episode Length        | 637.42   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.52m    |
+| Mean Reward                | -4016.99 |
+| Mean Episode Length        | 803.58   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 91.00%   |
-| Mean Incompletion Distance | 0.20m    |
-| Mean Reward                | -3452.58 |
-| Mean Episode Length        | 678.74   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 32.00%   |
+| Mean Incompletion Distance | 0.55m    |
+| Mean Reward                | -4097.76 |
+| Mean Episode Length        | 829.22   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 89.00%   |
-| Mean Incompletion Distance | 0.24m    |
-| Mean Reward                | -3480.40 |
-| Mean Episode Length        | 672.52   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.55m    |
+| Mean Reward                | -4093.67 |
+| Mean Episode Length        | 813.34   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 80.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3406.32 |
-| Mean Episode Length        | 692.89   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.57m    |
+| Mean Reward                | -4105.54 |
+| Mean Episode Length        | 808.7    |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 75.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3489.88 |
-| Mean Episode Length        | 719.68   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.58m    |
+| Mean Reward                | -4133.09 |
+| Mean Episode Length        | 804.81   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 71.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3566.73 |
-| Mean Episode Length        | 743.9    |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.60m    |
+| Mean Reward                | -4135.05 |
+| Mean Episode Length        | 809.75   |
 ---
 
 ### $\mu = 0.28$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 1.00%    |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3511.29 |
-| Mean Episode Length        | 732.83   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 34.00%   |
+| Mean Incompletion Distance | 0.62m    |
+| Mean Reward                | -4202.29 |
+| Mean Episode Length        | 820.39   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 17.00%   |
-| Collision Rate             | 83.00%   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 100.00%  |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1712.82 |
-| Mean Episode Length        | 276.61   |
+| Mean Reward                | -2219.18 |
+| Mean Episode Length        | 335.61   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 82.00%   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 100.00%  |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1687.75 |
-| Mean Episode Length        | 274.43   |
+| Mean Reward                | -2264.06 |
+| Mean Episode Length        | 353.18   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 26.00%   |
-| Collision Rate             | 74.00%   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 100.00%  |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1524.90 |
-| Mean Episode Length        | 272.33   |
+| Mean Reward                | -2387.32 |
+| Mean Episode Length        | 394.46   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 36.00%   |
-| Collision Rate             | 64.00%   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 98.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1327.13 |
-| Mean Episode Length        | 269.69   |
+| Mean Reward                | -2564.78 |
+| Mean Episode Length        | 469.58   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 0.4$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 42.00%   |
-| Collision Rate             | 58.00%   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 98.00%   |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1239.09 |
-| Mean Episode Length        | 276.69   |
+| Mean Reward                | -2808.59 |
+| Mean Episode Length        | 540.58   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 0.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 44.00%   |
-| Collision Rate             | 56.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1244.38 |
-| Mean Episode Length        | 288.45   |
+| Success Rate               | 13.00%   |
+| Collision Rate             | 83.00%   |
+| Mean Incompletion Distance | 0.28m    |
+| Mean Reward                | -2739.96 |
+| Mean Episode Length        | 590.17   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 36.00%   |
-| Collision Rate             | 64.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1432.56 |
-| Mean Episode Length        | 297.18   |
+| Success Rate               | 17.00%   |
+| Collision Rate             | 72.00%   |
+| Mean Incompletion Distance | 0.23m    |
+| Mean Reward                | -2780.75 |
+| Mean Episode Length        | 646.44   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 35.00%   |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1515.19 |
-| Mean Episode Length        | 313.51   |
+| Success Rate               | 19.00%   |
+| Collision Rate             | 63.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2765.63 |
+| Mean Episode Length        | 654.52   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 40.00%   |
-| Collision Rate             | 60.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1470.32 |
-| Mean Episode Length        | 327.7    |
+| Success Rate               | 22.00%   |
+| Collision Rate             | 52.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2751.88 |
+| Mean Episode Length        | 680.74   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 29.00%   |
-| Collision Rate             | 71.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1753.80 |
-| Mean Episode Length        | 344.85   |
+| Success Rate               | 26.00%   |
+| Collision Rate             | 48.00%   |
+| Mean Incompletion Distance | 0.19m    |
+| Mean Reward                | -2759.91 |
+| Mean Episode Length        | 695.94   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 22.00%   |
-| Collision Rate             | 78.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1951.91 |
-| Mean Episode Length        | 359.71   |
+| Success Rate               | 25.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -2855.52 |
+| Mean Episode Length        | 720.99   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 19.00%   |
-| Collision Rate             | 81.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2071.99 |
-| Mean Episode Length        | 376.88   |
+| Success Rate               | 23.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -2924.76 |
+| Mean Episode Length        | 724.76   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 18.00%   |
-| Collision Rate             | 82.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2177.81 |
-| Mean Episode Length        | 397.17   |
+| Success Rate               | 11.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -3186.04 |
+| Mean Episode Length        | 736.71   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 16.00%   |
-| Collision Rate             | 84.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2272.67 |
-| Mean Episode Length        | 410.44   |
+| Success Rate               | 11.00%   |
+| Collision Rate             | 45.00%   |
+| Mean Incompletion Distance | 0.24m    |
+| Mean Reward                | -3236.74 |
+| Mean Episode Length        | 739.9    |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 11.00%   |
-| Collision Rate             | 89.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2457.84 |
-| Mean Episode Length        | 435.04   |
+| Success Rate               | 7.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.28m    |
+| Mean Reward                | -3352.17 |
+| Mean Episode Length        | 761.37   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 14.00%   |
-| Collision Rate             | 86.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2458.50 |
-| Mean Episode Length        | 451.72   |
+| Success Rate               | 5.00%    |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.31m    |
+| Mean Reward                | -3430.37 |
+| Mean Episode Length        | 751.62   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 94.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2707.17 |
-| Mean Episode Length        | 474.79   |
+| Success Rate               | 3.00%    |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.34m    |
+| Mean Reward                | -3524.18 |
+| Mean Episode Length        | 755.71   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 9.00%    |
-| Collision Rate             | 91.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2729.27 |
-| Mean Episode Length        | 496.22   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.38m    |
+| Mean Reward                | -3671.35 |
+| Mean Episode Length        | 783.73   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 11.00%   |
-| Collision Rate             | 89.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2744.29 |
-| Mean Episode Length        | 506.92   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.38m    |
+| Mean Reward                | -3621.66 |
+| Mean Episode Length        | 775.74   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 13.00%   |
-| Collision Rate             | 87.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2807.82 |
-| Mean Episode Length        | 534.74   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.43m    |
+| Mean Reward                | -3696.34 |
+| Mean Episode Length        | 777.86   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 94.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -3096.98 |
-| Mean Episode Length        | 576.65   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.45m    |
+| Mean Reward                | -3810.26 |
+| Mean Episode Length        | 790.0    |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 8.00%    |
-| Collision Rate             | 92.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -3083.96 |
-| Mean Episode Length        | 584.0    |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.45m    |
+| Mean Reward                | -3821.48 |
+| Mean Episode Length        | 787.41   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 9.00%    |
-| Collision Rate             | 90.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3093.48 |
-| Mean Episode Length        | 592.2    |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.47m    |
+| Mean Reward                | -3943.57 |
+| Mean Episode Length        | 806.97   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 94.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3231.62 |
-| Mean Episode Length        | 601.39   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.52m    |
+| Mean Reward                | -4011.37 |
+| Mean Episode Length        | 801.99   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 92.00%   |
-| Mean Incompletion Distance | 0.24m    |
-| Mean Reward                | -3300.23 |
-| Mean Episode Length        | 623.63   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.52m    |
+| Mean Reward                | -4023.11 |
+| Mean Episode Length        | 809.4    |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 86.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3354.15 |
-| Mean Episode Length        | 655.04   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 36.00%   |
+| Mean Incompletion Distance | 0.55m    |
+| Mean Reward                | -4063.48 |
+| Mean Episode Length        | 806.61   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 87.00%   |
-| Mean Incompletion Distance | 0.24m    |
-| Mean Reward                | -3416.53 |
-| Mean Episode Length        | 668.23   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.58m    |
+| Mean Reward                | -4055.36 |
+| Mean Episode Length        | 798.38   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 83.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3433.30 |
-| Mean Episode Length        | 685.55   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 33.00%   |
+| Mean Incompletion Distance | 0.57m    |
+| Mean Reward                | -4178.36 |
+| Mean Episode Length        | 828.76   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 81.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3587.88 |
-| Mean Episode Length        | 730.43   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 33.00%   |
+| Mean Incompletion Distance | 0.60m    |
+| Mean Reward                | -4227.47 |
+| Mean Episode Length        | 834.78   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 75.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3555.14 |
-| Mean Episode Length        | 724.3    |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 34.00%   |
+| Mean Incompletion Distance | 0.62m    |
+| Mean Reward                | -4195.84 |
+| Mean Episode Length        | 819.22   |
 ---
 
 ### $\mu = 0.29$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 66.00%   |
-| Mean Incompletion Distance | 0.23m    |
-| Mean Reward                | -3478.32 |
-| Mean Episode Length        | 725.43   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 34.00%   |
+| Mean Incompletion Distance | 0.63m    |
+| Mean Reward                | -4198.60 |
+| Mean Episode Length        | 814.71   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 0.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 12.00%   |
-| Collision Rate             | 88.00%   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 100.00%  |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1803.83 |
-| Mean Episode Length        | 274.4    |
+| Mean Reward                | -2201.49 |
+| Mean Episode Length        | 329.76   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 0.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 14.00%   |
-| Collision Rate             | 86.00%   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 100.00%  |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1769.24 |
-| Mean Episode Length        | 275.68   |
+| Mean Reward                | -2256.13 |
+| Mean Episode Length        | 352.41   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 0.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 22.00%   |
-| Collision Rate             | 78.00%   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 100.00%  |
 | Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1609.45 |
-| Mean Episode Length        | 274.6    |
+| Mean Reward                | -2420.55 |
+| Mean Episode Length        | 410.68   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 0.30000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 35.00%   |
-| Collision Rate             | 65.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1363.34 |
-| Mean Episode Length        | 274.91   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 99.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -2660.22 |
+| Mean Episode Length        | 497.95   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 0.4$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 33.00%   |
-| Collision Rate             | 67.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1412.05 |
-| Mean Episode Length        | 277.2    |
+| Success Rate               | 4.00%    |
+| Collision Rate             | 94.00%   |
+| Mean Incompletion Distance | 0.27m    |
+| Mean Reward                | -2773.64 |
+| Mean Episode Length        | 553.7    |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 0.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 36.00%   |
-| Collision Rate             | 64.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1379.27 |
-| Mean Episode Length        | 281.61   |
+| Success Rate               | 13.00%   |
+| Collision Rate             | 81.00%   |
+| Mean Incompletion Distance | 0.23m    |
+| Mean Reward                | -2784.63 |
+| Mean Episode Length        | 613.68   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 0.6000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 36.00%   |
-| Collision Rate             | 64.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1444.95 |
-| Mean Episode Length        | 301.43   |
+| Success Rate               | 10.00%   |
+| Collision Rate             | 72.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -2894.87 |
+| Mean Episode Length        | 653.96   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 0.7000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 33.00%   |
-| Collision Rate             | 67.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1551.40 |
-| Mean Episode Length        | 312.76   |
+| Success Rate               | 18.00%   |
+| Collision Rate             | 60.00%   |
+| Mean Incompletion Distance | 0.21m    |
+| Mean Reward                | -2829.95 |
+| Mean Episode Length        | 683.27   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 0.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 29.00%   |
-| Collision Rate             | 71.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1682.63 |
-| Mean Episode Length        | 326.73   |
+| Success Rate               | 25.00%   |
+| Collision Rate             | 51.00%   |
+| Mean Incompletion Distance | 0.20m    |
+| Mean Reward                | -2789.14 |
+| Mean Episode Length        | 705.49   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 0.9$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 31.00%   |
-| Collision Rate             | 69.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1685.33 |
-| Mean Episode Length        | 337.01   |
+| Success Rate               | 19.00%   |
+| Collision Rate             | 51.00%   |
+| Mean Incompletion Distance | 0.24m    |
+| Mean Reward                | -2987.12 |
+| Mean Episode Length        | 718.1    |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 1.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 23.00%   |
-| Collision Rate             | 77.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -1951.64 |
-| Mean Episode Length        | 369.06   |
+| Success Rate               | 20.00%   |
+| Collision Rate             | 44.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -2928.69 |
+| Mean Episode Length        | 725.4    |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 1.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 21.00%   |
-| Collision Rate             | 79.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2037.15 |
-| Mean Episode Length        | 378.3    |
+| Success Rate               | 14.00%   |
+| Collision Rate             | 42.00%   |
+| Mean Incompletion Distance | 0.22m    |
+| Mean Reward                | -3085.28 |
+| Mean Episode Length        | 747.34   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 1.2000000000000002$ | Denoiser = `None`
@@ -10371,207 +10371,207 @@ mus = [0.   0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.1  0.11 0.12 0.13
 | Metric                     | Value    |
 |----------------------------|----------|
 | Success Rate               | 13.00%   |
-| Collision Rate             | 87.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2272.95 |
-| Mean Episode Length        | 398.03   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.26m    |
+| Mean Reward                | -3224.06 |
+| Mean Episode Length        | 768.24   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 1.3$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 16.00%   |
-| Collision Rate             | 84.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2279.51 |
-| Mean Episode Length        | 416.57   |
+| Success Rate               | 12.00%   |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.29m    |
+| Mean Reward                | -3262.24 |
+| Mean Episode Length        | 761.38   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 1.4000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 9.00%    |
-| Collision Rate             | 91.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2441.38 |
-| Mean Episode Length        | 421.0    |
+| Success Rate               | 4.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.28m    |
+| Mean Reward                | -3446.45 |
+| Mean Episode Length        | 771.77   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 1.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 10.00%   |
-| Collision Rate             | 90.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2519.96 |
-| Mean Episode Length        | 447.6    |
+| Success Rate               | 4.00%    |
+| Collision Rate             | 43.00%   |
+| Mean Incompletion Distance | 0.30m    |
+| Mean Reward                | -3519.79 |
+| Mean Episode Length        | 771.1    |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 1.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 8.00%    |
-| Collision Rate             | 92.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2640.09 |
-| Mean Episode Length        | 463.85   |
+| Success Rate               | 3.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.34m    |
+| Mean Reward                | -3563.52 |
+| Mean Episode Length        | 779.43   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 1.7000000000000002$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 9.00%    |
-| Collision Rate             | 91.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2722.24 |
-| Mean Episode Length        | 490.85   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 40.00%   |
+| Mean Incompletion Distance | 0.37m    |
+| Mean Reward                | -3657.63 |
+| Mean Episode Length        | 787.28   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 1.8$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 9.00%    |
-| Collision Rate             | 91.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2814.08 |
-| Mean Episode Length        | 515.39   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.41m    |
+| Mean Reward                | -3694.40 |
+| Mean Episode Length        | 786.62   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 1.9000000000000001$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 11.00%   |
-| Collision Rate             | 89.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -2745.23 |
-| Mean Episode Length        | 495.82   |
+| Success Rate               | 2.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.42m    |
+| Mean Reward                | -3764.50 |
+| Mean Episode Length        | 781.83   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 2.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 96.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -3083.48 |
-| Mean Episode Length        | 557.56   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 35.00%   |
+| Mean Incompletion Distance | 0.43m    |
+| Mean Reward                | -3801.20 |
+| Mean Episode Length        | 801.71   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 2.1$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 6.00%    |
-| Collision Rate             | 94.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -3073.29 |
-| Mean Episode Length        | 565.36   |
+| Success Rate               | 1.00%    |
+| Collision Rate             | 41.00%   |
+| Mean Incompletion Distance | 0.49m    |
+| Mean Reward                | -3914.40 |
+| Mean Episode Length        | 788.55   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 2.2$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 96.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -3225.41 |
-| Mean Episode Length        | 596.88   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.49m    |
+| Mean Reward                | -3910.08 |
+| Mean Episode Length        | 789.67   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 2.3000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 96.00%   |
-| Mean Incompletion Distance | N/A      |
-| Mean Reward                | -3255.95 |
-| Mean Episode Length        | 596.89   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 38.00%   |
+| Mean Incompletion Distance | 0.51m    |
+| Mean Reward                | -4010.42 |
+| Mean Episode Length        | 806.89   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 2.4000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 4.00%    |
-| Collision Rate             | 94.00%   |
-| Mean Incompletion Distance | 0.26m    |
-| Mean Reward                | -3425.31 |
-| Mean Episode Length        | 652.56   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 39.00%   |
+| Mean Incompletion Distance | 0.55m    |
+| Mean Reward                | -4100.67 |
+| Mean Episode Length        | 806.35   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 2.5$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 2.00%    |
-| Collision Rate             | 97.00%   |
-| Mean Incompletion Distance | 0.33m    |
-| Mean Reward                | -3486.52 |
-| Mean Episode Length        | 656.65   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 34.00%   |
+| Mean Incompletion Distance | 0.55m    |
+| Mean Reward                | -4116.08 |
+| Mean Episode Length        | 827.37   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 2.6$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 92.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3425.49 |
-| Mean Episode Length        | 652.34   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 34.00%   |
+| Mean Incompletion Distance | 0.58m    |
+| Mean Reward                | -4119.25 |
+| Mean Episode Length        | 819.97   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 2.7$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 82.00%   |
-| Mean Incompletion Distance | 0.24m    |
-| Mean Reward                | -3517.62 |
-| Mean Episode Length        | 716.91   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 34.00%   |
+| Mean Incompletion Distance | 0.58m    |
+| Mean Reward                | -4117.21 |
+| Mean Episode Length        | 808.0    |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 2.8000000000000003$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 81.00%   |
-| Mean Incompletion Distance | 0.22m    |
-| Mean Reward                | -3572.57 |
-| Mean Episode Length        | 717.63   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 37.00%   |
+| Mean Incompletion Distance | 0.60m    |
+| Mean Reward                | -4173.32 |
+| Mean Episode Length        | 807.58   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 2.9000000000000004$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 5.00%    |
-| Collision Rate             | 71.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3515.79 |
-| Mean Episode Length        | 734.46   |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 28.00%   |
+| Mean Incompletion Distance | 0.62m    |
+| Mean Reward                | -4233.93 |
+| Mean Episode Length        | 844.18   |
 ---
 
 ### $\mu = 0.3$ | $\sigma = 3.0$ | Denoiser = `None`
 
 | Metric                     | Value    |
 |----------------------------|----------|
-| Success Rate               | 3.00%    |
-| Collision Rate             | 73.00%   |
-| Mean Incompletion Distance | 0.21m    |
-| Mean Reward                | -3561.26 |
-| Mean Episode Length        | 725.3    |
+| Success Rate               | 0.00%    |
+| Collision Rate             | 32.00%   |
+| Mean Incompletion Distance | 0.63m    |
+| Mean Reward                | -4242.47 |
+| Mean Episode Length        | 824.34   |
 ---
 
