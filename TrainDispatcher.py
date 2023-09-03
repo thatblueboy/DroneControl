@@ -13,7 +13,6 @@ parser.add_argument('--local', action='store_true', help='Run on Local Machine')
 parser.add_argument("-d", "--dynamic", default=False, help="Use Dynamic Obstacles", type=bool)
 args = parser.parse_args()
 
-
 if args.local:
     with open(args.trainConfigPath, 'r') as f:
         trainConfig = json.load(f)

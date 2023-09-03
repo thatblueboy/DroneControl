@@ -49,7 +49,7 @@ class ObstacleAviary(BaseSingleAgentAviary):
                  maxObstacles:int=7,
                  randomizeObstaclesEveryEpisode:bool=True,
                  fixedAltitude:bool=False,
-                 episodeLength:int=1000,
+                 episodeLength:int=2000,
                  showDebugLines:bool=False,
                  randomizeDronePosition:bool=False,
                  simFreq:int=240,
@@ -78,6 +78,9 @@ class ObstacleAviary(BaseSingleAgentAviary):
         self.velocity = 0.005
         self.ObsInfo = {}
         self.VO_Reward = 0
+
+        self.o1_obs = []
+        self.o2_obs = []
 
         self.randomizeDronePosition = randomizeDronePosition
         self.randomizeObstaclesEveryEpisode = randomizeObstaclesEveryEpisode and not self.provideFixedObstacles
@@ -172,6 +175,14 @@ class ObstacleAviary(BaseSingleAgentAviary):
                                           self.geoFence.xmax - self.geoFence.xmin, #dxo
                                           self.geoFence.ymax - self.geoFence.ymin, #dyo
                                           self.geoFence.zmax - self.geoFence.zmin, #dzo
+                                          0, #O1-x
+                                          0, #01-y
+                                          0, #02-x
+                                          0, #02-y
+                                          0, #01-vx
+                                          0, #01-vy
+                                          0, #02-vx
+                                          0,#02-vy
                                         ])
                 
             else:
@@ -179,6 +190,10 @@ class ObstacleAviary(BaseSingleAgentAviary):
                                           self.geoFence.ymax - self.geoFence.ymin, #dyt
                                           self.geoFence.xmax - self.geoFence.xmin, #dxo
                                           self.geoFence.ymax - self.geoFence.ymin, #dyo
+                                          0, #O1-pos
+                                          0, #01-vel
+                                          0, #02-pos
+                                          0, #02-vel
                                         ])
                 obsLowerBound = -obsUpperBound
 
@@ -207,7 +222,7 @@ class ObstacleAviary(BaseSingleAgentAviary):
         if self.returnRawObservations:
             observation = np.concatenate([pos, pos + offsetToTarget, pos + offsetToClosestObstacle])
         else:
-            observation = np.concatenate([offsetToTarget, offsetToClosestObstacle])
+            observation = np.concatenate([offsetToTarget, offsetToClosestObstacle, self.o1_obs[0], self.o1_obs[1],self.o2_obs[0],self.o2_obs[1]])
 
         return observation
 
@@ -237,6 +252,8 @@ class ObstacleAviary(BaseSingleAgentAviary):
         self.obstacles = []
         self.offsetLine = None
         self.targetLine = None
+        self.o1_obs = []
+        self.o2_obs = []
         
         p.resetSimulation(physicsClientId=self.CLIENT)
 
@@ -293,15 +310,16 @@ class ObstacleAviary(BaseSingleAgentAviary):
             velocity = 0.015*0.5*cos(0.015*self.totalTimesteps+phi)
             self.ObsInfo[Obstacle][1] = velocity
             self.ObsInfo[Obstacle][3] = [0,velocity]
+            self.o1_obs = [[x,y_new], [0,velocity]]
         if orientation == 1:
             x_new = x_initial + 0.5*sin(0.015*self.totalTimesteps)
             p.resetBasePositionAndOrientation(Obstacle,[x_new,y,z],obsOrn)
             velocity = 0.015*0.5*cos(0.015*self.totalTimesteps)
             self.ObsInfo[Obstacle][1] = velocity
             self.ObsInfo[Obstacle][3] = [velocity,0]
-
+            self.o1_obs = [[x_new,y], [velocity, 0]]
         
-
+        
     def moveObsLinear(self, Obstacle):
         obsPos, obsOrn = p.getBasePositionAndOrientation(Obstacle)
         y_initial = self.ObsInfo[Obstacle][0][1]
@@ -317,7 +335,7 @@ class ObstacleAviary(BaseSingleAgentAviary):
             x_new = x
             self.ObsInfo[Obstacle][3] = [0,0]
         p.resetBasePositionAndOrientation(Obstacle,[x_new,y,z],obsOrn)
-
+        self.o2_obs = [[x_new,y], self.ObsInfo[Obstacle][3]]
 
 
         """
