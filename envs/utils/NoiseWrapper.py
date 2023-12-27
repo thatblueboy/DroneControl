@@ -14,7 +14,6 @@ class GaussianNoiseGenerator:
         self.sigma = sigma
 
     def generateNoise(self, size=None) -> np.ndarray:
-        
         return np.random.normal(self.mu, self.sigma, size=size)
 
     def __str__(self) -> str:
@@ -45,7 +44,7 @@ class NoiseWrapper(gym.Wrapper):
 
         # Compute processed observation from raw observation
         obs = self.env._computeProcessedObservation(obs)
-        
+        # print(obs)
         return obs, reward, done, info
 
     def buildObservationSpace(self):
@@ -67,7 +66,6 @@ class NoiseWrapper(gym.Wrapper):
                                         self.geoFence.ymax - self.geoFence.ymin, #dyo
                                     ])
 
-
         obsLowerBound = -obsUpperBound
         return gym.spaces.Box(low=obsLowerBound, high=obsUpperBound, dtype=np.float32)
 
@@ -86,7 +84,7 @@ class NoiseWrapper(gym.Wrapper):
     def corruptObservation(self, obs:np.ndarray) -> np.ndarray:
 
         noise = self.noiseGenerator.generateNoise(2 if self.env.fixedAltitude else 3)
-        obs[:noise.shape[0]] += noise
+        obs[:noise.shape[0]] += noise #only drone position is corrupted
         return obs
 
     def reset(self) -> np.ndarray:
@@ -107,7 +105,6 @@ class NoiseWrapper(gym.Wrapper):
         
         return obs
         
-
     def __str__(self) -> str:
         if self.env.randomizeObstaclesEveryEpisode:
             obstacleDetails = f"Random Obstacles per Episode ~ U({self.env.minObstacles}, {self.env.maxObstacles})"

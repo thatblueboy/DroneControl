@@ -10,7 +10,6 @@
     "minObstacles": 0,
     "maxObstacles": 4,
     "randomizeObstaclesEveryEpisode": true,
-    "dynamicObstacles": false,
     "fixedAltitude": true,
     "episodeLength": 1000,
     "showDebugLines": true,

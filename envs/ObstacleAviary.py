@@ -1,6 +1,7 @@
 import numpy as np
 import pybullet as p
 import pybullet_data
+import os
 
 from gym_pybullet_drones.utils.enums import DroneModel, Physics
 from gym_pybullet_drones.envs.single_agent_rl.BaseSingleAgentAviary import BaseSingleAgentAviary, ActionType, ObservationType
@@ -21,10 +22,16 @@ from typing import List, Union
 from math import sin,asin
 import numpy as np
 
+from PIL import Image
+
+
 from .utils.PositionConstraint import PositionConstraint
 
 
 class ObstacleAviary(BaseSingleAgentAviary):
+    """Single agent RL problem: fly a drone in a constrained space with obstacles.
+    0-2 dynamic obstacles, one with linear motion,
+    other with SHM motion. Default 2"""
 
     CLOSE_TO_FINISH_REWARD = 5
     SUCCESS_REWARD = 1000
@@ -45,34 +52,38 @@ class ObstacleAviary(BaseSingleAgentAviary):
                  returnRawObservations:bool=False,
                  provideFixedObstacles:bool=False,
                  obstacles:Union[List[np.ndarray], None]=None,
-                 minObstacles:int=2,
-                 maxObstacles:int=7,
+                 minObstacles:int=2, #unused
+                 maxObstacles:int=7, #unused
                  randomizeObstaclesEveryEpisode:bool=True,
-                 fixedAltitude:bool=False,
-                 episodeLength:int=2000,
+                 fixedAltitude:bool=True,
+                 episodeLength:int=1000,
                  showDebugLines:bool=False,
                  randomizeDronePosition:bool=False,
                  simFreq:int=240,
                  controlFreq:int=48,
                  gui:bool=False,
-                 dynamicObstacles:bool=False,
-                 movementType:int=1):
+                 dynamicObstacles:bool=True,
+                 movementType:int=1): # only 1
 
-
-        assert minObstacles <= maxObstacles, "Cannot have fewer minObstacles than maxObstacles"
-
+        # assert minObstacles <= maxObstacles, "Cannot have fewer minObstacles than maxObstacles"
+        #instead, assert if number of positions in obstacles is not =< 2
+        if provideFixedObstacles:
+            assert len(obstacles) <= 2, "Cannot have more than 2 dynamic obstacles"
         self.provideFixedObstacles = provideFixedObstacles
         self.returnRawObservations = returnRawObservations
 
         self.fixedAltitude = fixedAltitude
 
-        self.minObstacles = minObstacles
-        self.maxObstacles = maxObstacles
-        self.movementType = movementType
+        self.minObstacles = minObstacles #unused
+        self.maxObstacles = maxObstacles #unused
+        self.movementType = movementType #currently only 1 type
         self.episodeLength = episodeLength
         self.episodeStepCount = 0
 
         self.geoFence = geoFence
+        
+
+        ############### MOVING OBSTACLES ###################
         self.dynamicObstacles = dynamicObstacles
         self.dynamicObstaclesList = []
         self.velocity = 0.005
@@ -81,6 +92,12 @@ class ObstacleAviary(BaseSingleAgentAviary):
 
         self.o1_obs = []
         self.o2_obs = []
+        #MOVEMENT TYPE 1
+        self.vel1 = 0.05; #linear velocity of obstacle 1
+        self.omega2 = 0.05 #angular velocity of obstacle 2
+        ####################################################
+
+        self.simulationTime = 0
 
         self.randomizeDronePosition = randomizeDronePosition
         self.randomizeObstaclesEveryEpisode = randomizeObstaclesEveryEpisode and not self.provideFixedObstacles
@@ -109,7 +126,7 @@ class ObstacleAviary(BaseSingleAgentAviary):
         super().__init__(drone_model=DroneModel.CF2X,
                         initial_xyzs=np.array([self.initPos]),
                         initial_rpys=np.array([[0, 0, 0]]),
-                        physics=Physics.PYB,
+                        physics=Physics.PYB, #OTHER MODES NOT ACCOUNTED FOR
                         freq=self.simFreq,
                         aggregate_phy_steps=self.aggregatePhysicsSteps,
                         gui=gui,
@@ -125,8 +142,6 @@ class ObstacleAviary(BaseSingleAgentAviary):
         self.obstacleOffsetLine = None
 
     def _observationSpace(self):
-
-        
         if self.returnRawObservations:
             
             if not self.fixedAltitude:
@@ -242,7 +257,6 @@ class ObstacleAviary(BaseSingleAgentAviary):
 
         return np.concatenate([offsetToTarget, offsetToClosestObstacle])
     
-
     def reset(self):
         self.episodeStepCount = 0
         self.trajectory = []
@@ -301,41 +315,44 @@ class ObstacleAviary(BaseSingleAgentAviary):
         y_initial = self.ObsInfo[Obstacle][0][1]
         x_initial = self.ObsInfo[Obstacle][0][0]
         amp = self.ObsInfo[Obstacle][2][0]
-        orientation = self.ObsInfo[Obstacle][2][1]
+        # orientation = self.ObsInfo[Obstacle][2][1]
         x,y,z = obsPos
+        orientation = 0
         if orientation == 0:
             phi = asin(y_initial/0.5)
-            y_new = 0.5*sin(0.015*self.totalTimesteps + phi)
-            p.resetBasePositionAndOrientation(Obstacle,[x,y_new,z],obsOrn)
-            velocity = 0.015*0.5*cos(0.015*self.totalTimesteps+phi)
+            velocity = self.omega2*0.5*cos(self.omega2*self.simulationTime+phi)
             self.ObsInfo[Obstacle][1] = velocity
             self.ObsInfo[Obstacle][3] = [0,velocity]
-            self.o1_obs = [[x,y_new], [0,velocity]]
-        if orientation == 1:
-            x_new = x_initial + 0.5*sin(0.015*self.totalTimesteps)
-            p.resetBasePositionAndOrientation(Obstacle,[x_new,y,z],obsOrn)
-            velocity = 0.015*0.5*cos(0.015*self.totalTimesteps)
-            self.ObsInfo[Obstacle][1] = velocity
-            self.ObsInfo[Obstacle][3] = [velocity,0]
-            self.o1_obs = [[x_new,y], [velocity, 0]]
-        
-        
+            p.resetBaseVelocity(Obstacle, [0, velocity, 0])
+
+        # if orientation == 1:
+        #     x_new = x_initial + 0.5*sin(0.015*self.totalTimesteps)
+        #     p.resetBasePositionAndOrientation(Obstacle,[x_new,y,z],obsOrn)
+        #     velocity = 0.015*0.5*cos(0.015*self.totalTimesteps)
+        #     self.ObsInfo[Obstacle][1] = velocity
+        #     self.ObsInfo[Obstacle][3] = [velocity,0]
+        #     self.o1_obs = [[x_new,y], [velocity, 0]]
+              
     def moveObsLinear(self, Obstacle):
         obsPos, obsOrn = p.getBasePositionAndOrientation(Obstacle)
-        y_initial = self.ObsInfo[Obstacle][0][1]
-        x_initial = self.ObsInfo[Obstacle][0][0]
-        amp = self.ObsInfo[Obstacle][2][0]
-        orientation = self.ObsInfo[Obstacle][2][1]
+        # y_initial = self.ObsInfo[Obstacle][0][1]
+        # x_initial = self.ObsInfo[Obstacle][0][0]
+        # amp = self.ObsInfo[Obstacle][2][0]
+        # orientation = self.ObsInfo[Obstacle][2][1]
         x,y,z = obsPos
 
         if x > 0.1:
-            x_new = x - self.velocity
-            self.ObsInfo[Obstacle][3] = [-self.velocity,0]
+            p.resetBaseVelocity(Obstacle, [-self.vel1, 0, 0])
+            self.ObsInfo[Obstacle][3] = [-self.vel1, 0]
+
         else:
-            x_new = x
-            self.ObsInfo[Obstacle][3] = [0,0]
-        p.resetBasePositionAndOrientation(Obstacle,[x_new,y,z],obsOrn)
-        self.o2_obs = [[x_new,y], self.ObsInfo[Obstacle][3]]
+            p.resetBaseVelocity(Obstacle, [0, 0, 0])
+            self.ObsInfo[Obstacle][3] = [0, 0]
+        self.o2_obs = [[x,y], self.ObsInfo[Obstacle][3]]
+        
+
+            
+        # self.o2_obs = [[x_new,y], self.ObsInfo[Obstacle][3]]
 
 
         """
@@ -364,18 +381,9 @@ class ObstacleAviary(BaseSingleAgentAviary):
         #     self.ObsInfo[Obstacle][3] = [velocity,0]
         #     p.resetBasePositionAndOrientation(Obstacle,[x_new,y,z],obsOrn)
 
-
-
     def step(self, action):
         self.VO_Reward = 0
 
-        if len(self.dynamicObstaclesList) > 0:
-            for Obstacle in self.dynamicObstaclesList:
-                if self.ObsInfo[Obstacle][4] == 'shm':
-                    self.moveObsSHM(Obstacle)
-                if self.ObsInfo[Obstacle][4] == 'linear':
-                    self.moveObsLinear(Obstacle)
-                
         if self.fixedAltitude:
             action = np.insert(action, 2, 0)
 
@@ -403,7 +411,90 @@ class ObstacleAviary(BaseSingleAgentAviary):
 
             self._drawTrajectory()
 
-        return super().step(action)
+        ################# FROM BASE CLASS #######################
+            
+        #### Save PNG video frames if RECORD=True and GUI=False ####
+        if self.RECORD and not self.GUI and self.step_counter%self.CAPTURE_FREQ == 0:
+            [w, h, rgb, dep, seg] = p.getCameraImage(width=self.VID_WIDTH,
+                                                     height=self.VID_HEIGHT,
+                                                     shadow=1,
+                                                     viewMatrix=self.CAM_VIEW,
+                                                     projectionMatrix=self.CAM_PRO,
+                                                     renderer=p.ER_TINY_RENDERER,
+                                                     flags=p.ER_SEGMENTATION_MASK_OBJECT_AND_LINKINDEX,
+                                                     physicsClientId=self.CLIENT
+                                                     )
+            (Image.fromarray(np.reshape(rgb, (h, w, 4)), 'RGBA')).save(os.path.join(self.IMG_PATH, "frame_"+str(self.FRAME_NUM)+".png"))
+            #### Save the depth or segmentation view instead #######
+            # dep = ((dep-np.min(dep)) * 255 / (np.max(dep)-np.min(dep))).astype('uint8')
+            # (Image.fromarray(np.reshape(dep, (h, w)))).save(self.IMG_PATH+"frame_"+str(self.FRAME_NUM)+".png")
+            # seg = ((seg-np.min(seg)) * 255 / (np.max(seg)-np.min(seg))).astype('uint8')
+            # (Image.fromarray(np.reshape(seg, (h, w)))).save(self.IMG_PATH+"frame_"+str(self.FRAME_NUM)+".png")
+            self.FRAME_NUM += 1
+        #### Read the GUI's input parameters #######################
+        if self.GUI and self.USER_DEBUG:
+            current_input_switch = p.readUserDebugParameter(self.INPUT_SWITCH, physicsClientId=self.CLIENT)
+            if current_input_switch > self.last_input_switch:
+                self.last_input_switch = current_input_switch
+                self.USE_GUI_RPM = True if self.USE_GUI_RPM == False else False
+        if self.USE_GUI_RPM:
+            for i in range(4):
+                self.gui_input[i] = p.readUserDebugParameter(int(self.SLIDERS[i]), physicsClientId=self.CLIENT)
+            clipped_action = np.tile(self.gui_input, (self.NUM_DRONES, 1))
+            if self.step_counter%(self.SIM_FREQ/2) == 0:
+                self.GUI_INPUT_TEXT = [p.addUserDebugText("Using GUI RPM",
+                                                          textPosition=[0, 0, 0],
+                                                          textColorRGB=[1, 0, 0],
+                                                          lifeTime=1,
+                                                          textSize=2,
+                                                          parentObjectUniqueId=self.DRONE_IDS[i],
+                                                          parentLinkIndex=-1,
+                                                          replaceItemUniqueId=int(self.GUI_INPUT_TEXT[i]),
+                                                          physicsClientId=self.CLIENT
+                                                          ) for i in range(self.NUM_DRONES)]
+        #### Save, preprocess, and clip the action to the max. RPM #
+        else:
+            self._saveLastAction(action)
+            clipped_action = np.reshape(self._preprocessAction(action), (self.NUM_DRONES, 4))
+        #### Repeat for as many as the aggregate physics steps #####
+        for _ in range(self.AGGR_PHY_STEPS):
+            #### Update and store the drones kinematic info for certain
+            #### Between aggregate steps for certain types of update ###
+            # if self.AGGR_PHY_STEPS > 1 and self.PHYSICS in [Physics.DYN, Physics.PYB_GND, Physics.PYB_DRAG, Physics.PYB_DW, Physics.PYB_GND_DRAG_DW]:
+                # self._updateAndStoreKinematicInformation()
+            #### Step the simulation using the desired physics update ##
+            for i in range (self.NUM_DRONES):
+                assert self.PHYSICS == Physics.PYB , "Physics mode not implemented"
+                self._physics(clipped_action[i, :], i)
+                
+            ### Obstacle Dynamics ###
+            if len(self.dynamicObstaclesList) > 0:
+                for Obstacle in self.dynamicObstaclesList:
+                    if self.ObsInfo[Obstacle][4] == 'shm':
+                        self.moveObsSHM(Obstacle)
+                    if self.ObsInfo[Obstacle][4] == 'linear':
+                        self.moveObsLinear(Obstacle)
+            
+            #### PyBullet computes the new state, unless Physics.DYN ###
+            if self.PHYSICS != Physics.DYN:
+                p.stepSimulation(physicsClientId=self.CLIENT)
+            
+            self.simulationTime += 1/self.simFreq 
+
+                
+            #### Save the last applied action (e.g. to compute drag) ###
+            self.last_clipped_action = clipped_action
+        #### Update and store the drones kinematic information #####
+        self._updateAndStoreKinematicInformation()
+        #### Prepare the return values #############################
+        obs = self._computeObs()
+        reward = self._computeReward()
+        done = self._computeDone()
+        info = self._computeInfo()
+        #### Advance the step counter ##############################
+        self.step_counter = self.step_counter + (1 * self.AGGR_PHY_STEPS)
+        return obs, reward, done, info
+
 
     def _computeReward(self):
 
@@ -562,10 +653,11 @@ class ObstacleAviary(BaseSingleAgentAviary):
     def _generateObstaclePositions(self):
         self.obstaclePositions = []
         
-        if self.minObstacles >= 3:
-            nObstacles = np.random.randint(2,6)
-        else:
-            nObstacles = np.random.randint(self.minObstacles, self.maxObstacles)
+        # if self.minObstacles >= 3:
+        #     nObstacles = np.random.randint(2,6)
+        # else:
+        #     nObstacles = np.random.randint(self.minObstacles, self.maxObstacles)
+        nObstacles = 2 #2 dynamic obstacles, if swapped with above if-else, first 2 obstacles will be dynamic
         for _ in range(nObstacles):
             # Position along all axes is uniform
             obstaclePos = self.geoFence.generateRandomPosition(padding=0.4)
@@ -586,6 +678,7 @@ class ObstacleAviary(BaseSingleAgentAviary):
 
 
     def _spawnObstacles(self):
+        '''Spawns obstacles at the specified positions. First 2 are dynamic, extra are static'''
         
         moving_count = 0
         for obstaclePos in self.obstaclePositions:
@@ -595,9 +688,9 @@ class ObstacleAviary(BaseSingleAgentAviary):
             if self.dynamicObstacles and moving_count<2:
                 self.dynamicObstaclesList.append(currObstacle)
                 pos, orient = p.getBasePositionAndOrientation(currObstacle)
-                self.ObsInfo[currObstacle] = [pos,self.velocity, [np.random.uniform(0.2,0.5),0 if currObstacle==2 else 1], None] #[pos, velocity_mag, [amp, movement_orientation], vel_vector]
+                self.ObsInfo[currObstacle] = [pos,self.vel1, [np.random.uniform(0.2,0.5),0 if currObstacle==2 else 1], None] #[pos, velocity_mag, [amp, movement_orientation], vel_vector]
                 if self.movementType == 1:
-                    if currObstacle == 2:
+                    if currObstacle == 2: # '1' is probably the drone
                         self.ObsInfo[currObstacle].append('shm')
                     if currObstacle == 3:
                         self.ObsInfo[currObstacle].append('linear')
