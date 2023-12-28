@@ -2,6 +2,7 @@ import numpy as np
 import gym
 from typing import Union, Tuple
 from tabulate import tabulate
+from gym import spaces
 
 from .DenoiseEngines import LPFDenoiseEngine, KFDenoiseEngine
 from ..ObstacleAviary import ObstacleAviary
@@ -26,48 +27,36 @@ class NoiseWrapper(gym.Wrapper):
         super().__init__(env)
         self.denoiseEngine = denoiseEngine
         self.noiseGenerator = GaussianNoiseGenerator(mu, sigma)
+        self.observation_space = self.newObservationSpace()
 
-        self.observation_space = self.buildObservationSpace()
+    def newObservationSpace(self):  
 
+        obsUpperBound = np.array([self.geoFence.xmax - self.geoFence.xmin, #dxt
+                                  self.geoFence.ymax - self.geoFence.ymin, #dyt
+                                  self.geoFence.xmax - self.geoFence.xmin, #dxo
+                                  self.geoFence.ymax - self.geoFence.ymin, #dyo
+                                  0.5*self.omega2,
+                                  self.vel1
+                                ])
+        obsLowerBound = -obsUpperBound
+
+        return spaces.Box(low=obsLowerBound, high=obsUpperBound, dtype=np.float32)
+    
     def step(self, action:np.ndarray) -> Tuple[np.ndarray, float, bool, dict]:
 
         obs, reward, done, info = self.env.step(action)
 
         obs = self.corruptObservation(obs)
 
+        self.noisyTrajectory.append(np.array([obs[0], obs[1], self.altitude]))
         if self.denoiseEngine is not None:
-            vel = self.computeVelocityFromAction(action)
-            pos_dim = 2 if self.env.fixedAltitude else 3
-            obs[:pos_dim] = self.denoiseEngine(obs[:pos_dim].copy(), vel)
+          self.denoiseEngine.reset(self.env.initPos)
+          obs[:2] = self.denoiseEngine(obs[:2].copy(), np.zeros(2))
+        obs = self.computeProcessedObservation(obs)
 
-        self.noisyTrajectory.append(np.array([obs[0], obs[1], self.altitude]) if self.fixedAltitude else obs[:3])
+        # print("observation", obs)
 
-        # Compute processed observation from raw observation
-        obs = self.env._computeProcessedObservation(obs)
-        # print(obs)
         return obs, reward, done, info
-
-    def buildObservationSpace(self):
-
-        if not self.fixedAltitude:
-
-            obsUpperBound = np.array([self.geoFence.xmax - self.geoFence.xmin, #dxt
-                                        self.geoFence.ymax - self.geoFence.ymin, #dyt
-                                        self.geoFence.zmax - self.geoFence.zmin, #dzt
-                                        self.geoFence.xmax - self.geoFence.xmin, #dxo
-                                        self.geoFence.ymax - self.geoFence.ymin, #dyo
-                                        self.geoFence.zmax - self.geoFence.zmin, #dzo
-                                    ])
-
-        else:
-            obsUpperBound = np.array([self.geoFence.xmax - self.geoFence.xmin, #dxt
-                                        self.geoFence.ymax - self.geoFence.ymin, #dyt
-                                        self.geoFence.xmax - self.geoFence.xmin, #dxo
-                                        self.geoFence.ymax - self.geoFence.ymin, #dyo
-                                    ])
-
-        obsLowerBound = -obsUpperBound
-        return gym.spaces.Box(low=obsLowerBound, high=obsUpperBound, dtype=np.float32)
 
     def computeVelocityFromAction(self, action):
 
@@ -80,29 +69,27 @@ class NoiseWrapper(gym.Wrapper):
         vel = self.env.SPEED_LIMIT * np.abs(action[-1]) * v_unit_vector
 
         return vel
-
+    
+    def computeProcessedObservation(self, rawObservation):
+        pos = rawObservation[0:2]
+        targetPos = rawObservation[2:4]
+        closestObstaclePos = rawObservation[4:6]
+        offsetToTarget = targetPos - pos
+        offsetToClosestObstacle = closestObstaclePos - pos
+        return np.concatenate([offsetToTarget, offsetToClosestObstacle, rawObservation[6:]])
+    
     def corruptObservation(self, obs:np.ndarray) -> np.ndarray:
-
-        noise = self.noiseGenerator.generateNoise(2 if self.env.fixedAltitude else 3)
-        obs[:noise.shape[0]] += noise #only drone position is corrupted
+        noise = self.noiseGenerator.generateNoise(2)
+        obs[:2] = obs[:2] + noise 
         return obs
 
     def reset(self) -> np.ndarray:
-
         obs = super().reset()
-        
-        # Corrupting the initial observation
         obs = self.corruptObservation(obs)
-
-        # Denoising the initial observation
         if self.denoiseEngine is not None:
             self.denoiseEngine.reset(self.env.initPos)
-            pos_dim = 2 if self.env.fixedAltitude else 3
-            obs[:pos_dim] = self.denoiseEngine(obs[:pos_dim].copy(), np.zeros(pos_dim))
-
-        # Compute processed observation from raw observation
-        obs = self.env._computeProcessedObservation(obs)
-        
+            obs[:2] = self.denoiseEngine(obs[:2].copy(), np.zeros(2))
+        obs = self.computeProcessedObservation(obs)
         return obs
         
     def __str__(self) -> str:

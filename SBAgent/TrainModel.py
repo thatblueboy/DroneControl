@@ -29,7 +29,7 @@ with open(env_file_path, 'r') as f:
     with open('tempConfigFile.json', 'w') as f:
         json.dump(envConfig, f)
 
-env = EnvBuilder.buildEnvFromConfig('tempConfigFile.json', gui=True)
+env = EnvBuilder.buildEnvFromConfig('tempConfigFile.json', gui=False)
 # print("################# OBSERVATION SPACE #############")
 # print(env.observation_space)
 

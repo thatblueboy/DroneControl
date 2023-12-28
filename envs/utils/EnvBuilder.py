@@ -14,9 +14,6 @@ class EnvBuilder:
         with open(configPath, 'r') as f:
             configData = json.load(f)
 
-        # When EnvBuilder is used, the environment is always encapsulated in the NoiseWrapper, which expects observation returned to be raw
-        configData['returnRawObservations'] = True
-
         configData = Namespace(**configData)
         geoFence = PositionConstraint(configData.xmin, configData.xmax, configData.ymin, configData.ymax, configData.zmin, configData.zmax)
         configData.geoFence = geoFence
@@ -52,5 +49,6 @@ class EnvBuilder:
             denoiseEngine = None
 
         env = NoiseWrapper(innerEnv, noiseParameters.mu, noiseParameters.sigma, denoiseEngine)
-
+        print("################# OBSERVATION SPACE #############")
+        print(env.observation_space)    
         return env
