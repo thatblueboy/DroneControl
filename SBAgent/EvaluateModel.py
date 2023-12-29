@@ -29,17 +29,14 @@ class NoStdStreams(object):
         sys.stderr = self.old_stderr
         self.devnull.close()
 
-
-def evaluate(mu, sigma, denoiser, modelPath, obstacles, trials, gui=False, fixed=True, dynamic=False):
+def evaluate(mu, sigma, denoiser, modelPath, trials, gui=False):
 
     seeds = np.load('evalSeeds.npy').tolist()
     
-    
-    
     envFile = {
-        'none': f'../configs/NoDenoiserEnv{"Fixed" if fixed else ""}.json',
-        'lpf': f'../configs/LPFDenoiserEnv{"Fixed" if fixed else ""}.json',
-        'kf': f'../configs/KFDenoiserEnv{"Fixed" if fixed else ""}.json'
+        'none': f'../configs/NoDenoiserEnv.json',
+        'lpf': f'../configs/LPFDenoiserEnv.json',
+        'kf': f'../configs/KFDenoiserEnv.json'
     }[denoiser]
 
     with open(envFile, 'r') as f:
@@ -47,10 +44,6 @@ def evaluate(mu, sigma, denoiser, modelPath, obstacles, trials, gui=False, fixed
 
     envConfig['noiseParameters']['mu'] = mu
     envConfig['noiseParameters']['sigma'] = sigma
-
-    if obstacles is not None:
-        envConfig["maxObstacles"] = obstacles + 1
-        envConfig["minObstacles"] = obstacles
 
 
     with open('tempConfigFile.json', 'w') as f:
@@ -126,9 +119,6 @@ if __name__ == "__main__":
     parser.add_argument("-t", "--trials", type=int, default=10, help="Number of episodes to evaluate for.")
     parser.add_argument('--gui', action='store_true', help='Enable GUI')
     parser.add_argument('--no-gui', action='store_false', dest='gui', help='Disable GUI')
-    parser.add_argument('--fixed', action='store_true', help='Use Fixed Obstacles')
-    parser.add_argument('--random', action='store_false', dest='fixed', help='Use Randomized Obstacles')
-    parser.add_argument("--obstacles", "-o", type=int, default = None, help="Number of Obstacles to use")
     args = parser.parse_args()
     #print(args.obstacles)
     evaluationTable = evaluate(**vars(args))

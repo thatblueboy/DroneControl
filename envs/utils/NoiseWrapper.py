@@ -60,7 +60,7 @@ class NoiseWrapper(gym.Wrapper):
 
     def computeVelocityFromAction(self, action):
 
-        vel_dim = 2 if self.env.fixedAltitude else 3
+        vel_dim = 2
         
         if np.linalg.norm(action[:vel_dim]) != 0:
             v_unit_vector = action[:vel_dim] / np.linalg.norm(action[:vel_dim])
