@@ -38,8 +38,8 @@ def printUpdate():
 
 
 class NoStdStreams(object):
-    def __init__(self,stdout = None, stderr = None):
-        self.devnull = open(os.devnull,'w')
+    def __init__(self, stdout=None, stderr=None):
+        self.devnull = open(os.devnull, 'w')
         self._stdout = stdout or self.devnull or sys.stdout
         self._stderr = stderr or self.devnull or sys.stderr
 
@@ -71,8 +71,6 @@ def evaluateOnCombination(process, comb):
 
     envConfig['noiseParameters']['mu'] = mu
     envConfig['noiseParameters']['sigma'] = sigma
-    envConfig['noiseParameters']['varyingBias'] = True
-    envConfig['noiseParameters']['randomizeBiasDirection'] = False
 
     tempConfigFile = tempfile.NamedTemporaryFile()
 
@@ -132,43 +130,44 @@ def evaluateOnCombination(process, comb):
 
     sharedMem[process] = (comb, successfulTrials, totalTrials, totalTrials)
 
-    return [[k, v] for k,v in evaluationResults.items()]
+    return [[k, v] for k, v in evaluationResults.items()]
 
-def printResultsMarkdown(mus, sigmas, denoisers, results):
-
-    print("# Evaluation Results")
-    print(f"**Model**: `{args.modelPath}`")
-    print(f"mus = {mus}, sigmas = {sigmas}, denoisers = {denoisers}")
-    i = 0
-    for mu in mus:
-        for sigma in sigmas:
-            for denoiser in denoisers:
-                res = results[i]
-                i += 1
-                print(f"### $\mu = {mu}$ | $\sigma = {sigma}$ | Denoiser = `{denoiser}`\n")
-                print(tabulate(res, headers=["Metric", "Value"], tablefmt='github'))
-                print("---\n")
-
-
+def printResultsMarkdownToFile(file_path, mus, sigmas, denoisers, results):
+    with open(file_path, 'w') as markdown_file:
+        markdown_file.write("# Evaluation Results\n")
+        markdown_file.write(f"**Model**: `{args.modelPath}`\n")
+        markdown_file.write(f"mus = {mus}, sigmas = {sigmas}, denoisers = {denoisers}\n")
+        i = 0
+        for mu in mus:
+            for sigma in sigmas:
+                for denoiser in denoisers:
+                    res = results[i]
+                    i += 1
+                    markdown_file.write(f"### $\mu = {mu}$ | $\sigma = {sigma}$ | Denoiser = `{denoiser}`\n\n")
+                    markdown_file.write(tabulate(res, headers=["Metric", "Value"], tablefmt='github'))
+                    markdown_file.write("\n")
+                    markdown_file.write("---")
+                    markdown_file.write("\n\n")
 
 if __name__ == "__main__":
-
-    sigmas = np.arange(0, 0.31, 0.01)
+    sigmas = np.arange(0, 3.1, 0.1)
     mus = [0]
     denoisers = ['None', 'LPF', 'KF']
 
     combinations = itertools.product(mus, sigmas, denoisers)
 
+    output_file_path = 'evaluation_results.md'  # Specify the desired output file path
+
     print(f"Evaluation on Model {args.modelPath}", file=sys.stderr)
     print(file=sys.stderr)
     print(f"Total Processes: {len(mus)*len(sigmas)*len(denoisers)}", file=sys.stderr)
-    
+
     printThread = threading.Thread(target=printUpdate)
     printThread.start()
-    
+
     results = Parallel(n_jobs=12)(delayed(evaluateOnCombination)(i, c) for i, c in enumerate(combinations))
     processCompleted = True
-    
+
     printThread.join()
 
-    printResultsMarkdown(mus, sigmas, denoisers, results)
+    printResultsMarkdownToFile(output_file_path, mus, sigmas, denoisers, results)

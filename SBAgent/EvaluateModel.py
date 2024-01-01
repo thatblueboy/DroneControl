@@ -30,7 +30,7 @@ class NoStdStreams(object):
         self.devnull.close()
 
 
-def evaluate(mu, sigma, denoiser, modelPath, trials, gui=False, fixed=False):
+def evaluate(mu, sigma, denoiser, modelPath, trials, gui=False, fixed=False, varyingBias=False, randomizeBiasDirection = False):
 
     seeds = np.load('evalSeeds.npy').tolist()
 
@@ -45,6 +45,9 @@ def evaluate(mu, sigma, denoiser, modelPath, trials, gui=False, fixed=False):
 
     envConfig['noiseParameters']['mu'] = mu
     envConfig['noiseParameters']['sigma'] = sigma
+    envConfig['noiseParameters']['varyingBias'] = varyingBias
+    envConfig['noiseParameters']['randomizeBiasDirection'] = randomizeBiasDirection
+
 
     with open('tempConfigFile.json', 'w') as f:
         json.dump(envConfig, f)
@@ -112,8 +115,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     parser.add_argument("modelPath", help="Path to the Model", type=str)
-    parser.add_argument("mu", help="Mean of the Noise", type=float)
-    parser.add_argument("sigma", help="Standard Deviation of the Noise", type=float)
+    parser.add_argument("mu", help="Mean of the Noise", type=float, default = 0)
+    parser.add_argument("sigma", help="Standard Deviation of the Noise", type=float, default = 0)
     parser.add_argument("denoiser", help="Denoiser to Use", choices={'none', 'lpf', 'kf'}, type=str)
 
     parser.add_argument("-t", "--trials", type=int, default=10, help="Number of episodes to evaluate for.")
@@ -121,7 +124,8 @@ if __name__ == "__main__":
     parser.add_argument('--no-gui', action='store_false', dest='gui', help='Disable GUI')
     parser.add_argument('--fixed', action='store_true', help='Use Fixed Obstacles')
     parser.add_argument('--random', action='store_false', dest='fixed', help='Use Randomized Obstacles')
-
+    parser.add_argument('--varying-bias', action='store_true', dest = 'varyingBias', help='Use Varying Bias')
+    parser.add_argument('--randomize-bias-direction', action='store_true', dest = 'randomizeBiasDirection', help='Randomize Bias Direction')
     args = parser.parse_args()
 
     evaluationTable = evaluate(**vars(args))

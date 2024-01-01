@@ -2,10 +2,12 @@ import numpy as np
 import gym
 from typing import Union, Tuple
 from tabulate import tabulate
+import sys
 
 from .DenoiseEngines import LPFDenoiseEngine, KFDenoiseEngine
 from ..ObstacleAviary import ObstacleAviary
 from ..MocapAviary import MocapAviary
+
 
 class GaussianNoiseGenerator:
 
@@ -22,8 +24,12 @@ class GaussianNoiseGenerator:
 
 class NoiseWrapper(gym.Wrapper):
 
-    def __init__(self, env:Union[ObstacleAviary,MocapAviary], mu:float, sigma:float, denoiseEngine:Union[None, LPFDenoiseEngine, KFDenoiseEngine]=None) -> None:
+    def __init__(self, env:Union[ObstacleAviary,MocapAviary], mu:float, sigma:float, varyingBias:bool, randomizeBiasDirection:bool , denoiseEngine:Union[None, LPFDenoiseEngine, KFDenoiseEngine]=None) -> None:
+        self.varyingBias = varyingBias
+        # self.mu = mu
+        self.randomizeBiasDirection = randomizeBiasDirection
 
+        self.sigma = sigma
         super().__init__(env)
         self.denoiseEngine = denoiseEngine
         self.noiseGenerator = GaussianNoiseGenerator(mu, sigma)
@@ -85,11 +91,22 @@ class NoiseWrapper(gym.Wrapper):
 
     def corruptObservation(self, obs:np.ndarray) -> np.ndarray:
 
-        noise = self.noiseGenerator.generateNoise(2 if self.env.fixedAltitude else 3)
+        if not self.varyingBias:
+            noise = self.noiseGenerator.generateNoise(2 if self.env.fixedAltitude else 3)
+        else:
+            if self.randomizeBiasDirection:
+                noise = np.random.normal(self.episodeStepCount*(0.3/self.episodeLength)*(-1 if not self.positiveBias else 1), self.sigma, 2 if self.env.fixedAltitude else 3)
+
+            else:
+                noise = np.random.normal(self.episodeStepCount*(0.3/self.episodeLength), self.sigma, 2 if self.env.fixedAltitude else 3)
+
+        # print(self.episodeStepCount*(0.3/self.episodeLength), self.sigma)    
         obs[:noise.shape[0]] += noise
         return obs
 
     def reset(self) -> np.ndarray:
+        if self.randomizeBiasDirection:
+            self.positiveBias = np.random.choice([True, False]) # Randomly choose whether to deviate in negative or positive direction
 
         obs = super().reset()
         
@@ -107,7 +124,6 @@ class NoiseWrapper(gym.Wrapper):
         
         return obs
         
-
     def __str__(self) -> str:
         if self.env.randomizeObstaclesEveryEpisode:
             obstacleDetails = f"Random Obstacles per Episode ~ U({self.env.minObstacles}, {self.env.maxObstacles})"

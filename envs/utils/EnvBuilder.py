@@ -39,7 +39,19 @@ class EnvBuilder:
         innerEnv = ObstacleAviary(**vars(configData))
 
         denoiseEngineData = noiseParameters.denoiseEngine
+        
+        ########### varying bias parameters ###########
+        if hasattr(noiseParameters, 'varyingBias'):
+            varyingBias = noiseParameters.varyingBias
+        else:
+            varyingBias = False
 
+        if hasattr(noiseParameters, 'randomizeBiasDirection'):
+            randomizeBiasDirection = noiseParameters.randomizeBiasDirection
+        else:
+            randomizeBiasDirection = False
+        ###############################################
+            
         if denoiseEngineData is not None:
             denoiseEngineData = Namespace(**denoiseEngineData)
             if denoiseEngineData.method == 'lpf':
@@ -51,6 +63,6 @@ class EnvBuilder:
         else:
             denoiseEngine = None
 
-        env = NoiseWrapper(innerEnv, noiseParameters.mu, noiseParameters.sigma, denoiseEngine)
+        env = NoiseWrapper(innerEnv, noiseParameters.mu, noiseParameters.sigma, varyingBias, randomizeBiasDirection, denoiseEngine)
 
         return env

@@ -3,7 +3,7 @@ import numpy as np
 from geometry_msgs.msg import PoseStamped
 import time
 
-rospy.init_node('mocap_reader')
+# rospy.init_node('mocap_reader')
 
 DF_MOCAP_TOPIC = '/vrpn_client_node/RigidBody1/pose'
 

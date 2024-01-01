@@ -17,6 +17,8 @@
     "simFreq": 240,
     "controlFreq": 48,
     "noiseParameters": {
+        "varyingBias": true,
+        "randomizeBiasDirection": true,
         "mu": 0,
         "sigma": 0,
         "denoiseEngine": {
