@@ -32,7 +32,7 @@ class NoStdStreams(object):
 
 def evaluate(mu, sigma, denoiser, modelPath, obstacles, trials, gui=False, fixed=True, dynamic=False):
 
-    seeds = np.load('evalSeeds.npy').tolist()
+    # seeds = np.load('evalSeeds.npy').tolist()
     
     
     

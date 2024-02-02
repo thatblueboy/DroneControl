@@ -75,6 +75,8 @@ def evaluateOnCombination(process, comb):
 
     envConfig['noiseParameters']['mu'] = mu
     envConfig['noiseParameters']['sigma'] = sigma
+    envConfig['noiseParameters']['varyingBias'] = True
+    envConfig['noiseParameters']['randomizeBiasDirection'] = False
 
     tempConfigFile = tempfile.NamedTemporaryFile()
 
@@ -138,25 +140,9 @@ def evaluateOnCombination(process, comb):
 
 def printResultsMarkdown(mus, sigmas, denoisers, results):
 
-    # file_path = f"{args.modelPath}_eval.md"
-    file_path = "results"
-    # if args.sigma:
-    #     file_path += "_unbiased"
-    # if args.mu:
-    #     file_path += "_biased"
-    file1 = open(f"{file_path}.md", "w")
-    file1.close()
-    file1 = open(f"{file_path}.md", "a")
-
     print("# Evaluation Results")
-    file1.write("# Evaluation Results \n")
-
     print(f"**Model**: `{args.modelPath}`")
-    file1.write(f"**Model**: `{args.modelPath}` \n")
-
     print(f"mus = {mus}, sigmas = {sigmas}, denoisers = {denoisers}")
-    file1.write(f"mus = {mus}, sigmas = {sigmas}, denoisers = {denoisers} \n")
-    
     i = 0
     for mu in mus:
         for sigma in sigmas:
@@ -164,30 +150,16 @@ def printResultsMarkdown(mus, sigmas, denoisers, results):
                 res = results[i]
                 i += 1
                 print(f"### $\mu = {mu}$ | $\sigma = {sigma}$ | Denoiser = `{denoiser}`\n")
-                file1.write(f"### $\mu = {mu}$ | $\sigma = {sigma}$ | Denoiser = `{denoiser}`\n")
-                file1.write("\n")
                 print(tabulate(res, headers=["Metric", "Value"], tablefmt='github'))
-                file1.write(tabulate(res, headers=["Metric", "Value"], tablefmt='github'))
-                file1.write("\n")
                 print("---\n")
-                file1.write("---\n")
-                file1.write("\n")
 
-    file1.close()
+
 
 if __name__ == "__main__":
 
-    if args.mu and not args.sigma:
-        mus = np.arange(0,0.31,0.01)
-        sigmas = [0]
-    if args.sigma and not args.mu:
-        sigmas = np.arange(0,3.1,0.1)
-        mus=[0]
+    sigmas = np.arange(0, 0.31, 0.01)
+    mus = [0]
     denoisers = ['None', 'LPF', 'KF']
-    if args.sigma and args.mu:
-        mus = np.arange(0,0.31,0.01)
-        sigmas = np.arange(0,3.1,0.1)
-        denoisers = ['None']
 
     combinations = itertools.product(mus, sigmas, denoisers)
 
@@ -204,4 +176,3 @@ if __name__ == "__main__":
     printThread.join()
 
     printResultsMarkdown(mus, sigmas, denoisers, results)
-

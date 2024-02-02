@@ -124,6 +124,14 @@ class ObstacleAviary(BaseSingleAgentAviary):
 
         self.obstacleOffsetLine = None
 
+        camera_distance = 1.2
+        camera_yaw = 90
+        camera_pitch = -90
+        camera_target_position = [1, 0, 1.2]
+
+        # Reset the debug visualizer camera
+        p.resetDebugVisualizerCamera(camera_distance, camera_yaw, camera_pitch, camera_target_position)
+
     def _observationSpace(self):
 
         
