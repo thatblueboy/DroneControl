@@ -1,6 +1,12 @@
 # DroneControl
 
-Code base for simulation and practical experimentation for autonomous drone obstacle avoidance with noise injection.
+
+
+## Branches
+
+* `main`: **This** branch. Modular extention of https://github.com/BhaskarJoshi-01/DroneControl to environments with moving obstacles.
+* `varying-bias`: Modular extention of  https://github.com/BhaskarJoshi-01/DroneControl to environments with gaussian noise with time varying bias.
+
 
 ## Component Interactions
 
